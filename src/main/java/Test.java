@@ -1,10 +1,17 @@
 import com.company.www.utils.Stack;
+import com.company.www.utils.Tree;
 
 public class Test {
 
   public static void main(String[] args) {
-    Stack<String> stack = new Stack<String>();
-    System.out.println();
+    Tree<Integer> tree= new Tree<>();
+    tree.insertion(1);
+    tree.insertion(2);
+
+
+
+    // Stack<String> stack = new Stack<String>();
+    //System.out.println();
     // stack.push("b");
 
     // Stack<Character> stack = new Stack<>();
