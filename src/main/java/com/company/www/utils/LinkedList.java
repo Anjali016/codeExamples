@@ -4,21 +4,21 @@ import com.company.www.utils.ifaces.List;
 
 public class LinkedList<T> implements List<T> {
 
-  Node<T> head = null;
+  LinkNode<T> head = null;
 
   @Override
   public void addAtFront(T object) {
-    Node newNode = new Node(object);
-    newNode.next = head;
-    head = newNode;
+    LinkNode newLinkNode = new LinkNode(object);
+    newLinkNode.next = head;
+    head = newLinkNode;
   }
 
   @Override
   public void addAtEnd(Object object) {
-    Node newNode = new Node(object);
-    Node iterator = head;
+    LinkNode newLinkNode = new LinkNode(object);
+    LinkNode iterator = head;
     while (iterator.next != null) iterator = iterator.next;
-    iterator.next = newNode;
+    iterator.next = newLinkNode;
   }
 
   @Override
@@ -32,29 +32,37 @@ public class LinkedList<T> implements List<T> {
   @Override
   public void removeFromFront() {
     if (head != null) {
-      Node temp = head.next;
+      LinkNode temp = head.next;
       head.next = null;
       head = temp;
     }
   }
 
   @Override
+  public LinkNode get(int index) {
+    LinkNode x = head;
+    for(int i = 0 ; i < index; i++) x = x.next;
+    return x;
+
+  }
+
+  @Override
   public void remove(T key) {
-    Node temp = head;
+    LinkNode temp = head;
     if (size() == 1 || head.data == key) {
       head = head.next;
       return;
     }
     while (temp != null && temp.next.data != key) temp = temp.next;
-    Node toRemove = temp.next;
+    LinkNode toRemove = temp.next;
     temp.next = temp.next.next;
     toRemove.next = null;
   }
 
   @Override
   public void addAtGivenNode(T after, T key) {
-    Node toInsert = new Node(key);
-    Node temp = head, x = null;
+    LinkNode toInsert = new LinkNode(key);
+    LinkNode temp = head, x = null;
     while (temp.data != after) temp = temp.next;
     x = temp.next;
     temp.next = toInsert;
@@ -62,7 +70,7 @@ public class LinkedList<T> implements List<T> {
   }
 
   public void removeFromLast() {
-    Node temp = head;
+    LinkNode temp = head;
     while (temp.next.next != null) temp = temp.next;
     temp.next = null;
   }
@@ -70,13 +78,14 @@ public class LinkedList<T> implements List<T> {
   @Override
   public int size() {
     int count = 0;
-    Node iterator = head;
+    LinkNode iterator = head;
     while (iterator != null) {
       count++;
       iterator = iterator.next;
     }
     return count;
   }
+
 
   @Override
   public boolean isEmpty() {

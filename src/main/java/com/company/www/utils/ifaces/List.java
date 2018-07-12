@@ -1,5 +1,7 @@
 package com.company.www.utils.ifaces;
 
+import com.company.www.utils.LinkNode;
+
 public interface List<T> {
   public void addAtFront(T object);
 
@@ -16,4 +18,6 @@ public interface List<T> {
   public void printList();
 
   public void removeFromFront();
+
+  public LinkNode get(int index);
 }

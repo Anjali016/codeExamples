@@ -1,2 +1,2 @@
 
-Ksquid:S1068".Remove this unused "noOfVertex" private field.(”ãK8ŠŸÖùÇ,
+†squid:S4165"hRemove this useless assignment; "noOfVertex" already holds the assigned value along all execution paths.(„ñÏ·8îåÑ˜È,

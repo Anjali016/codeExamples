@@ -8,19 +8,13 @@ public class Tree<T> implements TreeInterface<T> {
   int count = 0;
 
   @Override
-  public TreeNode constructTree(int index,T[] array) {
-    while(index <= array.length){
-      if(index == 0){
-        root = new TreeNode(array[index]);
-      }
-      while(size(root) != array.length){
-        root.left= constructTree(2*index+1,array);
-        root.right = constructTree(2*index+2,array);
-      }
+  public TreeNode constructTree(int index, T[] array) {
+    if (index < array.length) {
+      root = new TreeNode(array[index]);
+      root.left = constructTree(2 * index + 1, array);
+      root.right = constructTree(2 * index + 2, array);
       return root;
-    }
-
-  return null;
+    } else return null;
   }
 
   @Override
@@ -65,11 +59,39 @@ public class Tree<T> implements TreeInterface<T> {
   }
 
   @Override
-  public void getInorder() {}
+  public void getInorder(TreeNode root) {
+    while (root != null) {
+      getInorder(root.left);
+      System.out.println(root.data);
+      getInorder(root.right);
+    }
+  }
 
   @Override
-  public void getPostOrder() {}
+  public void getPostOrder(TreeNode root) {
+    while (root != null) {
+      getPostOrder(root.left);
+      getPostOrder(root.right);
+      System.out.println(root.data);
+    }
+  }
 
   @Override
-  public void getPreOrder() {}
+  public void getPreOrder(TreeNode root) {
+    while (root != null) {
+      System.out.println(root.data);
+      getPreOrder(root.left);
+      getPreOrder(root.right);
+    }
+  }
+
+  public int getMirrorNode(TreeNode node1, TreeNode node2, T key) {
+    if (node1 == null || node2 == null) return Integer.MIN_VALUE;
+    if (node1.data == key) return (int)node2.data;
+    else return
+      Math.max(getMirrorNode(node1.left, node2.right, key),
+      getMirrorNode(node1.right, node2.left, key));
+
+  }
+
 }

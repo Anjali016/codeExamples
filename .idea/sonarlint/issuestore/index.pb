@@ -23,8 +23,6 @@ n
 -src/main/java/com/company/www/utils/Tree.java,2/e/2efc7afacb6b634ef735bf3019cfe3fd2386156a
 a
 1src/main/java/com/company/www/utils/TreeNode.java,7/2/725476b50bb0d02f6001baf3ebcec5df765e0ff0
-]
--src/main/java/com/company/www/utils/Node.java,8/2/82c01de499d10076730751734877f1f3bc64c374
 b
 2src/main/java/com/company/www/utils/GraphNode.java,b/a/bacf66e6e429b165151ef179541a83c4af8ba273
 m
@@ -33,3 +31,11 @@ c
 3src/main/java/com/company/www/utils/LinkedList.java,1/0/102abee182d90626a24b1f951ffae43aebb9f4c2
 ^
 .src/main/java/com/company/www/utils/Graph.java,e/8/e83c8c26f526db3a08d8655158dcec6248eecaf2
+a
+1src/test/java/com/company/www/utils/TreeTest.java,b/b/bb4d3383db231b10e88ccd93f8314e83552fa244
+t
+Dsrc/test/java/com/company/www/utils/listExample/ListExampleTest.java,b/9/b91486faa3a45ab1c78edd340e59b41fc53e2cfe
+p
+@src/main/java/com/company/www/utils/listExample/ListExample.java,0/f/0f8551f345ac2799ec31eb6d2f89afb4f54f0324
+a
+1src/main/java/com/company/www/utils/LinkNode.java,3/4/3488ff35f050fb980b6e4d8233d02e9b006daf65

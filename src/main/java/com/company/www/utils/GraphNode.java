@@ -1,14 +1,27 @@
 package com.company.www.utils;
 
+import java.util.LinkedList;
+
 public class GraphNode {
 
-  private int noOfVertex;
-  LinkedList[] listArray;
+  int noOfVertex;
+  // LinkedList[] listArray;
 
-  GraphNode(int noOfVertex) {
+  // List<List<Integer>> vertex = new LinkedList<>();
+
+  java.util.List<java.util.List<Integer>> vertex = new LinkedList<>();
+
+  GraphNode(int noOfVertexvertex) {
     this.noOfVertex = noOfVertex;
 
-    listArray = new LinkedList[noOfVertex];
-    for (int i = 0; i < noOfVertex; i++) listArray[i] = new LinkedList<>();
+    for (int i = 0; i < noOfVertexvertex; i++) vertex.add(new LinkedList<>());
+  }
+
+  void addEdge(GraphNode graph, int source, int dest) {
+    vertex.get(source).add(dest);
+  }
+
+  java.util.List<java.util.List<Integer>> getGraph() {
+    return vertex;
   }
 }

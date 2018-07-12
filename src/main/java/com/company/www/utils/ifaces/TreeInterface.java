@@ -3,6 +3,8 @@ package com.company.www.utils.ifaces;
 import com.company.www.utils.Tree;
 import com.company.www.utils.TreeNode;
 
+import javax.transaction.TransactionRequiredException;
+
 public interface TreeInterface<T> {
 
 
@@ -17,9 +19,9 @@ public interface TreeInterface<T> {
 
   public int size(TreeNode node);
 
-  public void getInorder();
+  public void getInorder(TreeNode root);
 
-  public void getPostOrder();
+  public void getPostOrder(TreeNode root);
 
-  public void getPreOrder();
+  public void getPreOrder(TreeNode root);
 }

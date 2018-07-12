@@ -35,7 +35,7 @@ public class Stack<T> implements StackInterface<T> {
   }
 
   @Override
-  public int size(){
+  public int size() {
     return top + 1;
   }
 

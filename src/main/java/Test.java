@@ -4,11 +4,15 @@ import com.company.www.utils.Tree;
 public class Test {
 
   public static void main(String[] args) {
-    Tree<Integer> tree= new Tree<>();
-    tree.insertion(1);
-    tree.insertion(2);
+      int[][] test;
+      test = new int[5][10];
 
+      int row = test.length;
+      int col = test[4].length;
 
+      System.out.println(row);
+      System.out.println(col);
+    }
 
     // Stack<String> stack = new Stack<String>();
     //System.out.println();
@@ -39,5 +43,5 @@ public class Test {
 
     // for(int i = 0 ;i<2 ; i++)
     // System.out.println();
-  }
+
 }
