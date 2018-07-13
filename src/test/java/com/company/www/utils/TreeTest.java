@@ -4,6 +4,95 @@ import org.junit.Assert;
 import org.junit.Test;
 
 public class TreeTest {
+  @Test
+  public void diamter() throws Exception {
+    TreeNode root = new TreeNode(1);
+    root.left = new TreeNode(2);
+    root.right = new TreeNode(3);
+    root.right.left = new TreeNode(8);
+    /*root.right.right = new TreeNode(9);
+    root.left.left = new TreeNode(4);
+    root.left.left.left= new TreeNode(5);
+    root.left.left.right = new TreeNode(7);*/
+    Tree tree = new Tree();
+    System.out.println(tree.diamter(root));
+
+  }
+
+  @Test
+  public void boundaryTraversal() throws Exception {
+    TreeNode root = new TreeNode(1);
+    root.left = new TreeNode(2);
+    root.right = new TreeNode(3);
+    root.right.left = new TreeNode(8);
+    root.right.right = new TreeNode(9);
+    root.left.left = new TreeNode(4);
+    root.left.left.left= new TreeNode(5);
+    root.left.left.right = new TreeNode(7);
+    Tree tree = new Tree();
+    tree.boundaryTraversal(root);
+  }
+
+  @Test
+  public void bottomView() throws Exception {
+    TreeNode root = new TreeNode(1);
+    root.left = new TreeNode(2);
+    root.right = new TreeNode(3);
+    root.right.left = new TreeNode(8);
+    root.right.right = new TreeNode(9);
+    root.left.left = new TreeNode(4);
+    root.left.left.left= new TreeNode(5);
+    root.left.left.right = new TreeNode(7);
+    Tree tree = new Tree();
+    tree.printBottomView(root);
+  }
+
+  @Test
+  public void printSpiral() throws Exception {
+    TreeNode root = new TreeNode(1);
+    root.left = new TreeNode(2);
+    root.right = new TreeNode(3);
+    root.right.left = new TreeNode(8);
+    root.right.right = new TreeNode(9);
+    root.left.left = new TreeNode(4);
+    root.left.left.left= new TreeNode(5);
+    root.left.left.right = new TreeNode(7);
+    Tree tree = new Tree();
+    tree.printSpiral(root);
+  }
+
+  @Test
+  public void printLeftView() throws Exception {
+    TreeNode root = new TreeNode(1);
+    root.left = new TreeNode(2);
+    root.right = new TreeNode(3);
+    root.left.left = new TreeNode(4);
+    root.left.left.right = new TreeNode(7);
+    Tree tree = new Tree();
+    tree.printLeftView(root);
+  }
+
+  @Test
+  public void printLevel() throws Exception {
+
+    TreeNode root = new TreeNode(1);
+    root.left = new TreeNode(2);
+    root.right = new TreeNode(3);
+    root.left.left = new TreeNode(4);
+    root.left.left.right = new TreeNode(7);
+    Tree tree = new Tree();
+    tree.levelOrder(root);
+  }
+
+  @Test
+  public void countNodes() throws Exception {
+    TreeNode root = new TreeNode(1);
+    root.left = new TreeNode(2);
+    root.right = new TreeNode(3);
+    root.left.left = new TreeNode(4);
+    root.left.left.right = new TreeNode(7);
+    System.out.println(new Tree().countNodes(root));
+  }
 
   @Test
   public void getMirrorNode() throws Exception {

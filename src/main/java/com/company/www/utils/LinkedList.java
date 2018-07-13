@@ -41,9 +41,8 @@ public class LinkedList<T> implements List<T> {
   @Override
   public LinkNode get(int index) {
     LinkNode x = head;
-    for(int i = 0 ; i < index; i++) x = x.next;
+    for (int i = 0; i < index; i++) x = x.next;
     return x;
-
   }
 
   @Override
@@ -85,7 +84,6 @@ public class LinkedList<T> implements List<T> {
     }
     return count;
   }
-
 
   @Override
   public boolean isEmpty() {

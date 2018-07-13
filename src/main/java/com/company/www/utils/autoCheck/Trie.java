@@ -10,7 +10,7 @@ public class Trie {
   TrieNode node = new TrieNode();
   List<String> list = new ArrayList<>();
 
-    TrieNode root = new TrieNode();
+  TrieNode root = new TrieNode();
 
   // TrieNode root = new TrieNode();
 
@@ -23,14 +23,13 @@ public class Trie {
 
     for (String str : dictionary) {
       TrieNode p = root;
-      for(char c : str.toCharArray()){
+      for (char c : str.toCharArray()) {
         if (p.ptr[c - 'A'] == null) {
           p.ptr[c - 'A'] = new TrieNode();
           p.ptr[c - 'A'].data = c;
           p = p.ptr[c - 'A'];
           System.out.println(p.data);
-        }
-        else p = p.ptr[c - 'A'];
+        } else p = p.ptr[c - 'A'];
       }
     }
   }
@@ -66,14 +65,21 @@ public class Trie {
     //  autoSuggest(node,"AB");
   }
 
-  /*public ArrayList<String> autoSuggest(TrieNode root, String input){
-      if(input.length() == 0 || isLeaf(root))  (input + rootToAllLeaf());
+  public ArrayList<String> autoSuggest(TrieNode root, String input){
+
+    for(char c : input.toCharArray()){
+      for(TrieNode p : root.ptr)
+        if(p.data == c)
+          root = root.ptr[c-'A'];
+
+    }
+      /*if(input.length() == 0 || isLeaf(root))  (input + rootToAllLeaf());
       for(int i = 0 ; i<input.length();i++){
           if ( LevelContains(root, input.charAt(i)) != null )
                   root =  LevelContains(root,input.charAt(i));
           else return input;
-      }
+      }*/
 
       return null;
-  }*/
+  }
 }

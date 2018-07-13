@@ -35,7 +35,7 @@ public class MyTrie {
       if (p.childrens[c - 'a'] != null) p = p.childrens[c - 'a'];
       else return words;
     }
-    getWords(p, prefix,  words);
+    getWords(p, prefix, words);
     return words;
   }
 
@@ -43,10 +43,8 @@ public class MyTrie {
     if (p.isEnd) result.add(soFar);
     else
       for (MyTrieNode child : p.childrens)
-        if(child != null) getWords(child,soFar +child.ch, result);
-
+        if (child != null) getWords(child, soFar + child.ch, result);
   }
-
 
   boolean isContains(String word) {
     MyTrieNode p = root;
@@ -57,5 +55,4 @@ public class MyTrie {
     if (p.isEnd) return true;
     else return false;
   }
-
 }
