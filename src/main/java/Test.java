@@ -1,10 +1,19 @@
 import com.company.www.utils.Stack;
 import com.company.www.utils.Tree;
 
+import java.awt.*;
+
 public class Test {
 
+
+
   public static void main(String[] args) {
-      int[][] test;
+      String s = "Hi, I a@m";
+      String p = s.replaceAll("[^A-Za-z0-9]", "");
+    System.out.println(p);
+   // System.out.println(p.replaceAll(",",""));
+  }
+      /*int[][] test;
       test = new int[5][10];
 
       int row = test.length;
@@ -42,6 +51,6 @@ public class Test {
     // list1.printList();
 
     // for(int i = 0 ;i<2 ; i++)
-    // System.out.println();
+    // System.out.println();*/
 
 }

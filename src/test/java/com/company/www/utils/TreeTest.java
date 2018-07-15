@@ -5,6 +5,50 @@ import org.junit.Test;
 
 public class TreeTest {
   @Test
+  public void deepestNode() throws Exception {
+    TreeNode root = new TreeNode(1);
+    root.left = new TreeNode(2);
+    root.left.right = new TreeNode(5);
+    root.left.right.right = new TreeNode(10);
+    root.right = new TreeNode(3);
+    System.out.println(tree.Deep(root));
+  }
+
+  @Test
+  public void deepestNodeHeight() throws Exception {
+    TreeNode root = new TreeNode(1);
+    root.left = new TreeNode(2);
+    root.left.right = new TreeNode(5);
+    root.left.right.right = new TreeNode(10);
+    root.right = new TreeNode(3);
+    tree.deepestNodeHeight(root);
+  }
+
+  private Tree tree = new Tree();
+  @Test
+  public void printPaths() throws Exception {
+    TreeNode root = new TreeNode(1);
+    root.left = new TreeNode(2);
+    root.right = new TreeNode(3);
+    tree.printPaths(root,"");
+  }
+
+  @Test
+  public void levelOrderQueue() throws Exception {
+
+    TreeNode root = new TreeNode(1);
+    root.left = new TreeNode(2);
+    root.right = new TreeNode(3);
+    root.right.left = new TreeNode(8);
+    root.right.right = new TreeNode(9);
+    root.left.left = new TreeNode(4);
+    root.left.left.left= new TreeNode(5);
+    root.left.left.right = new TreeNode(7);
+    Tree tree = new Tree();
+    tree.LevelOrderQueue(root);
+    }
+
+  @Test
   public void diamter() throws Exception {
     TreeNode root = new TreeNode(1);
     root.left = new TreeNode(2);
