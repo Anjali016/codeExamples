@@ -1,6 +1,6 @@
 package com.company.www.utils;
 
-import com.company.www.utils.ifaces.List;
+import com.company.www.ifaces.List;
 
 public class LinkedList<T> implements List<T> {
 

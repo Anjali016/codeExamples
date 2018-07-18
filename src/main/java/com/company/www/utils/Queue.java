@@ -1,6 +1,6 @@
 package com.company.www.utils;
 
-import com.company.www.utils.ifaces.QueueInterface;
+import com.company.www.ifaces.QueueInterface;
 
 public class Queue<T> implements QueueInterface<T> {
   LinkedList<T> list = new LinkedList<T>();

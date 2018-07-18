@@ -1,6 +1,6 @@
 package com.company.www.utils;
 
-import com.company.www.utils.ifaces.GraphInterface;
+import com.company.www.ifaces.GraphInterface;
 
 public class Graph<T> implements GraphInterface<T> {
 

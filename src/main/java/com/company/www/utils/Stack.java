@@ -1,6 +1,6 @@
 package com.company.www.utils;
 
-import com.company.www.utils.ifaces.StackInterface;
+import com.company.www.ifaces.StackInterface;
 
 public class Stack<T> implements StackInterface<T> {
 

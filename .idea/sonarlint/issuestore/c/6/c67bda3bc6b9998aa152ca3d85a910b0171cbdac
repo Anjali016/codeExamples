@@ -1,0 +1,15 @@
+
+rsquid:S00100="NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(³ë˜Óÿÿÿÿÿ8ÅºıİÊ,
+_squid:S2259"BA "NullPointerException" could be thrown; "root" is nullable here.(ğµÁ$8ÅºıİÊ,
+V
+squid:S106R"9Replace this use of System.out or System.err by a logger.(Œñ–¨8íöòİÊ,
+U
+squid:S106"9Replace this use of System.out or System.err by a logger.(ğµÁ$8ÅºıİÊ,
+[
+squid:S106B"9Replace this use of System.out or System.err by a logger.(·üâ’üÿÿÿÿ8ÅºıİÊ,
+esquid:S2259"BA "NullPointerException" could be thrown; "root" is nullable here.(ö…Ğòüÿÿÿÿ8ÅºıİÊ,
+V
+squid:S106x"9Replace this use of System.out or System.err by a logger.(ñİ¦ş8íöòİÊ,
+‹"squid:ClassVariableVisibilityCheck"QMake count a static final constant or non-public and provide accessors if needed.(§™…×ıÿÿÿÿ8ûÛ„ŞÊ,
+wsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(±Ñ úÿÿÿÿ
+msquid:S00100\"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(£Â¸ã8íöòİÊ,

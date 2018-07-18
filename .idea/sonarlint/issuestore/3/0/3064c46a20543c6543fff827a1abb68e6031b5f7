@@ -1,0 +1,31 @@
+
+isquid:CommentedOutCodeLine#"<This block of commented-out lines of code should be removed.(Œ‚ñ‰8ŠÏ£çÉ,
+ssquid:S1149r"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(ÑÖÙƒýÿÿÿÿ8¨¾ÝÊ,
+gsquid:UnusedPrivateMethodq"6Remove this unused private "isValidExpression" method.(êŠ²æùÿÿÿÿ8¨¾ÝÊ,
+isquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(¯Ùï¡8ËäðÉ,
+asquid:UnusedPrivateMethod["0Remove this unused private "isSubstring" method.(¸™«¤øÿÿÿÿ8¨¾ÝÊ,
+[
+squid:S106M"9Replace this use of System.out or System.err by a logger.(´’Ûúÿÿÿÿ8ŠÏ£çÉ,
+psquid:S1871x"MThis branch's code block is the same as the block for the branch on line 118.(’‡œ©ùÿÿÿÿ8¨¾ÝÊ,
+V
+squid:S106 "9Replace this use of System.out or System.err by a logger.(®»œÚ8Ä§¬çÉ,
+[
+squid:S106:"9Replace this use of System.out or System.err by a logger.(•‹ªÚÿÿÿÿÿ8ŠÏ£çÉ,
+V
+squid:S106I"9Replace this use of System.out or System.err by a logger.(ÃËÁ‡8ŠÏ£çÉ,
+V
+squid:S106W"9Replace this use of System.out or System.err by a logger.(íŒøü8ŠÏ£çÉ,
+psquid:S001176"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(éöà¹8ŠÏ£çÉ,
+~squid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÃäÝÕùÿÿÿÿ8–Šˆ¹É,
+[
+squid:S106K"9Replace this use of System.out or System.err by a logger.(ÌÌÚûüÿÿÿÿ8ŠÏ£çÉ,
+V
+squid:S1069"9Replace this use of System.out or System.err by a logger.(¾ø©Ú8ŠÏ£çÉ,
+usquid:S3776q"RRefactor this method to reduce its Cognitive Complexity from 17 to the 15 allowed.(êŠ²æùÿÿÿÿ8¨¾ÝÊ,
+isquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(¹âªà8ÖÊ¤çÉ,
+[
+squid:S106O"9Replace this use of System.out or System.err by a logger.(°¯ÿÁüÿÿÿÿ8ŠÏ£çÉ,
+ksquid:S1871w"MThis branch's code block is the same as the block for the branch on line 118.(Ù…¯­8¨¾ÝÊ,
+V
+squid:S106Q"9Replace this use of System.out or System.err by a logger.(×•œ²8ŠÏ£çÉ,
+]squid:UnusedPrivateMethod_"2Remove this unused private "getReverseNum" method.(žéêP8¨¾ÝÊ,

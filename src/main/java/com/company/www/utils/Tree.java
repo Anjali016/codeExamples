@@ -1,6 +1,6 @@
 package com.company.www.utils;
 
-import com.company.www.utils.ifaces.TreeInterface;
+import com.company.www.ifaces.TreeInterface;
 
 import java.util.LinkedList;
 import java.util.Queue;
@@ -62,15 +62,6 @@ public class Tree<T> implements TreeInterface<T> {
     }
     return 0;
   }
-  /** Method to print Least Common Ancestor* */
-  public TreeNode printLCA(TreeNode node1, int first, int second) {
-    if (node1 == null) return null;
-    if ((int) node1.data == first || (int) node1.data == second) return node1;
-    TreeNode left = printLCA(node1.left, first, second);
-    TreeNode right = printLCA(node1.right, first, second);
-    if (left != null && right != null) return left;
-    else return left != null ? left : right;
-  }
 
   /*public int countNodes(TreeNode root) {
     if (root == null) return 0;
@@ -79,15 +70,7 @@ public class Tree<T> implements TreeInterface<T> {
     }
   }*/
 
-  public int countNodes(TreeNode root) {
-    if (root == null) return 0;
-    else {
-      count++;
-      countNodes(root.left);
-      countNodes(root.right);
-      return count;
-    }
-  }
+
 
   @Override
   public void getInorder(TreeNode root) {
@@ -116,13 +99,7 @@ public class Tree<T> implements TreeInterface<T> {
     }
   }
 
-  /** Diamter of a tree * */
-  int diamter(TreeNode root) {
-    if (root == null) return 0;
-    int l = height(root.left);
-    int r = height(root.right);
-    return Math.max(1 + l + r, Math.max(diamter(root.left), diamter(root.right)));
-  }
+
 
   /**
    * Given the binary Tree and the two nodes say ‘p’ and ‘q’, determine whether the two nodes are
@@ -139,30 +116,8 @@ public class Tree<T> implements TreeInterface<T> {
    * <p>The*
    */
 
-  /**
-   * Create empty queue and pust root node to it. Do the following when queue is not empty Pop a
-   * node from queue and print it Push left child of popped node to queue if not null Push right
-   * child of popped node to queue if not null*
-   */
-  void LevelOrderQueue(TreeNode root) {
-    Queue<TreeNode> queue = new LinkedList<>();
-    queue.add(root);
-    while (!queue.isEmpty()) {
-      TreeNode temp = queue.poll();
-      System.out.println(temp.data);
-      if (temp.left != null) queue.add(temp.left);
-      if (temp.right != null) queue.add(temp.right);
-    }
-  }
 
-  /** Finding the mirror Node of the given node in a binary tree. * */
-  public int getMirrorNode(TreeNode node1, TreeNode node2, T key) {
-    if (node1 == null || node2 == null) return Integer.MIN_VALUE;
-    if (node1.data == key) return (int) node2.data;
-    else
-      return Math.max(
-          getMirrorNode(node1.left, node2.right, key), getMirrorNode(node1.right, node2.left, key));
-  }
+
 
   /** Level Order Traversal* */
   int height(TreeNode root) {
@@ -170,19 +125,6 @@ public class Tree<T> implements TreeInterface<T> {
     else return 1 + Math.max(height(root.left), height(root.right));
   }
 
-  public void levelOrder(TreeNode root) {
-    int h = height(root);
-    for (int i = 1; i <= h; i++) {
-      printLevel(root, i);
-    }
-  }
-
-  void printLevel(TreeNode root, int level) {
-    if (root == null) return;
-    else if (level == 1) System.out.print(root.data + " ");
-    else if (level > 1) printLevel(root.left, level - 1);
-    printLevel(root.right, level - 1);
-  }
 
   /** Left View of a Tree* */
   public void printLeftView(TreeNode root) {
@@ -226,7 +168,7 @@ public class Tree<T> implements TreeInterface<T> {
     printOddLevel(root.right, level - 1);
   }*/
   /** Bottom View of a Tree * */
-  void printBottomView(TreeNode root) {
+  public void printBottomView(TreeNode root) {
     if (root == null) return;
     if (isLeaf(root)) System.out.print(root.data);
     printBottomView(root.left);
@@ -257,7 +199,7 @@ public class Tree<T> implements TreeInterface<T> {
   }
 
   /** Boundary Traversals of the binary tree* */
-  void boundaryTraversal(TreeNode root) {
+  public void boundaryTraversal(TreeNode root) {
     if (root == null) return;
     else {
       leftBounary(root);
@@ -297,45 +239,5 @@ public class Tree<T> implements TreeInterface<T> {
     }
   }
 
-  /** Root to all leaf* */
-  void printPaths(TreeNode root, String soFar) {
-    if (root != null) return;
-    if (isLeaf(root)) System.out.println(soFar + root.data);
-    else {
-      printPaths(root.left, soFar + root.data);
-      printPaths(root.right, soFar + root.data);
-    }
-  }
 
-  /** Printing the Deepest node in a given binary tree * */
-  int deepestlevel;
-  int value;
-  public int Deep(TreeNode root) {
-    find(root, 0);
-    return value;
-  }
-
-  public void find(TreeNode root, int level) {
-    if (root != null) {
-      find(root.left, ++level);
-      if (level > deepestlevel) {
-        value = (int)root.data;
-        deepestlevel = level;
-      }
-      find(root.right, level);
-    }
-  }
-
-
-  public void deepestNodeHeight(TreeNode root) {
-    int h = height(root);
-    printNode(root, h);
-  }
-
-  private void printNode(TreeNode root, int h) {
-    if (root == null) return;
-    else if (h == 1) System.out.println(root.data);
-    printNode(root.left, h - 1);
-    printNode(root.right, h - 1);
-  }
 }

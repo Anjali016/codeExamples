@@ -1,0 +1,4 @@
+
+psquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(÷ªÛÆ8¢ŠêëÇ,
+{squid:UselessImportCheck"KRemove this unused import 'javax.transaction.TransactionRequiredException'.(èµûÿÿÿÿ8Î‘½ÇÈ,
+gsquid:UselessImportCheck"7Remove this unused import 'com.company.www.utils.Tree'.(†èÅƒûÿÿÿÿ8ú»Š’È,
