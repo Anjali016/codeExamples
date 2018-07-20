@@ -8,6 +8,18 @@ import org.junit.Test;
 import static org.junit.Assert.*;
 
 public class TreeExamplesTest {
+  @Test
+  public void printVerticalOrder() throws Exception {
+    TreeNode root = new TreeNode(1);
+    root.left = new TreeNode(2);
+    root.right = new TreeNode(3);
+    root.left.left = new TreeNode(4);
+    root.left.right = new TreeNode(10);
+
+    root.left.left.right = new TreeNode(7);
+    TreeExamples tree = new TreeExamples();
+    tree.printVerticalOrder(root);
+  }
 
   @Test
   public void printLevel() throws Exception {
@@ -45,7 +57,7 @@ public class TreeExamplesTest {
    // Assert.assertEquals(3, new Tree().getMirrorNode(root, root,2));
   }
 
-  @Test
+  /*@Test
    void levelOrderQueue() throws Exception {
     TreeNode root = new TreeNode(1);
     root.left = new TreeNode(2);
@@ -57,7 +69,7 @@ public class TreeExamplesTest {
     root.left.left.right = new TreeNode(7);
     tree.LevelOrderQueue(root);
   }
-
+*/
   TreeExamples tree = new TreeExamples();
   @Test
   public void diamter() throws Exception {}

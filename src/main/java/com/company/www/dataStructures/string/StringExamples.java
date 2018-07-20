@@ -6,32 +6,44 @@ import java.util.Stack;
 
 public class StringExamples {
 
-  /** Reverse all words in string but not to reverse letters of any word**/
+  /** Reverse all words in string but not to reverse letters of any word* */
+  String reverseWords(String str) {
+    str.trim();
+    if (str.length() == 0) return str;
+    String token[] = str.split("\\s+");
+    String reversed = "";
+    for(int i = token.length-1;i>=0;i--){
+      reversed = reversed + " " + token[i];
+    }
+    reversed = reversed.trim();
+    return reversed;
+  }
 
+  /**
+   * Given two stirngs, find how many times words of first string occurs in second String Second
+   * String contains two sentences separated by underscore '_' *
+   */
 
-  /**Given two stirngs, find how many times words of first string occurs in second String
-   * Second String contains two sentences separated by underscore '_' **/
+  /*void wordFrequency(String pattern, String paragraph){
+    String patter[] = pattern.split("_");
+   String longString[] =  paragraph.split("_");
+   HashMap<Character,Integer> map = new HashMap<>();
+   for(String s : patter) {
+     for (String p : longString)
+   }
+   }
 
-    /*void wordFrequency(String pattern, String paragraph){
-      String patter[] = pattern.split("_");
-     String longString[] =  paragraph.split("_");
-     HashMap<Character,Integer> map = new HashMap<>();
-     for(String s : patter) {
-       for (String p : longString)
-     }
-     }
-
-    }*/
-
+  }*/
 
   /** Find the frequency of each letter in a given string* */
   void charFrequency(String str) {
     Map<Character, Integer> map = new HashMap<>();
     for (char c : str.toCharArray())
-      if (map.containsKey(c)) map.put(c, map.get(c) + 1);// map.computeIfPresent(c,(k,v) -> v+1);
+      if (map.containsKey(c)) map.put(c, map.get(c) + 1); // map.computeIfPresent(c,(k,v) -> v+1);
       else map.put(c, 1);
 
-    for (Map.Entry entry : map.entrySet()) System.out.println(entry.getKey() + " " +entry.getValue());
+    for (Map.Entry entry : map.entrySet())
+      System.out.println(entry.getKey() + " " + entry.getValue());
   }
 
   /*for (Entry<KeyClass, ValueClass> entry  : myMap.entrySet())
@@ -88,7 +100,6 @@ public class StringExamples {
     StringExamples s = new StringExamples();
     System.out.println(s.isPalindrom("rac a car"));
   }
-
 
   private static boolean isSubstring(String s1, String s2) {
     return s1.contains(s2);

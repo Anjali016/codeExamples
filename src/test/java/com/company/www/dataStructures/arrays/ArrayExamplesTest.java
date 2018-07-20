@@ -1,5 +1,6 @@
 package com.company.www.dataStructures.arrays;
 
+import org.junit.Assert;
 import org.junit.Test;
 
 import java.util.ArrayList;
@@ -8,6 +9,14 @@ import static org.junit.Assert.*;
 
 public class ArrayExamplesTest {
   @Test
+  public void zeroAndOne() throws Exception {
+    int[] array = {1,0,0,1,0,1,0};
+    ArrayExamples arrayExamples = new ArrayExamples();
+    arrayExamples.zeroAndOne(array);
+    for (int i = 0; i < array.length; i++) System.out.print(array[i]+" ");
+  }
+
+    @Test
   public void threeSum() throws Exception {
     int[] array = {1,3,-1,0};
     ArrayList<int[]> result = a.threeSum(array);

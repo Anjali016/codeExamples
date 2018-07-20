@@ -126,19 +126,7 @@ public class Tree<T> implements TreeInterface<T> {
   }
 
 
-  /** Left View of a Tree* */
-  public void printLeftView(TreeNode root) {
-    int h = height(root);
-    for (int i = 1; i <= h; i++) {
-      leftView(root, i);
-    }
-  }
 
-  public void leftView(TreeNode root, int level) {
-    if (root == null) return;
-    else if (level == 1) System.out.print(root.data + " ");
-    leftView(root.left, level - 1);
-  }
 
   /** Right View of a Tree* */
   int maxLevel = -1;
@@ -165,7 +153,6 @@ public class Tree<T> implements TreeInterface<T> {
 
     if (root == null) return;
     if (level == 1) System.out.print(root.data);
-    printOddLevel(root.right, level - 1);
   }*/
   /** Bottom View of a Tree * */
   public void printBottomView(TreeNode root) {

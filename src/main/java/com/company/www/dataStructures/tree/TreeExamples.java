@@ -3,14 +3,78 @@ package com.company.www.dataStructures.tree;
 import com.company.www.utils.TreeNode;
 
 import java.util.LinkedList;
-import java.util.Queue;
-
-
+import java.util.List;
+import java.util.Map;
+import java.util.TreeMap;
 
 public class TreeExamples {
 
-    TreeNode root;
-    public int count = 0;
+  private int count = 0;
+  private TreeNode root;
+  int hd = 0;
+
+  /** Vertical Order of a binary tree * */
+  private void verticalOrder(TreeNode root, int hd, Map<Integer, LinkedList<Integer>> map) {
+    if (root == null) return;
+    else {
+      if (map.containsKey(hd)) {
+        map.get(hd).add((int) root.data);
+      }
+      else {
+        LinkedList<Integer> list = new LinkedList<>();
+        list.add((int) root.data);
+        map.put(hd, list);
+      }
+    }
+    verticalOrder(root.left, hd - 1, map);
+    verticalOrder(root.right, hd + 1, map);
+
+  }
+
+  public void printVerticalOrder(TreeNode root) {
+    Map<Integer, LinkedList<Integer>> map = new TreeMap<>();
+    verticalOrder(root, 0, map);
+    for (Integer key : map.keySet()) {
+      List<Integer> list = map.get(key);
+      list.forEach(v -> System.out.print(v + " "));
+    }
+
+    for (Map.Entry entry : map.entrySet()) {
+
+    }
+  }
+
+  /** Left View of a tree* */
+  int maxLevel = 0;
+
+  void leftView(TreeNode root, int level) {
+    if (root == null) return;
+
+    if (maxLevel < level) System.out.println(root.data);
+    maxLevel = level;
+
+    leftView(root.left, level + 1);
+    leftView(root.right, level + 1);
+  }
+
+  private void printLeftView() {
+    leftView(root, 1);
+  }
+
+  /** Right View of a tree* */
+  void rightView(TreeNode root, int level) {
+    if (root == null) return;
+
+    if (maxLevel < level) System.out.println(root.data);
+    maxLevel = level;
+
+    rightView(root.right, level + 1);
+    rightView(root.left, level + 1);
+  }
+
+  private void printRightView() {
+    leftView(root, 1);
+  }
 
   /** Root to all leaf* */
   public void printPaths(TreeNode root, String soFar) {
@@ -58,7 +122,7 @@ public class TreeExamples {
    * node from queue and print it Push left child of popped node to queue if not null Push right
    * child of popped node to queue if not null*
    */
-   void LevelOrderQueue(TreeNode root) {
+  /*public void LevelOrderQueue(TreeNode root) {
     Queue<TreeNode> queue = new LinkedList<>();
     queue.add(root);
     while (!queue.isEmpty()) {
@@ -67,7 +131,7 @@ public class TreeExamples {
       if (temp.left != null) queue.add(temp.left);
       if (temp.right != null) queue.add(temp.right);
     }
-  }
+  }*/
 
   /** Level Order traversal* */
   public void levelOrder(TreeNode root) {
@@ -122,15 +186,14 @@ public class TreeExamples {
     printNode(root.right, h - 1);
   }
 
-  /**Count number of nodes in a tree **/
-
+  /** Count number of nodes in a tree * */
   public int countNodes(TreeNode root) {
-      if (root == null) return 0;
-      else {
-          count++;
-          countNodes(root.left);
-          countNodes(root.right);
-          return count;
-      }
+    if (root == null) return 0;
+    else {
+      count++;
+      countNodes(root.left);
+      countNodes(root.right);
+      return count;
+    }
   }
 }

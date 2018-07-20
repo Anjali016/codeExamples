@@ -3,30 +3,34 @@ package com.company.www.autoSuggest;
 import org.junit.Test;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class TrieTest {
+
+  private Trie trie = new Trie();
+
   @Test
   public void autoSuggest() throws Exception {
-    /*ArrayList<String> words = new ArrayList<>();
-    words.add("abhishek");
-    words.add("mongoshake");
-    words.add("anjali");
-    words.add("mamta");*/
-    trie.constructTrie();
-    ArrayList<String> result = trie.autoSuggest("AX");
-    result.forEach(word -> System.out.println(word));
-
+    trie.constructTrie(getDictionary());
+    List<String> words = trie.autoSuggest("A");
+    words.forEach(System.out::println);
   }
-
-  Trie trie = new Trie();
-
 
   @Test
   public void constructTrie() throws Exception {
     Trie trie = new Trie();
-    trie.constructTrie();
+    trie.constructTrie(getDictionary());
   }
 
   @Test
   public void rootToAllLeaf() throws Exception {}
+
+  private List<String> getDictionary() {
+    List<String> dictionary = new ArrayList<>();
+    dictionary.add("ABHISHEK");
+    dictionary.add("ABHAY");
+    dictionary.add("ANJALI");
+    dictionary.add("AYUSH");
+    return dictionary;
+  }
 }

@@ -56,16 +56,7 @@ public class TreeTest {
     tree.printSpiral(root);
   }
 
-  @Test
-  public void printLeftView() throws Exception {
-    TreeNode root = new TreeNode(1);
-    root.left = new TreeNode(2);
-    root.right = new TreeNode(3);
-    root.left.left = new TreeNode(4);
-    root.left.left.right = new TreeNode(7);
-    Tree tree = new Tree();
-    tree.printLeftView(root);
-  }
+
 
 
 

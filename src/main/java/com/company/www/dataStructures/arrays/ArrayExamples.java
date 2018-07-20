@@ -7,8 +7,36 @@ import java.util.Set;
 
 public class ArrayExamples {
 
-  /** solve the three sum problem in an array. a+b+c = 0 Time Complexity : linear time O(n)**/
 
+  /**You are given an array with duplicates.
+   * You have to sort the array with decreasing frequency of elements.
+   * If two elements have the same frequency, sort them by their actual value in increasing order.
+   Ex: [2 3 5 3 7 9 5 3 7]
+   Output: [3 3 3 5 5 7 7 2 9]**/
+
+  public void zeroAndOne(int[] array) {
+    int start = 0, end = array.length - 1;
+    while (start < end) {
+      while (array[start] == 0) start++;
+      while (array[end] == 1) end--;
+      if (array[start] > array[end]) {
+        int temp = array[start];
+        array[start] = array[end];
+        array[end] = temp;
+        start++;
+        end--;
+      }
+    }
+  }
+
+  /**
+   * Merge k sorted arrays in to a single sorted array. 1st Method : Copy arrays in a single array
+   * and sort them ( nk * log(nk)) 2nd Method : Compare 1st element from each element since they are
+   * already sorted. for smallest element array increment the index (kn * k). 3rd Priority Queue :
+   * time Complexity(nk*log(k)) *
+   */
+
+  /** solve the three sum problem in an array. a+b+c = 0 Time Complexity : linear time O(n)* */
   public ArrayList<int[]> threeSum(int[] arr) {
     ArrayList<int[]> result = new ArrayList<int[]>();
     Arrays.sort(arr);
@@ -20,7 +48,7 @@ public class ArrayExamples {
 
         while (start < end) {
           if (arr[i] + arr[start] + arr[end] == 0) {
-            result.add(new int[]{arr[i], arr[start], arr[end]});
+            result.add(new int[] {arr[i], arr[start], arr[end]});
           }
           if (arr[i] + arr[start] + arr[end] < 0) {
             int currentStart = start;
