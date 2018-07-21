@@ -1,18 +1,13 @@
 package com.company.www;
 
-import com.company.www.utils.TreeNode;
-import com.company.www.utils.*;
 import com.company.www.utils.Tree;
+import com.company.www.utils.TreeNode;
 import org.junit.Assert;
 import org.junit.Test;
 
 public class TreeTest {
 
-
   private Tree tree = new Tree();
-
-
-
 
   @Test
   public void boundaryTraversal() throws Exception {
@@ -22,7 +17,7 @@ public class TreeTest {
     root.right.left = new TreeNode(8);
     root.right.right = new TreeNode(9);
     root.left.left = new TreeNode(4);
-    root.left.left.left= new TreeNode(5);
+    root.left.left.left = new TreeNode(5);
     root.left.left.right = new TreeNode(7);
     Tree tree = new Tree();
     tree.boundaryTraversal(root);
@@ -36,7 +31,7 @@ public class TreeTest {
     root.right.left = new TreeNode(8);
     root.right.right = new TreeNode(9);
     root.left.left = new TreeNode(4);
-    root.left.left.left= new TreeNode(5);
+    root.left.left.left = new TreeNode(5);
     root.left.left.right = new TreeNode(7);
     Tree tree = new Tree();
     tree.printBottomView(root);
@@ -50,16 +45,11 @@ public class TreeTest {
     root.right.left = new TreeNode(8);
     root.right.right = new TreeNode(9);
     root.left.left = new TreeNode(4);
-    root.left.left.left= new TreeNode(5);
+    root.left.left.left = new TreeNode(5);
     root.left.left.right = new TreeNode(7);
     Tree tree = new Tree();
     tree.printSpiral(root);
   }
-
-
-
-
-
 
   @Test
   public void constructTree() throws Exception {

@@ -1,19 +1,36 @@
 package com.company.www.dataStructures.arrays;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.HashSet;
-import java.util.Set;
+import java.util.*;
 
 public class ArrayExamples {
 
+  /**
+   * You are given an array with duplicates. You have to sort the array with decreasing frequency of
+   * elements. If two elements have the same frequency, sort them by their actual value in
+   * increasing order. Ex: [2 3 5 3 7 9 5 3 7] Output: [3 3 3 5 5 7 7 2 9]*
+   */
+  void sortFrequency(int[] arr) {
 
-  /**You are given an array with duplicates.
-   * You have to sort the array with decreasing frequency of elements.
-   * If two elements have the same frequency, sort them by their actual value in increasing order.
-   Ex: [2 3 5 3 7 9 5 3 7]
-   Output: [3 3 3 5 5 7 7 2 9]**/
+    Map<Integer, Integer> map = new HashMap<>();
+    for (int i = 0; i < arr.length; i++)
+      if (!map.containsKey(arr[i])) map.put(arr[i], 1);
+      else map.put(arr[i], (map.get(arr[i]) + 1));
 
+    List<Map.Entry<Integer, Integer>> list = new LinkedList<>(map.entrySet());
+    Collections.sort(
+        list, (o1, o2) -> (o2.getValue()).compareTo(o1.getValue()));
+
+    for (int i = 0; i < list.size(); i++) {
+      int frequency = list.get(i).getValue();
+      int value = list.get(i).getKey();
+      while (frequency > 0) {
+        System.out.print(value + " ");
+        frequency--;
+      }
+    }
+  }
+
+  /** seggregate 0s to the left and 1s to the right in the array* */
   public void zeroAndOne(int[] array) {
     int start = 0, end = array.length - 1;
     while (start < end) {

@@ -20,12 +20,9 @@ public class MyTrieTest {
     myTrie.addWordToTrie("abhay");
     ArrayList<String> result = myTrie.suggestWords("vb");
     result.forEach(word -> System.out.println(word));
-//    assertFalse(myTrie.isContains("mamta"));
+    //    assertFalse(myTrie.isContains("mamta"));
   }
-
 
   @Test
-  public void isContains() throws Exception {
-
-  }
+  public void isContains() throws Exception {}
 }

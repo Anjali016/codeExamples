@@ -9,7 +9,7 @@ public class StringExamplesTest {
     System.out.println(string.reverseWords("I am here"));
   }
 
-    @Test
+  @Test
   public void charFrequency() throws Exception {
     String p = "Hellooooh";
     String s = p.toLowerCase();

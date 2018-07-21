@@ -79,28 +79,29 @@ class SortingExamples {
       }
     }
   }
-void quickSort(int[] array){
-    quickSortUtil(array,0,array.length);
-}
 
- void quickSortUtil(int[] arr, int start, int end) {
-    if(start<end) {
+  void quickSort(int[] array) {
+    quickSortUtil(array, 0, array.length);
+  }
+
+  void quickSortUtil(int[] arr, int start, int end) {
+    if (start < end) {
       int pivot = partition(arr, start, end);
-      quickSortUtil(arr,start,pivot-1);
-      quickSortUtil(arr, pivot+1, end);
+      quickSortUtil(arr, start, pivot - 1);
+      quickSortUtil(arr, pivot + 1, end);
     }
- }
+  }
 
   private int partition(int[] arr, int start, int end) {
-      int pivot = arr[end-1];
-      int itr = start-1;
-      for(int j = start ; j < end-1 ; j++) {
-        if (arr[j] <= pivot) {
-          itr++;
-          swap(arr, itr, j);
-        }
+    int pivot = arr[end - 1];
+    int itr = start - 1;
+    for (int j = start; j < end - 1; j++) {
+      if (arr[j] <= pivot) {
+        itr++;
+        swap(arr, itr, j);
       }
-      swap(arr,itr+1,end-1);
-      return itr+1;
+    }
+    swap(arr, itr + 1, end - 1);
+    return itr + 1;
   }
 }

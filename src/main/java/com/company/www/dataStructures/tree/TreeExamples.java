@@ -19,8 +19,7 @@ public class TreeExamples {
     else {
       if (map.containsKey(hd)) {
         map.get(hd).add((int) root.data);
-      }
-      else {
+      } else {
         LinkedList<Integer> list = new LinkedList<>();
         list.add((int) root.data);
         map.put(hd, list);
@@ -28,7 +27,6 @@ public class TreeExamples {
     }
     verticalOrder(root.left, hd - 1, map);
     verticalOrder(root.right, hd + 1, map);
-
   }
 
   public void printVerticalOrder(TreeNode root) {
@@ -39,9 +37,7 @@ public class TreeExamples {
       list.forEach(v -> System.out.print(v + " "));
     }
 
-    for (Map.Entry entry : map.entrySet()) {
-
-    }
+    for (Map.Entry entry : map.entrySet()) {}
   }
 
   /** Left View of a tree* */

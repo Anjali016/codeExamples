@@ -6,7 +6,7 @@ import org.junit.Test;
 public class GraphTest {
   @Test
   public void dFS() throws Exception {
-    int[][]  mat = {{0, 1, 1, 1}, {0, 0, 0, 1}, {1, 1, 0, 0}, {0, 0, 0, 0}};
+    int[][] mat = {{0, 1, 1, 1}, {0, 0, 0, 1}, {1, 1, 0, 0}, {0, 0, 0, 0}};
     Graph graph = new Graph();
     graph.dFS(mat);
   }

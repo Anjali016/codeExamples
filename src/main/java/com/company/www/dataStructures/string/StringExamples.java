@@ -12,7 +12,7 @@ public class StringExamples {
     if (str.length() == 0) return str;
     String token[] = str.split("\\s+");
     String reversed = "";
-    for(int i = token.length-1;i>=0;i--){
+    for (int i = token.length - 1; i >= 0; i--) {
       reversed = reversed + " " + token[i];
     }
     reversed = reversed.trim();
@@ -45,10 +45,6 @@ public class StringExamples {
     for (Map.Entry entry : map.entrySet())
       System.out.println(entry.getKey() + " " + entry.getValue());
   }
-
-  /*for (Entry<KeyClass, ValueClass> entry  : myMap.entrySet())
-      System.out.println(entry.getKey() + " - " + entry.getValue());
-  */
 
   /**
    * Given a string determine if it is a palindrom considering only alphanumerica characters and
