@@ -1,34 +1,0 @@
-
-asquid:UnusedPrivateMethodh"0Remove this unused private "isSubstring" method.(¸™«¤øÿÿÿÿ8¨¾İÊ,
-lsquid:S1871„"MThis branch's code block is the same as the block for the branch on line 131.(Ù…¯­8¨¾İÊ,
-V
-squid:S106G"9Replace this use of System.out or System.err by a logger.(¾ø©Ú8ªôâË,
-[
-squid:S106H"9Replace this use of System.out or System.err by a logger.(•‹ªÚÿÿÿÿÿ8ªôâË,
-[squid:S1197"8Move the array designator from the variable to the type.(Äÿ¶¼ıÿÿÿÿ8àˆìË,
-isquid:CommentedOutCodeLine1"<This block of commented-out lines of code should be removed.(Œ‚ñ‰8ªôâË,
-[
-squid:S106Y"9Replace this use of System.out or System.err by a logger.(ÌÌÚûüÿÿÿÿ8ªôâË,
-isquid:CommentedOutCodeLine*"<This block of commented-out lines of code should be removed.(¹âªà8ªôâË,
-usquid:S3776~"RRefactor this method to reduce its Cognitive Complexity from 17 to the 15 allowed.(êŠ²æùÿÿÿÿ8¨¾İÊ,
-:squid:S1643"Use a StringBuilder instead.(Â‡›î8ªôâË,
-V
-squid:S106e"9Replace this use of System.out or System.err by a logger.(íŒøü8ªôâË,
-qsquid:S1871…"MThis branch's code block is the same as the block for the branch on line 131.(’‡œ©ùÿÿÿÿ8¨¾İÊ,
-gsquid:UnusedPrivateMethod~"6Remove this unused private "isValidExpression" method.(êŠ²æùÿÿÿÿ8¨¾İÊ,
-V
-squid:S106_"9Replace this use of System.out or System.err by a logger.(×•œ²8ªôâË,
-Fsquid:S2201"(The return value of "trim" must be used.(¸ˆ£À8ªôâË,
-ssquid:S1149"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(ÑÖÙƒıÿÿÿÿ8¨¾İÊ,
-]squid:UnusedPrivateMethodl"2Remove this unused private "getReverseNum" method.(éêP8¨¾İÊ,
-[
-squid:S106["9Replace this use of System.out or System.err by a logger.(´’Ûúÿÿÿÿ8ªôâË,
-[
-squid:S106]"9Replace this use of System.out or System.err by a logger.(°¯ÿÁüÿÿÿÿ8ªôâË,
-psquid:S00117D"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(éöà¹8ªôâË,
-V
-squid:S106."9Replace this use of System.out or System.err by a logger.(¬Š÷8ªôâË,
-isquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(¯Ùï¡8ªôâË,
-V
-squid:S106W"9Replace this use of System.out or System.err by a logger.(ÃËÁ‡8ªôâË,
-~squid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÃäİÕùÿÿÿÿ8–Šˆ¹É,
