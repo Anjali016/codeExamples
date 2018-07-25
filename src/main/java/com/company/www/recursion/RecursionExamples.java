@@ -1,14 +1,106 @@
 package com.company.www.recursion;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Stack;
 
-public class RecursionExamples {
+class RecursionExamples {
+  int count = 0;
+  /**
+   * Given an array of songs length and journey time, maximum number of songs that can be played
+   * during the journey. Constraint:- Either song should be completed or should not be played. Ex:-
+   * [2, 4, 3, 5, 5, 2, 4] and Journey time = 20 Output: – 5 [2, 4, 3, 5, 5, 2, 4, 3] and Journey
+   * time = 20 Output:- 6 *
+   */
 
-  /**A child is running up a stairs with n steps and can hop either 1 step, 2 steps, or 3 steps at a time.
-   * Implement a method to count how many possible ways the child can run up the stairs.**/
+  /** How many ways of listening songs and print each* */
 
-    int count = 0;
+  int songCombination(int[] songs, String sofar, int start, int end) {
+    if (start == end) {
+      count = count + 1;
+      System.out.println("{" + sofar + "}");
+    } else {
+      songCombination(songs, sofar + songs[start], start + 1, end);
+      songCombination(songs, sofar, start + 1, end);
+    }
+    return count;
+  }
 
+  /** How many of ways have sum 20 **/
+  void songCombinationSum(int[] songs, String sofar, int start, int end, int sum, int value) {
+    if (start > end || sum == value) {
+        if (sum == value) System.out.println("{" + sofar + "}");
+    } else {
+      songCombinationSum(songs, sofar + songs[start], start + 1, end, sum + songs[start], value);
+      songCombinationSum(songs, sofar, start + 1, end, sum, value);
+    }
+  }
+
+  class MaxSubset{
+      public int size;
+      public List<String> result;
+
+      public MaxSubset(int size) {
+          this.size = size;
+          this.result = new ArrayList<>();
+      }
+  }
+
+  /** max length subset**/
+
+  MaxSubset subSetLength(int[] songs) {
+      MaxSubset maxSubset = new MaxSubset(0);
+      subSetLength(songs, "", 0, 20, 0, maxSubset);
+      return maxSubset;
+  }
+  void subSetLength(int[] songs, String soFar, int start, int sum, int currLen, MaxSubset subset) {
+      if (sum >= 0) {
+          if (sum == 0) {
+              if (currLen > subset.size) {
+                  subset.size = currLen;
+                  subset.result = new ArrayList<>();
+                  subset.result.add(soFar);
+              } else if (currLen == subset.size) subset.result.add(soFar);
+          } else {
+              if (start < songs.length) {
+                  subSetLength(songs, soFar + songs[start] + " ", start + 1, sum - songs[start], currLen + 1, subset);
+                  subSetLength(songs, soFar, start + 1, sum, currLen, subset);
+              }
+          }
+      }
+  }
+
+
+  /*void songMaxLength(int[] songs, String sofar, int start, int end, int sum, int value, int max, int c) {
+      if (start > end || sum == value) {
+          if (sum == value) {
+              if (max < c) max = c;
+              System.out.println("{" + sofar + "}");
+          }
+      } else {
+          songMaxLength(songs, sofar + songs[start], start + 1, end, sum + songs[start], value,max,c+1 );
+          songMaxLength(songs, sofar, start + 1, end, sum, value,max,c);
+      }
+  }
+
+    int maxSong(int[] songs, int start, int end, int journey, int max, int ctr) {
+    if (start == end) return max;
+    else {
+      for (int i = start; i < end; i++) {
+        int newJourney = journey - songs[i];
+        if (newJourney > 0 && newJourney - songs[i + 1] > 0) {
+          // if (max > ctr) max = ctr;
+          maxSong(songs, start + 1, end, journey - songs[i], max, ctr + 1);
+        }
+      }
+    }
+    return Math.max(max, ctr);
+  }
+*/
+  /**
+   * A child is running up a stairs with n steps and can hop either 1 step, 2 steps, or 3 steps at a
+   * time. Implement a method to count how many possible ways the child can run up the stairs.*
+   */
   int waysOfSteps(int[] steps, int stairs, String path) {
     if (stairs == 0) {
       count = count + 1;
@@ -86,4 +178,10 @@ public class RecursionExamples {
    * {1,1,1,1},{1,1,2},{2,2},{1,3}. So output should be 4.*
    */
   /** BackTracking * */
+
+  /**
+   * 4. Problem: Print all possible combinations of r elements in a given array of size n. For
+   * example, if input array is {1, 2, 3, 4} and r is 2, then output should be {1, 2}, {1, 3}, {1,
+   * 4}, {2, 3}, {2, 4} and {3,4}.
+   */
 }
