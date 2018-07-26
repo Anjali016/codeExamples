@@ -1,5 +1,7 @@
 package com.company.www.algorithms.sorting;
 
+import java.util.HashMap;
+
 class SortingExamples {
 
   /** Selection Sort * */
@@ -103,5 +105,65 @@ class SortingExamples {
     }
     swap(arr, itr + 1, end - 1);
     return itr + 1;
+  }
+
+  /** LRU * */
+  class LRUNode {
+    LRUNode previous;
+    LRUNode next;
+    int key, value;
+
+    LRUNode(int key, int value) {
+      this.key = key;
+      this.value = value;
+    }
+  }
+
+  private int capacity;
+  private HashMap<Integer, LRUNode> cache = new HashMap<Integer, LRUNode>();
+  private LRUNode front = null, end = null;
+
+  void LRU(int key, int value) {
+    if (cache.containsKey(key)) {
+      LRUNode requestedNode = cache.get(key);
+      requestedNode.value = value;
+      remove(requestedNode);
+      setHead(requestedNode);
+    } else {
+      LRUNode newNode = new LRUNode(key, value);
+      if (cache.size() > capacity) {
+        cache.remove(end.key);
+        remove(end);
+        setHead(newNode);
+      } else {
+        setHead(newNode);
+        cache.put(key, newNode);
+      }
+    }
+  }
+
+  private void setHead(LRUNode node) {
+    node.next = front;
+    node.previous = null;
+    if (front != null) front.previous = node;
+    front = node;
+    if (end == null) end = null;
+  }
+
+  private void remove(LRUNode node) {
+    if (node.next != null) node.next.previous = node.next;
+    else end = node.previous;
+
+    if (node.previous != null) node.previous.next = node.next;
+    else front = node.next;
+  }
+
+  int get(int key) {
+    if (cache.containsKey(key)) {
+      LRUNode node = cache.get(key);
+      remove(node);
+      setHead(node);
+      return node.value;
+    } else return -1;
   }
 }

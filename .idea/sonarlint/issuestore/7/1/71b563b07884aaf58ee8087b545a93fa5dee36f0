@@ -1,0 +1,6 @@
+
+Dsquid:S1659|"!Declare "end" on a separate line.(•ÓÈËıÿÿÿÿ8¸Õİ’Í,
+nsquid:CommentedOutCodeLineD"<This block of commented-out lines of code should be removed.(ç–ëñüÿÿÿÿ8šŒ¼½Ë,
+rsquid:S00100~"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Òğ¾éøÿÿÿÿ8ôâ±‘Í,
+|squid:S2293{"YReplace the type specification in this constructor call with the diamond operator ("<>").(Ğôù›şÿÿÿÿ8ôâ±‘Í,
+Fsquid:S1659r"#Declare "value" on a separate line.(ğ™”‹ÿÿÿÿÿ8èÑ±‘Í,

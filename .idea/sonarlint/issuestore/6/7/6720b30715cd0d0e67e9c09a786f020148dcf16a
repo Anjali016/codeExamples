@@ -1,0 +1,5 @@
+
+[squid:S1854"8Remove this useless assignment to local variable "head".(”ζΈ‚ϊÿÿÿÿ8υήκΪΜ,
+Wsquid:S1854"9Remove this useless assignment to local variable "head1".(Δ¥µΘ8υήκΪΜ,
+dsquid:S1226"AIntroduce a new variable instead of reusing the parameter "head".(”ζΈ‚ϊÿÿÿÿ8υήκΪΜ,
+esquid:S2259"BA "NullPointerException" could be thrown; "head" is nullable here.(®„ÿϊÿÿÿÿ8υήκΪΜ,

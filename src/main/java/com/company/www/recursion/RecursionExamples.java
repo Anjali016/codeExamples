@@ -6,6 +6,55 @@ import java.util.Stack;
 
 class RecursionExamples {
   int count = 0;
+
+  /**
+   * Given a list of items with values and weights, as well as a max weight, find the maximum value
+   * you can generate from items, where the sum of the weights is less than or equal to the max. eg.
+   * items = {(w:2, v:6), (w:2, v:10), (w:3, v:12)} max weight = 5 knapsack(items, max weight) = 22
+   * *
+   */
+  int knapSack(int[] items, int[] value, int W) {
+    return knapSack(items, value, W, 0);
+  }
+
+  private int knapSack(int[] items, int[] value, int w, int i) {
+    if (i == items.length) return 0;
+    if (w - items[i] < 0) return knapSack(items, value, w, i + 1);
+    else {
+      int including = knapSack(items, value, w - items[i], i + 1) + value[i];
+      int excuding = knapSack(items, value, w, i + 1);
+      return Math.max(including, excuding);
+    }
+  }
+
+  /*
+   */
+  /*public class Items{
+      int weight;
+      int value;
+  }
+
+
+
+    */
+  /*private void knapSack(Items[] items,String soFar, int capacity, int i) {
+        if(i == items.length) {
+        System.out.println(soFar);
+        }
+        if(capacity- items[i].weight < 0)
+
+        knapSack(items,soFar+items[i].weight ,capacity-items[i].weight,i+1);
+        knapSack(items,soFar+items[i].weight, capacity,i+1);
+      }
+  */
+  /*
+
+  private int knapSack(int[] items, int[] value ,int capacity, int i) {
+    if(i==items.length) return 0;
+    if(capacity-items[i] < 0) return knapSack(items,value,capacity,i+1);
+    return Math.max(knapSack(items,value,capacity-items[i],i+1)+value[i],knapSack(items,value,capacity,i+1));
+  }*/
+
   /**
    * Given an array of songs length and journey time, maximum number of songs that can be played
    * during the journey. Constraint:- Either song should be completed or should not be played. Ex:-
@@ -14,7 +63,6 @@ class RecursionExamples {
    */
 
   /** How many ways of listening songs and print each* */
-
   int songCombination(int[] songs, String sofar, int start, int end) {
     if (start == end) {
       count = count + 1;
@@ -26,77 +74,46 @@ class RecursionExamples {
     return count;
   }
 
-  /** How many of ways have sum 20 **/
+  /** How many of ways have sum 20 * */
   void songCombinationSum(int[] songs, String sofar, int start, int end, int sum, int value) {
     if (start > end || sum == value) {
-        if (sum == value) System.out.println("{" + sofar + "}");
+      if (sum == value) System.out.println("{" + sofar + "}");
     } else {
       songCombinationSum(songs, sofar + songs[start], start + 1, end, sum + songs[start], value);
       songCombinationSum(songs, sofar, start + 1, end, sum, value);
     }
   }
 
-  class MaxSubset{
-      public int size;
-      public List<String> result;
-
-      public MaxSubset(int size) {
-          this.size = size;
-          this.result = new ArrayList<>();
-      }
-  }
-
-  /** max length subset**/
-
+  /** max length subset* */
   MaxSubset subSetLength(int[] songs) {
-      MaxSubset maxSubset = new MaxSubset(0);
-      subSetLength(songs, "", 0, 20, 0, maxSubset);
-      return maxSubset;
+    MaxSubset maxSubset = new MaxSubset(0);
+    subSetLength(songs, "", 0, 20, 0, maxSubset);
+    return maxSubset;
   }
+
   void subSetLength(int[] songs, String soFar, int start, int sum, int currLen, MaxSubset subset) {
-      if (sum >= 0) {
-          if (sum == 0) {
-              if (currLen > subset.size) {
-                  subset.size = currLen;
-                  subset.result = new ArrayList<>();
-                  subset.result.add(soFar);
-              } else if (currLen == subset.size) subset.result.add(soFar);
-          } else {
-              if (start < songs.length) {
-                  subSetLength(songs, soFar + songs[start] + " ", start + 1, sum - songs[start], currLen + 1, subset);
-                  subSetLength(songs, soFar, start + 1, sum, currLen, subset);
-              }
-          }
-      }
-  }
-
-
-  /*void songMaxLength(int[] songs, String sofar, int start, int end, int sum, int value, int max, int c) {
-      if (start > end || sum == value) {
-          if (sum == value) {
-              if (max < c) max = c;
-              System.out.println("{" + sofar + "}");
-          }
+    if (sum >= 0) {
+      if (sum == 0) {
+        if (currLen > subset.size) {
+          subset.size = currLen;
+          subset.result = new ArrayList<>();
+          subset.result.add(soFar);
+        } else if (currLen == subset.size) subset.result.add(soFar);
       } else {
-          songMaxLength(songs, sofar + songs[start], start + 1, end, sum + songs[start], value,max,c+1 );
-          songMaxLength(songs, sofar, start + 1, end, sum, value,max,c);
-      }
-  }
-
-    int maxSong(int[] songs, int start, int end, int journey, int max, int ctr) {
-    if (start == end) return max;
-    else {
-      for (int i = start; i < end; i++) {
-        int newJourney = journey - songs[i];
-        if (newJourney > 0 && newJourney - songs[i + 1] > 0) {
-          // if (max > ctr) max = ctr;
-          maxSong(songs, start + 1, end, journey - songs[i], max, ctr + 1);
+        if (start < songs.length) {
+          subSetLength(
+              songs,
+              soFar + songs[start] + " ",
+              start + 1,
+              sum - songs[start],
+              currLen + 1,
+              subset);
+          subSetLength(songs, soFar, start + 1, sum, currLen, subset);
         }
       }
     }
-    return Math.max(max, ctr);
   }
-*/
+
   /**
    * A child is running up a stairs with n steps and can hop either 1 step, 2 steps, or 3 steps at a
    * time. Implement a method to count how many possible ways the child can run up the stairs.*
@@ -113,7 +130,32 @@ class RecursionExamples {
     return count;
   }
 
-  /** Binary Search using recursion .* */
+  /*void songMaxLength(int[] songs, String sofar, int start, int sum, List<String> songSet, String sumSoFar ) {
+      if (start < songs.length-1 || sum >= 0) {
+          songSet.add(sumSoFar);
+              System.out.println("{" + sofar + "}");
+
+      } else {
+          songMaxLength(songs, sofar + songs[start], start + 1, sum - songs[start], songSet,sumSoFar );
+          songMaxLength(songs, sofar, start + 1, sum,songSet, sumSoFar);
+      }
+  }
+
+    int maxSong(int[] songs, int start, int end, int journey, int max, int ctr) {
+    if (start == end) return max;
+    else {
+      for (int i = start; i < end; i++) {
+        int newJourney = journey - songs[i];
+        if (newJourney > 0 && newJourney - songs[i + 1] > 0) {
+          // if (max > ctr) max = ctr;
+          maxSong(songs, start + 1, end, journey - songs[i], max, ctr + 1);
+        }
+      }
+    }
+    return Math.max(max, ctr);
+  }*/
+
+  /** Binary Search using recursion * */
   int binarySearch(int[] arr, int start, int end, int key) {
     if (start <= end) {
       int mid = (end + start) / 2;
@@ -152,9 +194,7 @@ class RecursionExamples {
    * 1¢ coin. eg. (assuming American coins: 1, 5, 10, and 25 cents) makeChange(1) = 1 (1)
    * makeChange(6) = 2 (5 + 1) makeChange(49) = 7 (25 + 10 + 10 + 1 + 1 + 1 + 1)*
    */
-  int minimumCoin(int num) {
-
-    int[] change = new int[] {1, 5, 10, 25};
+  int minimumCoin(int num, int[] change) {
     if (num == 0) {
       return 0;
     }
@@ -162,11 +202,60 @@ class RecursionExamples {
 
     for (int coin : change) {
       if (num - coin >= 0) {
-        int currMin = minimumCoin(num - coin);
+        int currMin = minimumCoin(num - coin, change);
         if (currMin < minCoin) minCoin = currMin;
       }
     }
     return minCoin + 1;
+  }
+
+  /** Permutation of a string * */
+  void permutation(String soFar, String rem) {
+    if (rem.isEmpty()) System.out.println(soFar);
+
+    for (int i = 0; i < rem.length(); i++) {
+      permutation(soFar + rem.charAt(i), rem.substring(0, i) + rem.substring(i + 1));
+    }
+  }
+
+  /** Subset of a string* */
+  void subset(String soFar, String rem) {
+    if (rem.isEmpty()) System.out.println(soFar);
+    else {
+      subset(soFar + rem.charAt(0), rem.substring(1));
+      subset(soFar, rem.substring(1));
+    }
+  }
+
+  /** ways of cutting a rod of length 8 in to length of {1, 2, 6, 7}* */
+  void rodLength(int rod, int[] length, String soFar, int start) {
+    if (start >= length.length || rod == 0) {
+      if (rod == 0) System.out.println(soFar + " ");
+    } else {
+      rodLength(rod - length[start], length, soFar + length[start], start + 1);
+      rodLength(rod, length, soFar, start + 1);
+    }
+  }
+
+  /** ways of cutting a rod of length 8 in to length of {1, 2, 6, 7}* */
+  int cutRod(int rod, int[] length, int[] value, int i) {
+    if (i == length.length) return 0;
+    if (rod - length[i] < 0) return cutRod(rod, length, value, i + 1);
+    else {
+      int first = cutRod(rod - length[i], length, value, i + 1) + value[i];
+      int second = cutRod(rod, length, value, i + 1);
+      return Math.max(first, second);
+    }
+  }
+
+  class MaxSubset {
+    public int size;
+    public List<String> result;
+
+    public MaxSubset(int size) {
+      this.size = size;
+      this.result = new ArrayList<>();
+    }
   }
 
   /**

@@ -13,6 +13,16 @@ public class TreeExamples {
   private TreeNode root;
   int hd = 0;
 
+  /** InOrder Traversal * */
+  void inOrder(TreeNode root) {
+    if (root == null) return;
+    else {
+      inOrder(root.left);
+      System.out.print(root.data + " ");
+      inOrder(root.right);
+    }
+  }
+
   /**
    * Vertical Order of a binary tree. While traversing the tree,recursively calculate HDs. For root
    * it is 0 . For left subtree, HD of root minus 1. For right subtree, HDroot plus 1. For every HD

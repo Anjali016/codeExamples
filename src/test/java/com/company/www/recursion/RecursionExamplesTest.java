@@ -2,10 +2,41 @@ package com.company.www.recursion;
 
 import org.junit.Test;
 
-import java.util.List;
 import java.util.Stack;
 
 public class RecursionExamplesTest {
+  @Test
+  public void cutRod() throws Exception {
+    int[] length = {1, 2, 3, 4, 5, 6, 7, 8};
+    int[] value = {3, 5, 8, 9, 10, 17, 17, 20};
+    System.out.println(recur.cutRod(8,length,value,0));
+  }
+
+  @Test
+  public void rodLength() throws Exception {
+    int[] length = {1, 2, 3, 4, 5, 6, 7, 8};
+    recur.rodLength(8,length,"",0);
+  }
+
+  @Test
+  public void subset() throws Exception {
+    recur.subset("", "AB");
+  }
+
+  @Test
+  public void permutation() throws Exception {
+    recur.permutation("","ABC");
+  }
+
+  RecursionExamples recur = new RecursionExamples();
+
+  @Test
+  public void knapSack() throws Exception {
+    int[] items = {2, 2, 3, 4};
+    int[] value = {10, 40, 50, 20};
+    System.out.println(recur.knapSack(items, value, 5));
+  }
+
   @Test
   public void subSetLength() throws Exception {
     int[] songs = {2, 4, 3, 5, 5, 2, 4};
@@ -25,12 +56,12 @@ public class RecursionExamplesTest {
     System.out.println(recur.songCombination(songs, "", 0, songs.length));
   }
 
-  @Test
-  public void maxSong() throws Exception {
-    int[] songs = {2, 4, 3, 5, 5, 2, 4};
-    System.out.println(recur.maxSong(songs, 0, songs.length - 1, 20, 0, 0));
-  }
-
+  /*@Test
+    public void maxSong() throws Exception {
+      int[] songs = {2, 4, 3, 5, 5, 2, 4};
+      System.out.println(recur.maxSong(songs, 0, songs.length - 1, 20, 0, 0));
+    }
+  */
   @Test
   public void waysOfSteps() throws Exception {
     int[] steps = {1, 2, 3};
@@ -42,8 +73,6 @@ public class RecursionExamplesTest {
     int[] array = {1, 4, 6, 24, 34, 46};
     System.out.println(recur.binarySearch(array, 0, array.length - 1, 46));
   }
-
-  RecursionExamples recur = new RecursionExamples();
 
   @Test
   public void reverseStack() throws Exception {
@@ -57,6 +86,7 @@ public class RecursionExamplesTest {
 
   @Test
   public void minimumCoin() throws Exception {
-    System.out.println(recur.minimumCoin(49));
+    int[] change = new int[] {1, 5, 10, 25};
+    System.out.println(recur.minimumCoin(49, change));
   }
 }

@@ -1,0 +1,5 @@
+
+psquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(½›Óˆ8¶¢éÚÌ,
+jsquid:S00101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ÚİåÀúÿÿÿÿ
+‘"squid:ClassVariableVisibilityCheck"\Make BIT_INT_INTERGER a static final constant or non-public and provide accessors if needed.(¶ùµ8¶¢éÚÌ,
+zsquid:S00116"[Rename this field "BIT_INT_INTERGER" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¶ùµ8¶¢éÚÌ,
