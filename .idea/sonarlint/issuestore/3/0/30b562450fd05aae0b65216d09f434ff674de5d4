@@ -1,16 +1,16 @@
 
-dsquid:S2142 "FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€8ıÊ©‹Í,
+Xsquid:S2274":Remove this call to "wait" or move it into a "while" loop.(ŒºÙ8ÍÈÿËÏ,
+[
+squid:S106"9Replace this use of System.out or System.err by a logger.(ÍĞ·åıÿÿÿÿ8ÍÈÿËÏ,
+dsquid:S2142"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€8ÍÈÿËÏ,
+Fsquid:S1148!"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8ÍÈÿËÏ,
+dsquid:S2142 "FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€8ÍÈÿËÏ,
+Fsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8ÍÈÿËÏ,
 [
 squid:S106
-"9Replace this use of System.out or System.err by a logger.(ÍĞ·åıÿÿÿÿ8ıÊ©‹Í,
-Nsquid:S2446"0"notify" may not wake up the appropriate thread.(ŒâÌ†8ıÊ©‹Í,
-Xsquid:S2274":Remove this call to "wait" or move it into a "while" loop.(ŒºÙ8ıÊ©‹Í,
-Fsquid:S1148!"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8ıÊ©‹Í,
-Nsquid:S2446"0"notify" may not wake up the appropriate thread.(ŒâÌ†8ıÊ©‹Í,
-Xsquid:S2274":Remove this call to "wait" or move it into a "while" loop.(ŒºÙ8ıÊ©‹Í,
-Nsquid:S2446"0"notify" may not wake up the appropriate thread.(ŒâÌ†8ıÊ©‹Í,
-dsquid:S2142"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€8ıÊ©‹Í,
-Fsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8ıÊ©‹Í,
-Nsquid:S2446#"0"notify" may not wake up the appropriate thread.(ŒâÌ†8ıÊ©‹Í,
-[
-squid:S106"9Replace this use of System.out or System.err by a logger.(ÍĞ·åıÿÿÿÿ8ıÊ©‹Í,
+"9Replace this use of System.out or System.err by a logger.(ÍĞ·åıÿÿÿÿ8ÍÈÿËÏ,
+Nsquid:S2446"0"notify" may not wake up the appropriate thread.(ŒâÌ†8ÍÈÿËÏ,
+Nsquid:S2446"0"notify" may not wake up the appropriate thread.(ŒâÌ†8ÍÈÿËÏ,
+Nsquid:S2446"0"notify" may not wake up the appropriate thread.(ŒâÌ†8ÍÈÿËÏ,
+Nsquid:S2446#"0"notify" may not wake up the appropriate thread.(ŒâÌ†8ÍÈÿËÏ,
+Xsquid:S2274":Remove this call to "wait" or move it into a "while" loop.(ŒºÙ8ÍÈÿËÏ,

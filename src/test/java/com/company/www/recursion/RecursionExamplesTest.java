@@ -5,17 +5,20 @@ import org.junit.Test;
 import java.util.Stack;
 
 public class RecursionExamplesTest {
+
+  RecursionExamples recur = new RecursionExamples();
+
   @Test
   public void cutRod() throws Exception {
     int[] length = {1, 2, 3, 4, 5, 6, 7, 8};
     int[] value = {3, 5, 8, 9, 10, 17, 17, 20};
-    System.out.println(recur.cutRod(8,length,value,0));
+    System.out.println(recur.cutRod(8, length, value, 0));
   }
 
   @Test
   public void rodLength() throws Exception {
     int[] length = {1, 2, 3, 4, 5, 6, 7, 8};
-    recur.rodLength(8,length,"",0);
+    recur.cutRod(8, length, "", 0);
   }
 
   @Test
@@ -25,10 +28,8 @@ public class RecursionExamplesTest {
 
   @Test
   public void permutation() throws Exception {
-    recur.permutation("","ABC");
+    recur.permutation("", "ABC");
   }
-
-  RecursionExamples recur = new RecursionExamples();
 
   @Test
   public void knapSack() throws Exception {
@@ -86,7 +87,7 @@ public class RecursionExamplesTest {
 
   @Test
   public void minimumCoin() throws Exception {
-    int[] change = new int[] {1, 5, 10, 25};
-    System.out.println(recur.minimumCoin(49, change));
+    int[] change = new int[] {1, 2};
+    System.out.println(recur.minimumCoin(3, change));
   }
 }

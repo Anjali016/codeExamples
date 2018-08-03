@@ -75,6 +75,12 @@ public class StringExamples {
    * given a string and a hashset dictionary, find the minimum number of characters to remove from a
    * string to create a valid string. if dictionary = {"a","aa","aaa"} and string is "abc" then
    * output should be 2 * use breadth first. Complexity from tree = O(n!).
+   *              abc
+   *             /  |  \
+   *            ab  bc  ca
+   *           /\   /\  /\
+   *           a b b c c a
+   *
    */
   int delete(String string, HashSet<String> dictionary) {
     Queue<String> queue = new LinkedList<>();
@@ -96,7 +102,8 @@ public class StringExamples {
     return -1;
   }
 
-  /** Reverse all words in string but not to reverse letters of any word* */
+  /** Reverse all words in string but not to reverse letters of any word **/
+
   String reverseWords(String str) {
     str.trim();
     if (str.length() == 0) return str;
@@ -149,7 +156,8 @@ public class StringExamples {
    * print Fizz and for multiple of 5 it should print Buzz and for multiple of 3 and 5 it should
    * print FizzBuzz
    */
-  public void printNumbers(int n) {
+
+  void fizzBuzz(int n) {
     for (int i = 1; i <= n; i++) {
       boolean divbythree = (i % 3 == 0);
       boolean divbyfive = (i % 5 == 0);
@@ -162,7 +170,7 @@ public class StringExamples {
       } else {
         System.out.print(i);
       }
-      System.out.print(" ");
+      System.out.println(" ");
     }
   }
 }

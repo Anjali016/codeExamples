@@ -1,0 +1,13 @@
+
+qsquid:S00116o"RRename this field "MaxMove" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(†‹«8æ¡“ÕÎ,
+V
+squid:S106S"9Replace this use of System.out or System.err by a logger.(²¤¹±8†±øÔÎ,
+dsquid:S1126y"AReplace this if-then-else statement by a single return statement.(€ÃÒûÿÿÿÿ8’İ„Ï,
+usquid:S00117~"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Â«æ’şÿÿÿÿ8’İ„Ï,
+Psquid:S1172"-Remove this unused method parameter "colors".(ë ø†ÿÿÿÿÿ8†±øÔÎ,
+[
+squid:S106T"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8†±øÔÎ,
+[squid:S1197q"8Move the array designator from the variable to the type.(®˜şÆşÿÿÿÿ8’İ„Ï,
+V
+squid:S106"9Replace this use of System.out or System.err by a logger.(·÷±¦8†±øÔÎ,
+tsquid:S00116q"PRename this field "Moves" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(®˜şÆşÿÿÿÿ8’İ„Ï,

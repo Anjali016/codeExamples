@@ -4,6 +4,10 @@ import java.util.HashMap;
 
 class SortingExamples {
 
+  private int capacity;
+  private HashMap<Integer, LRUNode> cache = new HashMap<Integer, LRUNode>();
+  private LRUNode front = null, end = null;
+
   /** Selection Sort * */
   void selectionSort(int[] arr) {
     for (int i = 0; i < arr.length - 1; i++) {
@@ -86,7 +90,7 @@ class SortingExamples {
     quickSortUtil(array, 0, array.length);
   }
 
-  void quickSortUtil(int[] arr, int start, int end) {
+  private void quickSortUtil(int[] arr, int start, int end) {
     if (start < end) {
       int pivot = partition(arr, start, end);
       quickSortUtil(arr, start, pivot - 1);
@@ -107,22 +111,7 @@ class SortingExamples {
     return itr + 1;
   }
 
-  /** LRU * */
-  class LRUNode {
-    LRUNode previous;
-    LRUNode next;
-    int key, value;
-
-    LRUNode(int key, int value) {
-      this.key = key;
-      this.value = value;
-    }
-  }
-
-  private int capacity;
-  private HashMap<Integer, LRUNode> cache = new HashMap<Integer, LRUNode>();
-  private LRUNode front = null, end = null;
-
+  /** LRU Implementation * */
   void LRU(int key, int value) {
     if (cache.containsKey(key)) {
       LRUNode requestedNode = cache.get(key);
@@ -165,5 +154,16 @@ class SortingExamples {
       setHead(node);
       return node.value;
     } else return -1;
+  }
+
+  class LRUNode {
+    LRUNode previous;
+    LRUNode next;
+    int key, value;
+
+    LRUNode(int key, int value) {
+      this.key = key;
+      this.value = value;
+    }
   }
 }

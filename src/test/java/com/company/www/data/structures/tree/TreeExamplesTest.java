@@ -6,6 +6,21 @@ import org.junit.Test;
 
 public class TreeExamplesTest {
 
+  /*@Test
+     void levelOrderQueue() throws Exception {
+      TreeNode root = new TreeNode(1);
+      root.left = new TreeNode(2);
+      root.right = new TreeNode(3);
+      root.right.left = new TreeNode(8);
+      root.right.right = new TreeNode(9);
+      root.left.left = new TreeNode(4);
+      root.left.left.left= new TreeNode(5);
+      root.left.left.right = new TreeNode(7);
+      tree.LevelOrderQueue(root);
+    }
+  */
+  TreeExamples tree = new TreeExamples();
+
   @Test
   public void inOrder() throws Exception {
     TreeNode root = new TreeNode(1);
@@ -66,21 +81,6 @@ public class TreeExamplesTest {
     root.right.left.right = new TreeNode(9);
     // Assert.assertEquals(3, new Tree().getMirrorNode(root, root,2));
   }
-
-  /*@Test
-     void levelOrderQueue() throws Exception {
-      TreeNode root = new TreeNode(1);
-      root.left = new TreeNode(2);
-      root.right = new TreeNode(3);
-      root.right.left = new TreeNode(8);
-      root.right.right = new TreeNode(9);
-      root.left.left = new TreeNode(4);
-      root.left.left.left= new TreeNode(5);
-      root.left.left.right = new TreeNode(7);
-      tree.LevelOrderQueue(root);
-    }
-  */
-  TreeExamples tree = new TreeExamples();
 
   @Test
   public void diamter() throws Exception {}

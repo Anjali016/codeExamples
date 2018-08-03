@@ -1,2 +1,4 @@
 
-wsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÍöÌûÿÿÿÿ
+nsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(Ôöñ«şÿÿÿÿ8à«Ì»Í,
+csquid:S1226A"EIntroduce a new variable instead of reusing the parameter "heapSize".(òÄ·×8à«Ì»Í,
+csquid:S1226$"EIntroduce a new variable instead of reusing the parameter "heapSize".(òÄ·×8à«Ì»Í,

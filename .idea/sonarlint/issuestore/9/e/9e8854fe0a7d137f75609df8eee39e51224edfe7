@@ -1,10 +1,14 @@
 
-[
-squid:S106!"9Replace this use of System.out or System.err by a logger.(å×ñûÿÿÿÿ8ÛŒÍÚË,
-usquid:S3776b"RRefactor this method to reduce its Cognitive Complexity from 26 to the 15 allowed.(µ”îÓûÿÿÿÿ8‹•ëàÌ,
-wsquid:S2293Q"YReplace the type specification in this constructor call with the diamond operator ("<>").(­ÆŞ‡8°ïÿàÌ,
-Dsquid:S1659>"!Declare "end" on a separate line.(©Ø†¦şÿÿÿÿ8°ïÿàÌ,
-}squid:S2293‚"YReplace the type specification in this constructor call with the diamond operator ("<>").(ÖùşÏıÿÿÿÿ8‹•ëàÌ,
-isquid:CommentedOutCodeLine	"<This block of commented-out lines of code should be removed.(ŒˆÒ—8ÙÌÚË,
+xsquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(­ÆŞ‡8ËÃ¡„Î,
+msquid:S00100H"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‡ €ç8ËÃ¡„Î,
+V
+squid:S106o"9Replace this use of System.out or System.err by a logger.(â£ï8ËÃ¡„Î,
+¥squid:S2681"†This line will not be executed conditionally; only the first line of this 2-line block will be. The rest will execute unconditionally.(´òó8¨ÕÜ„Î,
+vsquid:S3776¯"RRefactor this method to reduce its Cognitive Complexity from 26 to the 15 allowed.(µ”îÓûÿÿÿÿ8ËÃ¡„Î,
+Asquid:S1659("#Declare "count" on a separate line.(“ÎÎ8ËÃ¡„Î,
 \
-squid:S106’"9Replace this use of System.out or System.err by a logger.(ÉêòÒüÿÿÿÿ8‹•ëàÌ,
+squid:S106ß"9Replace this use of System.out or System.err by a logger.(ÉêòÒüÿÿÿÿ8ËÃ¡„Î,
+}squid:S2293Ï"YReplace the type specification in this constructor call with the diamond operator ("<>").(ÖùşÏıÿÿÿÿ8ËÃ¡„Î,
+Esquid:S1659‹"!Declare "end" on a separate line.(©Ø†¦şÿÿÿÿ8ËÃ¡„Î,
+[
+squid:S106g"9Replace this use of System.out or System.err by a logger.(å×ñûÿÿÿÿ8ËÃ¡„Î,

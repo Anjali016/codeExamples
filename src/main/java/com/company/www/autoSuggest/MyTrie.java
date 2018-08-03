@@ -41,7 +41,8 @@ public class MyTrie {
 
   void getWords(MyTrieNode p, String soFar, ArrayList<String> result) {
     if (p.isEnd) result.add(soFar);
-    else for (MyTrieNode child : p.childrens)
+    else
+      for (MyTrieNode child : p.childrens)
         if (child != null) getWords(child, soFar + child.ch, result);
   }
 

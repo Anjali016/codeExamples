@@ -37,7 +37,6 @@ public class EvenOdd {
           }
         }
       };
-
   public static void main(String[] args) {
 
     Thread oddThread = new Thread(odd, "odd");

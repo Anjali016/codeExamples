@@ -9,9 +9,15 @@ import java.util.TreeMap;
 
 public class TreeExamples {
 
+  int hd = 0;
+  /** Left View of a tree* */
+  int maxLevel = 0;
+  /** Printing the Deepest node in a given binary tree * */
+  int deepestlevel;
+
+  int value;
   private int count = 0;
   private TreeNode root;
-  int hd = 0;
 
   /** InOrder Traversal * */
   void inOrder(TreeNode root) {
@@ -52,9 +58,6 @@ public class TreeExamples {
       list.forEach(v -> System.out.print(v + " "));
     }
   }
-
-  /** Left View of a tree* */
-  int maxLevel = 0;
 
   private void leftView(TreeNode root, int level) {
     if (root == null) return;
@@ -105,6 +108,22 @@ public class TreeExamples {
     else return left != null ? left : right;
   }
 
+  /**
+   * Create empty queue and pust root node to it. Do the following when queue is not empty Pop a
+   * node from queue and print it Push left child of popped node to queue if not null Push right
+   * child of popped node to queue if not null*
+   */
+  /*public void LevelOrderQueue(TreeNode root) {
+    Queue<TreeNode> queue = new LinkedList<>();
+    queue.add(root);
+    while (!queue.isEmpty()) {
+      TreeNode temp = queue.poll();
+      System.out.println(temp.data);
+      if (temp.left != null) queue.add(temp.left);
+      if (temp.right != null) queue.add(temp.right);
+    }
+  }*/
+
   /** Diamter of a tree * */
   public int diamter(TreeNode root) {
     if (root == null) return 0;
@@ -122,22 +141,6 @@ public class TreeExamples {
           getMirrorNode(node1.left, node2.right, key), getMirrorNode(node1.right, node2.left, key));
   }
 
-  /**
-   * Create empty queue and pust root node to it. Do the following when queue is not empty Pop a
-   * node from queue and print it Push left child of popped node to queue if not null Push right
-   * child of popped node to queue if not null*
-   */
-  /*public void LevelOrderQueue(TreeNode root) {
-    Queue<TreeNode> queue = new LinkedList<>();
-    queue.add(root);
-    while (!queue.isEmpty()) {
-      TreeNode temp = queue.poll();
-      System.out.println(temp.data);
-      if (temp.left != null) queue.add(temp.left);
-      if (temp.right != null) queue.add(temp.right);
-    }
-  }*/
-
   /** Level Order traversal* */
   public void levelOrder(TreeNode root) {
     int h = height(root);
@@ -152,11 +155,6 @@ public class TreeExamples {
     else if (level > 1) printLevel(root.left, level - 1);
     printLevel(root.right, level - 1);
   }
-
-  /** Printing the Deepest node in a given binary tree * */
-  int deepestlevel;
-
-  int value;
 
   public int Deep(TreeNode root) {
     find(root, 0);

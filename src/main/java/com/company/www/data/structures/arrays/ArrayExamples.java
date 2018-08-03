@@ -4,15 +4,88 @@ import java.util.*;
 
 public class ArrayExamples {
 
- /** Kadane's Algorithm
-  * find the sum of contiguous sub array within a one-dimensional array of numbers which has the largest sum.**/
+  /** Find the two repeating elements in a given array
+      Sol1. Use HashMap.
+      Sol2. Put negative sign for every visited number. **/
+
+
+  
+
+  /** Find the only repeating element in a sorted array of size n Sol : Use Binary Search.
+   * Numbers are given in the range of 1 to n-1 * */
+
+  int findRepeating(int[] arr, int start, int end) {
+    if(start>end) return -1 ;
+      int mid = (start + end) / 2;
+      if (arr[mid] != mid + 1) {
+        if (mid > 0 && arr[mid] == arr[mid - 1]) return mid;
+        return findRepeating(arr, start, mid - 1);
+      }
+     return findRepeating(arr, mid +1 , end);
+  }
+
+  /**
+   * Given a list of non negative integers, arrange them such that they form the largest number. *
+   */
+
+  /**
+   * Largest subarray with equal number of 0s and 1s. Input: arr[] = {1, 0, 1, 1, 1, 0, 0} Output: 1
+   * to 6 (Starting and Ending indexes of output subarray) Sol. The count variable is incremented by
+   * one for every 1 encountered and decremented by one for every 0. if we keep a track of the
+   * indices corresponding to the same count values that lie farthest apart,
+   */
+  int findMaxLength(int[] array) {
+    Map<Integer, Integer> map = new HashMap<>();
+    map.put(0, -1);
+    int maxLen = 0, count = 0;
+    for (int i = 0; i < array.length; i++) {
+      count = count + (array[i] == 1 ? 1 : -1);
+      if (map.containsKey(count)) {
+        maxLen = Math.max(maxLen, i - map.get(count));
+      } else map.put(count, i);
+    }
+    return maxLen;
+  }
+
+  /**
+   * Leader in a Array . An element is leader if it is greater than all the elements to its right
+   * side. And the rightmost element is always a leader. For example int the array {16, 17, 4, 3, 5,
+   * 2}, leaders are 17, 5 and 2.*
+   */
+  ArrayList<Integer> leader(int[] array) {
+    ArrayList<Integer> leaders = new ArrayList<>();
+    int max = array[array.length - 1];
+    leaders.add(max);
+    for (int i = array.length - 2; i >= 0; i--) {
+      if (array[i] > max) {
+        max = array[i];
+        leaders.add(max);
+      }
+    }
+    return leaders;
+  }
+
+  /**
+   * Kadane's Algorithm find the sum of contiguous sub array within a one-dimensional array of
+   * numbers which has the largest sum.*
+   */
+  int Kadane(int[] array) {
+    int maxEndsHere = 0;
+    int maxSoFar = 0;
+
+    for (int i = 0; i < array.length; i++) {
+      maxEndsHere = maxEndsHere + array[i];
+      if (maxEndsHere < 0) maxEndsHere = 0;
+      if (maxSoFar < maxEndsHere) maxSoFar = maxEndsHere;
+    }
+    return maxSoFar;
+  }
 
   /**
    * You are given an array with duplicates. You have to sort the array with decreasing frequency of
    * elements. If two elements have the same frequency, sort them by their actual value in
    * increasing order. Ex: [2 3 5 3 7 9 5 3 7] Output: [3 3 3 5 5 7 7 2 9]*
    */
-
   void sortFrequency(int[] arr) {
 
     Map<Integer, Integer> map = new HashMap<>();
@@ -34,6 +107,13 @@ public class ArrayExamples {
   }
 
   /** Find all the subset of an array. * */
+  void subset(int[] array, String soFar, int start) {
+    if (start > array.length - 1) System.out.println(soFar);
+    else {
+      subset(array, soFar + array[start], start + 1);
+      subset(array, soFar, start + 1);
+    }
+  }
 
   /**
    * There are two array array1 = [a, f, h, k, m, o, s, r …….. and so on], array2 = [h, k, m. o].
@@ -55,7 +135,7 @@ public class ArrayExamples {
    */
 
   /** seggregate 0s to the left and 1s to the right in the array* */
-  public void zeroAndOne(int[] array) {
+  void zeroAndOne(int[] array) {
     int start = 0, end = array.length - 1;
     while (start < end) {
       while (array[start] == 0) start++;
@@ -71,8 +151,8 @@ public class ArrayExamples {
   }
 
   /**
-   * find the longest consecutive sequence of numbers in an unsorted array. Use HashSet and store
-   * all the elements of array in the set. Iterate through the Set ti find the longest sequence*
+   * find the longest consecutive Sequence of numbers in an unsorted array. Use HashSet and store
+   * all the elements of array in the set. Iterate through the Set ti find the longest Sequence*
    */
   int longestConsecutive(int[] array) {
     HashSet<Integer> value = new HashSet<Integer>();
@@ -83,7 +163,7 @@ public class ArrayExamples {
     int max = 0;
     for (int val : value) {
       if (value.contains(val - 1))
-        continue; // this means current val cannot be the first item of the sequence hence skip it
+        continue; // this means current val cannot be the first item of the Sequence hence skip it
       int length = 0;
       while (value.contains(val++)) length++;
       max = Math.max(max, length);
@@ -92,7 +172,7 @@ public class ArrayExamples {
   }
 
   /** solve the three sum problem in an array. a+b+c = 0 Time Complexity : linear time O(n)* */
-   ArrayList<int[]> threeSum(int[] arr) {
+  ArrayList<int[]> threeSum(int[] arr) {
     ArrayList<int[]> result = new ArrayList<>();
     Arrays.sort(arr);
 

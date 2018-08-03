@@ -84,7 +84,7 @@ class RecursionExamples {
     }
   }
 
-  /** max length subset* */
+  /** max length subset * */
   MaxSubset subSetLength(int[] songs) {
     MaxSubset maxSubset = new MaxSubset(0);
     subSetLength(songs, "", 0, 20, 0, maxSubset);
@@ -190,19 +190,16 @@ class RecursionExamples {
 
   /**
    * Given an integer representing a given amount of change, write a function to compute the total
-   * number of coins required to make that amount of change. You can assume that there is always a
+   * minimum number of coins required to make that amount of change. You can assume that there is always a
    * 1¢ coin. eg. (assuming American coins: 1, 5, 10, and 25 cents) makeChange(1) = 1 (1)
    * makeChange(6) = 2 (5 + 1) makeChange(49) = 7 (25 + 10 + 10 + 1 + 1 + 1 + 1)*
    */
-  int minimumCoin(int num, int[] change) {
-    if (num == 0) {
-      return 0;
-    }
+  int minimumCoin(int value, int[] change) {
+    if (value == 0) return 0;
     int minCoin = Integer.MAX_VALUE;
-
     for (int coin : change) {
-      if (num - coin >= 0) {
-        int currMin = minimumCoin(num - coin, change);
+      if (value - coin >= 0) {
+        int currMin = minimumCoin( value- coin, change);
         if (currMin < minCoin) minCoin = currMin;
       }
     }
@@ -227,17 +224,21 @@ class RecursionExamples {
     }
   }
 
-  /** ways of cutting a rod of length 8 in to length of {1, 2, 6, 7}* */
-  void rodLength(int rod, int[] length, String soFar, int start) {
-    if (start >= length.length || rod == 0) {
-      if (rod == 0) System.out.println(soFar + " ");
+  /** Find the number of ways of cutting a rod of length 8 in to length of {1, 2, 6, 7}* */
+  void cutRod(int rodLength, int[] length, String soFar, int start) {
+    if (start > length.length - 1 || rodLength == 0) {
+      if (rodLength == 0) System.out.println(soFar);
     } else {
-      rodLength(rod - length[start], length, soFar + length[start], start + 1);
-      rodLength(rod, length, soFar, start + 1);
+      cutRod(rodLength - length[start], length, soFar + length[start], start + 1);
+      cutRod(rodLength, length, soFar, start + 1);
     }
   }
 
-  /** ways of cutting a rod of length 8 in to length of {1, 2, 6, 7}* */
+  /**
+   * ways of cutting a rod of length 8 in to length of {1, 2, 6, 7} to maximize the profit. Given a
+   * rod of length n inches and an array of prices that contains prices of all pieces of size
+   * smaller than n*
+   */
   int cutRod(int rod, int[] length, int[] value, int i) {
     if (i == length.length) return 0;
     if (rod - length[i] < 0) return cutRod(rod, length, value, i + 1);

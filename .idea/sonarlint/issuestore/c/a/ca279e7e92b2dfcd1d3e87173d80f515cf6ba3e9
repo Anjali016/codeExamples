@@ -1,33 +1,33 @@
 
 jsquid:CommentedOutCodeLineŸ"<This block of commented-out lines of code should be removed.(¦„òÁ8à¸²»Ì,
-W
-squid:S106¤"9Replace this use of System.out or System.err by a logger.(ÒÀðÌ8à¸²»Ì,
-usquid:S3776\"RRefactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.(´²áÌþÿÿÿÿ8à¸²»Ì,
-V
-squid:S106b"9Replace this use of System.out or System.err by a logger.(‡½¼—8à¸²»Ì,
-psquid:S3776t"RRefactor this method to reduce its Cognitive Complexity from 28 to the 15 allowed.(Á‹´¾8à¸²»Ì,
+Csquid:S1659ž"Declare "k" on a separate line.(èÂ§¼ýÿÿÿÿ8à¸²»Ì,
+U
+squid:S1063"9Replace this use of System.out or System.err by a logger.(–æ·Q8•ŽÓÚÌ,
 [
 squid:S106k"9Replace this use of System.out or System.err by a logger.(ÛŒ°Êþÿÿÿÿ8à¸²»Ì,
-Ysquid:S1854£"5Remove this useless assignment to local variable "k".(ßÙ™ýÿÿÿÿÿ8à¸²»Ì,
 [
-squid:S106d"9Replace this use of System.out or System.err by a logger.(Ù‚’Íýÿÿÿÿ8à¸²»Ì,
-Csquid:S1659ž"Declare "k" on a separate line.(èÂ§¼ýÿÿÿÿ8à¸²»Ì,
-Bsquid:S1659]"$Declare "endRow" on a separate line.(ÐàôÙ8à¸²»Ì,
+squid:S1065"9Replace this use of System.out or System.err by a logger.(ªÓ¼áþÿÿÿÿ8•ŽÓÚÌ,
+[
+squid:S106D"9Replace this use of System.out or System.err by a logger.(ªÓ¼áþÿÿÿÿ8•ŽÓÚÌ,
+psquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(·‹¤ð8•ŽÓÚÌ,
+psquid:S3776t"RRefactor this method to reduce its Cognitive Complexity from 28 to the 15 allowed.(Á‹´¾8à¸²»Ì,
+usquid:S3776\"RRefactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.(´²áÌþÿÿÿÿ8à¸²»Ì,
+psquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(È°ç’8•ŽÓÚÌ,
+[
+squid:S106A"9Replace this use of System.out or System.err by a logger.(Í‚è¡ùÿÿÿÿ8•ŽÓÚÌ,
 V
 squid:S106g"9Replace this use of System.out or System.err by a logger.(õþíé8à¸²»Ì,
 e$squid:AssignmentInSubExpressionCheckU".Extract the assignment out of this expression.(äýˆç8•ŽÓÚÌ,
 V
-squid:S106*"9Replace this use of System.out or System.err by a logger.(ÄÊÉ×8•ŽÓÚÌ,
-U
-squid:S1063"9Replace this use of System.out or System.err by a logger.(–æ·Q8•ŽÓÚÌ,
+squid:S106b"9Replace this use of System.out or System.err by a logger.(‡½¼—8à¸²»Ì,
 [
-squid:S1065"9Replace this use of System.out or System.err by a logger.(ªÓ¼áþÿÿÿÿ8•ŽÓÚÌ,
-[
-squid:S106A"9Replace this use of System.out or System.err by a logger.(Í‚è¡ùÿÿÿÿ8•ŽÓÚÌ,
-[
-squid:S106D"9Replace this use of System.out or System.err by a logger.(ªÓ¼áþÿÿÿÿ8•ŽÓÚÌ,
+squid:S106d"9Replace this use of System.out or System.err by a logger.(Ù‚’Íýÿÿÿÿ8à¸²»Ì,
+W
+squid:S106¤"9Replace this use of System.out or System.err by a logger.(ÒÀðÌ8à¸²»Ì,
+Ysquid:S1854£"5Remove this useless assignment to local variable "k".(ßÙ™ýÿÿÿÿÿ8à¸²»Ì,
+Bsquid:S1659]"$Declare "endRow" on a separate line.(ÐàôÙ8à¸²»Ì,
 usquid:S00117
 "QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(µ¼þÁùÿÿÿÿ8•ŽÓÚÌ,
-psquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(·‹¤ð8•ŽÓÚÌ,
 psquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ãøà¾8•ŽÓÚÌ,
-psquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(È°ç’8•ŽÓÚÌ,
+V
+squid:S106*"9Replace this use of System.out or System.err by a logger.(ÄÊÉ×8•ŽÓÚÌ,

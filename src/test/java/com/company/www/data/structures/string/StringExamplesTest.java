@@ -6,6 +6,16 @@ import java.util.HashSet;
 
 public class StringExamplesTest {
   @Test
+  public void printDivisors() throws Exception {
+    string.printDivisors(7);
+  }
+
+  @Test
+  public void fizzBuzz() throws Exception {
+    string.fizzBuzz(20);
+  }
+
+  @Test
   public void subset() throws Exception {
     string.subset("","ab");
   }

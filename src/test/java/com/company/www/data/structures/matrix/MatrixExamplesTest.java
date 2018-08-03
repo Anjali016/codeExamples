@@ -3,6 +3,8 @@ package com.company.www.data.structures.matrix;
 import org.junit.Test;
 
 public class MatrixExamplesTest {
+  MatrixExamples object = new MatrixExamples();
+
   @Test
   public void rotated() throws Exception {
     int[][] mat = {{1, 2, 3}, {4, 5, 6}, {7, 8, 9}};
@@ -19,7 +21,7 @@ public class MatrixExamplesTest {
   @Test
   public void diagonal() throws Exception {
     int[][] mat = {{1, 2, 3}, {1, 0, 6}, {7, 8, 0}};
-      object.diagonal(mat);
+    object.diagonal(mat);
   }
 
   @Test
@@ -40,8 +42,6 @@ public class MatrixExamplesTest {
       System.out.println();
     }
   }
-
-  MatrixExamples object = new MatrixExamples();
 
   @Test
   public void search() throws Exception {

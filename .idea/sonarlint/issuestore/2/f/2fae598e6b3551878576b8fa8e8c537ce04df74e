@@ -1,0 +1,14 @@
+
+nsquid:S1149"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(¤Àïà8ñ³óºÍ,
+ssquid:S1149"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(Èâõ²ùÿÿÿÿ8ñ³óºÍ,
+Nsquid:S1172"+Remove this unused method parameter "item".(î½óüøÿÿÿÿ8ñ³óºÍ,
+isquid:CommentedOutCodeLine%"<This block of commented-out lines of code should be removed.(‰ÔŸ—8ñ³óºÍ,
+nsquid:S1149
+"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(•šê8ñ³óºÍ,
+ssquid:S1149"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(Èâõ²ùÿÿÿÿ8ñ³óºÍ,
+nsquid:S1149"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(¤Àïà8ñ³óºÍ,
+nsquid:S1149"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(¤Àïà8ñ³óºÍ,
+|squid:S2234"^Parameters to reverseStack have the same names but not the same order as the method arguments.(ŸŽü÷8ñ³óºÍ,
+nsquid:S1149
+"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(•šê8ñ³óºÍ,
+nsquid:S1149"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(¤Àïà8ñ³óºÍ,

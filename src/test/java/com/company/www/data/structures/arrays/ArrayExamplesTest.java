@@ -4,11 +4,45 @@ import org.junit.Test;
 
 import java.util.ArrayList;
 
+
 public class ArrayExamplesTest {
+  @Test
+  public void findRepeating() throws Exception {
+    int[] array ={1,2,3,4,4};
+    System.out.println(a.findRepeating(array,0,array.length));
+  }
+
+  @Test
+  public void findMaxLength() throws Exception {
+    int[] array = {1, 0, 1, 1, 1, 0, 0};
+    System.out.println(a.findMaxLength(array));
+  }
+
+  @Test
+  public void subset() throws Exception {
+    int[] arr = {1, 2, 3};
+    a.subset(arr,"",0);
+  }
+
+  @Test
+  public void leader() throws Exception {
+    int[] array = {100, 16, 17, 4, 3, 5, 2};
+    ArrayList<Integer> result = arr.leader(array);
+    for (int i : result) System.out.println(i);
+  }
+
+  ArrayExamples arr = new ArrayExamples();
+
+  @Test
+  public void kadane() throws Exception {
+    int[] array = {-2, -3, 4, -1, -2, 1, 5, 6, -3};
+    System.out.println(arr.Kadane(array));
+  }
+
   @Test
   public void longestConsecutive() throws Exception {
     int[] array = {4, 2, 1, 6, 5};
-    ArrayExamples arr = new ArrayExamples();
+
     System.out.println(arr.longestConsecutive(array));
   }
 
