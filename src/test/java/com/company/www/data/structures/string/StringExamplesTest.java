@@ -6,6 +6,34 @@ import java.util.HashSet;
 
 public class StringExamplesTest {
   @Test
+  public void findExtra() throws Exception {
+    String s1 = "ABC";
+    String s2 = "ACBD";
+    System.out.println(
+    string.findExtra(s1,s2));
+
+  }
+
+  @Test
+  public void reverseStr() throws Exception {
+    String s = "ABC";
+    string.reverseStr(s,"");
+
+  }
+
+  @Test
+  public void reverseString() throws Exception {
+    String s = "ABC";
+    string.reverseString(s);
+  }
+
+  @Test
+  public void reverse() throws Exception {
+    String s = "ABC";
+    string.reverse(s);
+  }
+
+  @Test
   public void printDivisors() throws Exception {
     string.printDivisors(7);
   }
@@ -17,11 +45,10 @@ public class StringExamplesTest {
 
   @Test
   public void subset() throws Exception {
-    string.subset("","ab");
+    string.subset("", "ab");
   }
 
-    StringExamples string = new StringExamples();
-
+  StringExamples string = new StringExamples();
 
   @Test
   public void delete() throws Exception {
@@ -29,10 +56,10 @@ public class StringExamplesTest {
     dic.add("a");
     dic.add("aa");
     dic.add("aaa");
-    System.out.println(string.delete("ac",dic));
+    System.out.println(string.delete("ac", dic));
   }
 
-    @Test
+  @Test
   public void reverseWords() throws Exception {
 
     System.out.println(string.reverseWords("I am here"));

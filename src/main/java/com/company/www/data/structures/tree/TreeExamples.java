@@ -10,14 +10,97 @@ import java.util.TreeMap;
 public class TreeExamples {
 
   int hd = 0;
-  /** Left View of a tree* */
-  int maxLevel = 0;
-  /** Printing the Deepest node in a given binary tree * */
-  int deepestlevel;
-
-  int value;
   private int count = 0;
   private TreeNode root;
+  int value;
+
+  /**
+   * Check if a given Binary Tree is SumTree. A SumTree is a Binary Tree where the value of a node
+   * is equal to sum of the nodes present in its left subtree and right subtree
+   */
+
+  /** Sum of all left leaves in a binary Tree**/
+
+  int sumOfLeftLeaves(TreeNode root, boolean isLeft){
+    if(root == null) return 0;
+    int left = sumOfLeftLeaves(root.left,true);
+    int right = sumOfLeftLeaves(root.right,false);
+    if(isLeaf(root) && isLeft) return (int)root.data ;
+    else return left + right;
+  }
+
+  /** Sum of all the parent nodes having child node x * */
+   int sumOfXParent(TreeNode root, int x) {
+    if(root == null) return 0 ;
+     int left = sumOfXParent(root.left, x);
+     int right = sumOfXParent(root.right, x);
+     if(hasChildX(root,x)) return left + right + (int) root.data;
+     else return left + right ;
+  }
+
+  private boolean hasChildX(TreeNode root, int x) {
+    return (((root.left != null && (int) root.left.data == x)
+        || (root.right != null && (int) root.right.data == x)));
+  }
+  /** Calculate the size of a binary tree **/
+
+  int size(TreeNode root) {
+    if (root == null) return 0;
+    return size(root.left) + 1 + size(root.right);
+  }
+
+  /** print number of leaves in a binary leaf. * */
+  int countLeaves(TreeNode root) {
+    if (isLeaf(root)) return 1;
+    else return countLeaves(root.left) + countLeaves(root.right);
+  }
+
+  /** print sum of all nodes in a tree* */
+  int printSum(TreeNode root) {
+    if (root == null) return 0;
+    else {
+      int leftsum = printSum(root.left);
+      int rightsum = printSum(root.right);
+      return (int) root.data + leftsum + rightsum;
+    }
+  }
+
+  /** Find largest subtree sum in a tree * */
+  int largestSubtreeSum(TreeNode root) {
+    if (root == null) return 0;
+    int result = Integer.MIN_VALUE;
+    largestSum(root, result);
+    return result;
+  }
+
+  private int largestSum(TreeNode root, int max) {
+    if (root == null) return 0;
+    int sum = (int) root.data + largestSum(root.left, max) + largestSum(root.right, max);
+    max = Math.max(max, sum);
+    return max;
+  }
+
+  /** Check for Children Sum Property in a Binary Tree.* */
+  boolean childSum(TreeNode root) {
+    if (root == null || root.left == null && root.right == null) return true;
+    else {
+      if ((int) root.data == ((int) root.left.data + (int) root.right.data)) return true;
+      childSum(root.left);
+      childSum(root.right);
+    }
+    return false;
+  }
+
+  /** Find n-th node of inorder traversal * */
+  void nthInorder(TreeNode root, int[] n) {
+    if (root == null) return;
+    if (n[0] >= 0) {
+      nthInorder(root.left, n);
+      n[0]--;
+      if (n[0] == 0) System.out.println(root.data);
+      nthInorder(root.right, n);
+    }
+  }
 
   /** InOrder Traversal * */
   void inOrder(TreeNode root) {
@@ -59,6 +142,9 @@ public class TreeExamples {
     }
   }
 
+  /** Left View of a tree* */
+  int maxLevel = 0;
+
   private void leftView(TreeNode root, int level) {
     if (root == null) return;
     if (maxLevel < level) System.out.println(root.data);
@@ -98,16 +184,6 @@ public class TreeExamples {
     return (root != null && (root.left == null && root.right == null));
   }
 
-  /** Method to print Least Common Ancestor* */
-  public TreeNode printLCA(TreeNode node1, int first, int second) {
-    if (node1 == null) return null;
-    if ((int) node1.data == first || (int) node1.data == second) return node1;
-    TreeNode left = printLCA(node1.left, first, second);
-    TreeNode right = printLCA(node1.right, first, second);
-    if (left != null && right != null) return left;
-    else return left != null ? left : right;
-  }
-
   /**
    * Create empty queue and pust root node to it. Do the following when queue is not empty Pop a
    * node from queue and print it Push left child of popped node to queue if not null Push right
@@ -123,6 +199,16 @@ public class TreeExamples {
       if (temp.right != null) queue.add(temp.right);
     }
   }*/
+
+  /** Method to print Least Common Ancestor* */
+  public TreeNode printLCA(TreeNode node1, int first, int second) {
+    if (node1 == null) return null;
+    if ((int) node1.data == first || (int) node1.data == second) return node1;
+    TreeNode left = printLCA(node1.left, first, second);
+    TreeNode right = printLCA(node1.right, first, second);
+    if (left != null && right != null) return left;
+    else return left != null ? left : right;
+  }
 
   /** Diamter of a tree * */
   public int diamter(TreeNode root) {
@@ -156,12 +242,15 @@ public class TreeExamples {
     printLevel(root.right, level - 1);
   }
 
-  public int Deep(TreeNode root) {
+  /** Printing the Deepest node in a given binary tree * */
+  private int deepestlevel;
+
+  int Deep(TreeNode root) {
     find(root, 0);
     return value;
   }
 
-  public void find(TreeNode root, int level) {
+  private void find(TreeNode root, int level) {
     if (root != null) {
       find(root.left, ++level);
       if (level > deepestlevel) {

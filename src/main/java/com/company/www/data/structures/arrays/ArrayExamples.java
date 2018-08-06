@@ -4,24 +4,48 @@ import java.util.*;
 
 public class ArrayExamples {
 
-  /** Find the two repeating elements in a given array
-      Sol1. Use HashMap.
-      Sol2. Put negative sign for every visited number. **/
+  /** Alterate negative and positive designs. * */
 
+  /** Reverse an array* */
+  void reverseArray(int[] array, int start, int end) {
+    if (start > end) return;
+    if (start <= end) {
+      swap(array, start, end);
+    }
+    reverseArray(array, start + 1, end - 1);
+  }
 
-  
+  private void swap(int[] array, int start, int end) {
 
-  /** Find the only repeating element in a sorted array of size n Sol : Use Binary Search.
-   * Numbers are given in the range of 1 to n-1 * */
+    if (start != end) {
+      array[start] = array[start] ^ array[end];
+      array[end] = array[start] ^ array[end];
+      array[start] = array[start] ^ array[end];
+    }
+  }
 
+  /** Reverse Print an array * */
+  void reversePrint(int[] array) {
+    for (int i = array.length - 1; i >= 0; i--) System.out.print(array[i] + " ");
+  }
+
+  /**
+   * Find the two repeating elements in a given array Sol1. Use HashMap. Sol2. Put negative sign for
+   * every visited number. *
+   */
+
+  /**
+   * Find the only repeating element in a sorted array of size n Sol : Use Binary Search. Numbers
+   * are given in the range of 1 to n-1 *
+   */
   int findRepeating(int[] arr, int start, int end) {
-    if(start>end) return -1 ;
-      int mid = (start + end) / 2;
-      if (arr[mid] != mid + 1) {
-        if (mid > 0 && arr[mid] == arr[mid - 1]) return mid;
-        return findRepeating(arr, start, mid - 1);
-      }
-     return findRepeating(arr, mid +1 , end);
+    if (start > end) return -1;
+    int mid = (start + end) / 2;
+    if (arr[mid] != mid + 1) {
+      if (mid > 0 && arr[mid] == arr[mid - 1]) return mid;
+      return findRepeating(arr, start, mid - 1);
+    }
+    return findRepeating(arr, mid + 1, end);
   }
 
   /**

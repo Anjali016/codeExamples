@@ -86,6 +86,9 @@ class SortingExamples {
     }
   }
 
+
+  /** Quick Sort **/
+
   void quickSort(int[] array) {
     quickSortUtil(array, 0, array.length);
   }
@@ -118,7 +121,8 @@ class SortingExamples {
       requestedNode.value = value;
       remove(requestedNode);
       setHead(requestedNode);
-    } else {
+    } else
+      {
       LRUNode newNode = new LRUNode(key, value);
       if (cache.size() > capacity) {
         cache.remove(end.key);

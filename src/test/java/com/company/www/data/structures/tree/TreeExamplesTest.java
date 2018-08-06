@@ -5,6 +5,81 @@ import com.company.www.utils.TreeNode;
 import org.junit.Test;
 
 public class TreeExamplesTest {
+  @Test
+  public void printSum() throws Exception {
+    TreeNode root = new TreeNode(4);
+    root.left = new TreeNode(2);
+    root.right = new TreeNode(5);
+    System.out.println(tree.printSum(root));
+  }
+
+  @Test
+  public void sumOfLeftLeaves() throws Exception {
+    TreeNode root = new TreeNode(4);
+    root.left = new TreeNode(2);
+    root.right = new TreeNode(5);
+    root.left.right = new TreeNode(2);
+    root.left.left = new TreeNode(7);
+    root.right.left = new TreeNode(2);
+    root.right.right = new TreeNode(3);
+    System.out.println(tree.sumOfLeftLeaves(root,false));
+  }
+
+  @Test
+  public void sumOfXParent() throws Exception {
+    TreeNode root = new TreeNode(4);
+    root.left = new TreeNode(2);
+    root.right = new TreeNode(5);
+    root.left.right = new TreeNode(2);
+    root.left.left = new TreeNode(7);
+    root.right.left = new TreeNode(2);
+    root.right.right = new TreeNode(3);
+    System.out.println(tree.sumOfXParent(root,10));
+  }
+
+  @Test
+  public void countLeaves() throws Exception {
+    TreeNode root = new TreeNode(1);
+    root.left = new TreeNode(8);
+    root.right = new TreeNode(2);
+    System.out.println(tree.countLeaves(root));
+  }
+
+    /* @Test
+     public void largestSum() throws Exception {
+         TreeNode root = new TreeNode(1);
+         root.left = new TreeNode(2);
+         root.right = new TreeNode(3);
+         root.left.left =  new TreeNode(4);
+         root.left.right =  new TreeNode(5);
+         root.right.left = new TreeNode(6);
+         root.right.right = new TreeNode(7);
+         System.out.println(tree.largestSum(root,0));
+     }
+   */
+  @Test
+  public void childSum() throws Exception {
+    TreeNode root = new TreeNode(10);
+     root.left = new TreeNode(8);
+     root.right = new TreeNode(2);
+     root.left.left =  new TreeNode(3);
+     root.left.right =  new TreeNode(5);
+     root.right.left = new TreeNode(2);
+    System.out.println(tree.childSum(root));
+  }
+
+  @Test
+  public void nthInorder() throws Exception {
+    TreeNode root = new TreeNode(1);
+    root.left = new TreeNode(2);
+    root.right = new TreeNode(3);
+    int[] array = {5};
+    root.right.right = new TreeNode(9);
+    root.left.left = new TreeNode(4);
+    root.left.left.left= new TreeNode(5);
+    root.left.left.right = new TreeNode(7);
+    tree.nthInorder(root, array);
+  }
 
   /*@Test
      void levelOrderQueue() throws Exception {

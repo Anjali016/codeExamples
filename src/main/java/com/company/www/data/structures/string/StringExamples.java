@@ -9,16 +9,59 @@ public class StringExamples {
     System.out.println(s.isPalindrom("rac a car"));
   }
 
-  /** Print all the subset of a string.**/
-  void subset(String soFar, String rem){
-    if (rem.isEmpty()) System.out.println("{"+soFar+"}");
-    else{
-      subset(soFar+rem.charAt(0),rem.substring(1));
-      subset(soFar,rem.substring(1));
+  /**
+   * Given two strings which are of lengths n and n+1. The second string contains all the character
+   * of the first string, but there is one extra character. Your task to find the extra character in
+   * the second string.*
+   */
+  char findExtra(String str1, String str2) {
+    int result = 0;
+    for (char c : str1.toCharArray()) result = result ^ c;
+    for (char c : str2.toCharArray()) result = result ^ c;
+    return (char) result;
+  }
+
+  /** Reverse a string* */
+  void reverseString(String str) {
+    char[] strArray = str.toCharArray();
+    reverseString(strArray, 0, strArray.length - 1);
+    for (char c : strArray) System.out.print(c);
+  }
+
+  void reverseString(char[] str, int start, int end) {
+    if (start > end) return;
+    if (start <= end) swap(str, start, end);
+    reverseString(str, start + 1, end - 1);
+  }
+
+  private void swap(char[] str, int a, int b) {
+    char temp = str[a];
+    str[a] = str[b];
+    str[b] = temp;
+  }
+
+  void reverseStr(String str, String result) {
+    if (str.isEmpty()) System.out.println(result);
+    else reverseStr(str.substring(1), str.substring(0, 1) + result);
+  }
+
+  /** Print reverse of a string * */
+  void reverse(String str) {
+    if (str.isEmpty()) return;
+
+    reverse(str.substring(1));
+    System.out.println(str.charAt(0));
+  }
+  /** Print all the subset of a string.* */
+  void subset(String soFar, String rem) {
+    if (rem.isEmpty()) System.out.println("{" + soFar + "}");
+    else {
+      subset(soFar + rem.charAt(0), rem.substring(1));
+      subset(soFar, rem.substring(1));
     }
   }
 
-  /** check if a string contains a another string. **/
+  /** check if a string contains a another string. * */
   private static boolean isSubstring(String s1, String s2) {
     return s1.contains(s2);
   }
@@ -74,13 +117,8 @@ public class StringExamples {
   /**
    * given a string and a hashset dictionary, find the minimum number of characters to remove from a
    * string to create a valid string. if dictionary = {"a","aa","aaa"} and string is "abc" then
-   * output should be 2 * use breadth first. Complexity from tree = O(n!).
-   *              abc
-   *             /  |  \
-   *            ab  bc  ca
-   *           /\   /\  /\
-   *           a b b c c a
-   *
+   * output should be 2 * use breadth first. Complexity from tree = O(n!). abc / | \ ab bc ca /\ /\
+   * /\ a b b c c a
    */
   int delete(String string, HashSet<String> dictionary) {
     Queue<String> queue = new LinkedList<>();
@@ -102,8 +140,7 @@ public class StringExamples {
     return -1;
   }
 
-  /** Reverse all words in string but not to reverse letters of any word **/
-
+  /** Reverse all words in string but not to reverse letters of any word * */
   String reverseWords(String str) {
     str.trim();
     if (str.length() == 0) return str;
@@ -156,7 +193,6 @@ public class StringExamples {
    * print Fizz and for multiple of 5 it should print Buzz and for multiple of 3 and 5 it should
    * print FizzBuzz
    */
-
   void fizzBuzz(int n) {
     for (int i = 1; i <= n; i++) {
       boolean divbythree = (i % 3 == 0);

@@ -7,6 +7,19 @@ import java.util.ArrayList;
 
 public class ArrayExamplesTest {
   @Test
+  public void reverseArray() throws Exception {
+    int[] array ={9, 2, 3, 8, 10};
+    a.reverseArray(array,0,array.length-1);
+    for (int i : array) System.out.print(i+ " ");
+  }
+
+  @Test
+  public void reversePrint() throws Exception {
+    int[] array ={1,2,3,4,4};
+    a.reversePrint(array);
+  }
+
+  @Test
   public void findRepeating() throws Exception {
     int[] array ={1,2,3,4,4};
     System.out.println(a.findRepeating(array,0,array.length));
