@@ -7,6 +7,25 @@ import java.util.ArrayList;
 
 public class ArrayExamplesTest {
   @Test
+  public void elementFrequency() throws Exception {
+    int[] arr = {1, 1, 1, 2, 2, 0};
+    System.out.println(a.elementFrequency(arr,0));
+  }
+
+  @Test
+  public void sumOfArrays() throws Exception {
+    int[] array1 ={5, 1, 7, 4, 2};
+    int[] array2 ={9, 2, 3, 8, 10};
+    a.sumOfArrays(array1,array2);
+  }
+
+  @Test
+  public void micro() throws Exception {
+    int[] array = {2, 5, 5};
+    System.out.println(a.micro(array,2));
+  }
+
+  @Test
   public void reverseArray() throws Exception {
     int[] array ={9, 2, 3, 8, 10};
     a.reverseArray(array,0,array.length-1);

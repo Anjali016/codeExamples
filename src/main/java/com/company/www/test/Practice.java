@@ -1,11 +1,41 @@
 package com.company.www.test;
 
+import com.company.www.utils.Tree;
 import com.company.www.utils.TreeNode;
 
 import java.util.*;
 
 class Practice {
-  /** Largest * */
+
+
+
+  void nLevelTraversal(TreeNode root, int level){
+  if(level == 0 || root == null) return;
+  else{
+    if (level == 1) System.out.println(root.data);
+    nLevelTraversal(root.left,level-1);
+    nLevelTraversal(root.right,level-1);
+  }
+}
+
+  void leftView(TreeNode root, int level){
+    if(level == 0 || root == null) return;
+    else {
+      System.out.println(root.data);
+      leftView(root.left, level - 1);
+      leftView(root.right, level - 1);
+    }
+  }
+
+  void triangle(int n){
+    for(int i = 1 ; i<= n ; i++) {
+      for (int j = 0; j < i; j++) {
+        System.out.print(i + " ");
+      }
+      System.out.println();
+    }
+  }
+  /** Largest of an Array **/
   int largest(int[] array) {
     return Arrays.stream(array).max().orElse(Integer.MIN_VALUE);
   }
@@ -48,5 +78,6 @@ class Practice {
      int rightHeight = height(root.right);
      return 1 + Math.max(leftHeight,rightHeight);
   }
+
 
 }

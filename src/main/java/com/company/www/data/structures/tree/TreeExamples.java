@@ -2,48 +2,130 @@ package com.company.www.data.structures.tree;
 
 import com.company.www.utils.TreeNode;
 
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Map;
-import java.util.TreeMap;
+import java.util.*;
 
 public class TreeExamples {
 
   int hd = 0;
   private int count = 0;
   private TreeNode root;
-  int value;
+
+  /** find the maximum element present in it. * */
+  int findMax(TreeNode root) {
+    if (root != null) {
+      int left = findMax(root.left);
+      int right = findMax(root.right);
+      max = Math.max(left, right);
+      if ((int) root.data > max) max = (int) root.data;
+    }
+    return max;
+  }
+
+  /** Problem: Largest value in each level of Binary Tree. * */
+  int max = Integer.MIN_VALUE;
+
+  List<Integer> largestValue(TreeNode root) {
+    java.util.Queue<TreeNode> queue = new LinkedList<>();
+    List<Integer> list = new ArrayList<>();
+
+    if (root != null) queue.add(root);
+    while (!queue.isEmpty()) {
+      int size = queue.size();
+
+      while (size > 0) {
+        TreeNode temp = queue.poll();
+        max = Math.max(max, (int) temp.data);
+        if (temp.left != null) queue.add(temp.left);
+        if (temp.right != null) queue.add(temp.right);
+        size--;
+      }
+      list.add(max);
+    }
+    return list;
+  }
+
+  /** Sum of nodes on the longest path from root to leaf node * */
+  void sumOfLongestPath(TreeNode root, int sum, int height) {
+    if (root != null) {
+      if (isLeaf(root) && height == 1) System.out.println(sum + (int) root.data);
+      else {
+        sumOfLongestPath(root.left, sum + (int) root.data, height - 1);
+        sumOfLongestPath(root.right, sum + (int) root.data, height - 1);
+      }
+    }
+  }
+
+  /** Root to leaf path sum equal to a given number.* */
+  boolean hasPathSum(TreeNode root, int pathSum) {
+    if (root != null) {
+      if (isLeaf(root)) {
+        if ((pathSum - (int) root.data) == 0) return true;
+      } else {
+        boolean left = hasPathSum(root.left, pathSum - (int) root.data);
+        boolean right = hasPathSum(root.right, pathSum - (int) root.data);
+        if (left == true || right == true) return true;
+      }
+    }
+    return false;
+  }
 
   /**
    * Check if a given Binary Tree is SumTree. A SumTree is a Binary Tree where the value of a node
    * is equal to sum of the nodes present in its left subtree and right subtree
    */
+  int heightOfNode(TreeNode root, int node) {
+    if (root == null) return 0;
+    if ((int) root.data == node) return 1;
+    int l = heightOfNode(root.left, node);
+    if (l != 0) return 1 + l;
+    int r = heightOfNode(root.right, node);
+    if (r != 0) return 1 + r;
+    return 0;
+  }
 
-  /** Sum of all left leaves in a binary Tree**/
+  /** print sum of root to all leaf path * */
+  void rootToLeavesSum(TreeNode root, int sum) {
+    if (root != null) {
+      if (isLeaf(root)) System.out.println(sum + (int) root.data);
+      else {
+        rootToLeavesSum(root.left, sum + (int) root.data);
+        rootToLeavesSum(root.right, sum + (int) root.data);
+      }
+    }
+  }
 
-  int sumOfLeftLeaves(TreeNode root, boolean isLeft){
-    if(root == null) return 0;
-    int left = sumOfLeftLeaves(root.left,true);
-    int right = sumOfLeftLeaves(root.right,false);
-    if(isLeaf(root) && isLeft) return (int)root.data ;
+  /** Sum of all even nodes in a binary Tree* */
+  int sumOfEvenNodes(TreeNode root) {
+    if (root == null) return 0;
+    int left = sumOfEvenNodes(root.left);
+    int right = sumOfEvenNodes(root.right);
+    if ((int) root.data % 2 == 0) return (int) root.data + left + right;
+    else return left + right;
+  }
+
+  /** Sum of all left leaves in a binary Tree* */
+  int sumOfLeftLeaves(TreeNode root, boolean isLeft) {
+    if (root == null) return 0;
+    int left = sumOfLeftLeaves(root.left, true);
+    int right = sumOfLeftLeaves(root.right, false);
+    if (isLeaf(root) && isLeft) return (int) root.data;
     else return left + right;
   }
 
   /** Sum of all the parent nodes having child node x * */
-   int sumOfXParent(TreeNode root, int x) {
-    if(root == null) return 0 ;
-     int left = sumOfXParent(root.left, x);
-     int right = sumOfXParent(root.right, x);
-     if(hasChildX(root,x)) return left + right + (int) root.data;
-     else return left + right ;
+  int sumOfXParent(TreeNode root, int x) {
+    if (root == null) return 0;
+    int left = sumOfXParent(root.left, x);
+    int right = sumOfXParent(root.right, x);
+    if (hasChildX(root, x)) return left + right + (int) root.data;
+    else return left + right;
   }
 
   private boolean hasChildX(TreeNode root, int x) {
     return (((root.left != null && (int) root.left.data == x)
         || (root.right != null && (int) root.right.data == x)));
   }
-  /** Calculate the size of a binary tree **/
-
+  /** Calculate the size of a binary tree * */
   int size(TreeNode root) {
     if (root == null) return 0;
     return size(root.left) + 1 + size(root.right);
@@ -112,6 +194,62 @@ public class TreeExamples {
     }
   }
 
+  /** PreOrder Traversal * */
+  void preOrder(TreeNode root) {
+    if (root != null) {
+      System.out.println(root.data);
+      preOrder(root.left);
+      preOrder(root.right);
+    }
+  }
+
+  /**  find the maximum sum of all paths **/
+
+  int maxSumPath(TreeNode root){
+    if(root == null) return 0 ;
+    int leftSum = maxSumPath(root.left);
+    int rightSum = maxSumPath(root.right);
+    if(leftSum > rightSum) return (int)root.data + leftSum;
+    else return (int)root.data + rightSum;
+  }
+
+  /** check if a tree contains a given value**/
+
+  boolean hasValue(TreeNode root, int key){
+    if (root == null) return false ;
+    if((int)root.data == key ) return true;
+    return  (hasValue(root.left, key) || hasValue(root.right, key));
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   /**
    * Vertical Order of a binary tree. While traversing the tree,recursively calculate HDs. For root
    * it is 0 . For left subtree, HD of root minus 1. For right subtree, HDroot plus 1. For every HD
@@ -143,12 +281,11 @@ public class TreeExamples {
   }
 
   /** Left View of a tree* */
-  int maxLevel = 0;
-
+  int maxlevel= Integer.MIN_VALUE;
   private void leftView(TreeNode root, int level) {
     if (root == null) return;
-    if (maxLevel < level) System.out.println(root.data);
-    maxLevel = level;
+    if (maxlevel < level) System.out.println(root.data);
+    maxlevel = level;
     leftView(root.left, level + 1);
     leftView(root.right, level + 1);
   }
@@ -160,8 +297,8 @@ public class TreeExamples {
   /** Right View of a tree* */
   private void rightView(TreeNode root, int level) {
     if (root == null) return;
-    if (maxLevel < level) System.out.println(root.data);
-    maxLevel = level;
+    if (maxlevel < level) System.out.println(root.data);
+    maxlevel = level;
     rightView(root.right, level + 1);
     rightView(root.left, level + 1);
   }
@@ -244,6 +381,8 @@ public class TreeExamples {
 
   /** Printing the Deepest node in a given binary tree * */
   private int deepestlevel;
+
+  int value;
 
   int Deep(TreeNode root) {
     find(root, 0);

@@ -5,16 +5,75 @@ import org.junit.Test;
 
 public class ListExamplesTest {
   @Test
-  public void pairWiseSwap() throws Exception {
+  public void sumOfEven() throws Exception {
+    LinkNode head1 = new LinkNode(1);
+    head1.next = new LinkNode(2);
+    head1.next.next = new LinkNode(10);
+    head1.next.next.next = new LinkNode(4);
+    System.out.println(list.sumOfEven(head1));
+  }
+
+  @Test
+  public void areIdentical() throws Exception {
+    LinkNode head1 = new LinkNode(1);
+    head1.next = new LinkNode(2);
+    head1.next.next = new LinkNode(3);
+
+    LinkNode head2 = new LinkNode(1);
+    head2.next = new LinkNode(2);
+    System.out.println(list.areIdentical(head1,head2));
+  }
+
+  @Test
+  public void hasNode() throws Exception {
     LinkNode head = new LinkNode(1);
     head.next = new LinkNode(2);
     head.next.next = new LinkNode(3);
-    head.next.next.next = new LinkNode(4);
-    head.next.next.next.next = new LinkNode(5);
-    head.next.next.next.next.next= new LinkNode(6);
-    list.pairWiseSwap(head);
-    printList(head);
+    System.out.println(list.hasNode(head, 4));
   }
+
+  @Test
+  public void insertAtRear() throws Exception {
+    LinkNode head = new LinkNode(1);
+    head.next = new LinkNode(2);
+    head.next.next = new LinkNode(3);
+
+  }
+
+  @Test
+  public void searchNode() throws Exception {
+    LinkNode head = new LinkNode(1);
+    head.next = new LinkNode(2);
+    head.next.next = new LinkNode(3);
+    System.out.println(list.searchNode(head,3,1).data);
+  }
+
+  @Test
+  public void printReverse() throws Exception {
+    LinkNode head = new LinkNode(1);
+    head.next = new LinkNode(2);
+    head.next.next = new LinkNode(3);
+    list.printReverse(head);
+  }
+
+  @Test
+  public void sumOfNodes() throws Exception {
+    LinkNode head = new LinkNode(1);
+    head.next = new LinkNode(2);
+    head.next.next = new LinkNode(3);
+    head.next.next.next = new LinkNode(5);
+    System.out.println(list.sumOfNodes(head));
+  }
+
+  @Test
+  public void countNodes() throws Exception {
+    LinkNode head = new LinkNode(1);
+    head.next = new LinkNode(2);
+    head.next.next = new LinkNode(3);
+    head.next.next.next = new LinkNode(5);
+    System.out.println(list.countNodes(head));
+  }
+
 
     @Test
   public void intersection() throws Exception {

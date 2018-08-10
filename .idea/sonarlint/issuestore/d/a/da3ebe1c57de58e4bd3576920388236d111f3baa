@@ -1,34 +1,60 @@
 
-gsquid:UnusedPrivateMethod<"6Remove this unused private "isValidExpression" method.(êŠ²æùÿÿÿÿ8¤ÀµßÌ,
-]squid:UnusedPrivateMethod*"2Remove this unused private "getReverseNum" method.(žéêP8¤ÀµßÌ,
 \
-squid:S106«"9Replace this use of System.out or System.err by a logger.(°¯ÿÁüÿÿÿÿ8¤ÀµßÌ,
-osquid:S1871C"LThis branch's code block is the same as the block for the branch on line 65.(’‡œ©ùÿÿÿÿ8¤ÀµßÌ,
-V
-squid:S106"9Replace this use of System.out or System.err by a logger.(¬Š÷8¤ÀµßÌ,
+squid:S106"9Replace this use of System.out or System.err by a logger.(•‹ªÚÿÿÿÿÿ8©ëžûÐ,
+}squid:S1149"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(À¤£¿8Àç°ûÐ,
+vsquid:S3776½"RRefactor this method to reduce its Cognitive Complexity from 17 to the 15 allowed.(êŠ²æùÿÿÿÿ8©ëžûÐ,
+;squid:S1643ì"Use a StringBuilder instead.(Â‡›î8©ëžûÐ,
 \
-squid:S106­"9Replace this use of System.out or System.err by a logger.(ÞžÒ—üÿÿÿÿ8¤ÀµßÌ,
-qsquid:S00117‘"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(éöà¹8¤ÀµßÌ,
-W
-squid:S106¥"9Replace this use of System.out or System.err by a logger.(ÃËÁ‡8¤ÀµßÌ,
-asquid:UnusedPrivateMethod"0Remove this unused private "isSubstring" method.(¸™«¤øÿÿÿÿ8¤ÀµßÌ,
-W
-squid:S106”"9Replace this use of System.out or System.err by a logger.(¾ø©Ú8¤ÀµßÌ,
-ssquid:S1149="PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(ÑÖÙƒýÿÿÿÿ8¤ÀµßÌ,
-:squid:S1643q"Use a StringBuilder instead.(Â‡›î8¤ÀµßÌ,
-isquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(¯Ùï¡8¤ÀµßÌ,
-isquid:CommentedOutCodeLine{"<This block of commented-out lines of code should be removed.(¹âªà8¤ÀµßÌ,
-usquid:S3776<"RRefactor this method to reduce its Cognitive Complexity from 17 to the 15 allowed.(êŠ²æùÿÿÿÿ8¤ÀµßÌ,
-[squid:S1197n"8Move the array designator from the variable to the type.(Äÿ¶¼ýÿÿÿÿ8¤ÀµßÌ,
+squid:S106¥"9Replace this use of System.out or System.err by a logger.(°¯ÿÁüÿÿÿÿ8©ëžûÐ,
 [
-squid:S106"9Replace this use of System.out or System.err by a logger.(ìšßêúÿÿÿÿ8òŒºßÌ,
+squid:S106!"9Replace this use of System.out or System.err by a logger.(¸¨³›øÿÿÿÿ8Ä¹ûÐ,
+W
+squid:S106"9Replace this use of System.out or System.err by a logger.(¾ø©Ú8©ëžûÐ,
+_squid:S1126U"AReplace this if-then-else statement by a single return statement.(º´Â›8éÚšûÐ,
+Usquid:S2589w"7Remove this expression which always evaluates to "true"(—¶½†8©ëžûÐ,
 \
-squid:S106©"9Replace this use of System.out or System.err by a logger.(´’Ûúÿÿÿÿ8¤ÀµßÌ,
+squid:S106"9Replace this use of System.out or System.err by a logger.(ìšßêúÿÿÿÿ8©ëžûÐ,
+lsquid:S1871Ã"MThis branch's code block is the same as the block for the branch on line 194.(Ù…¯­8©ëžûÐ,
+V
+squid:S106#"9Replace this use of System.out or System.err by a logger.(ä²ˆü8Ä¹ûÐ,
+‚squid:S1149"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(„ÊŽŸøÿÿÿÿ8Àç°ûÐ,
+9squid:S3626("Remove this redundant jump.(úÙÉî8§¡“Ñ,
+bsquid:UnusedPrivateMethod—"0Remove this unused private "isSubstring" method.(¸™«¤øÿÿÿÿ8©ëžûÐ,
+W
+squid:S106Ÿ"9Replace this use of System.out or System.err by a logger.(ÃËÁ‡8©ëžûÐ,
+ssquid:S1149;"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(ÑÖÙƒýÿÿÿÿ8©ëžûÐ,
+qsquid:S00117Œ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(éöà¹8©ëžûÐ,
+V
+squid:S106""9Replace this use of System.out or System.err by a logger.(Ûê½û8Ä¹ûÐ,
+qsquid:S1871Ä"MThis branch's code block is the same as the block for the branch on line 194.(’‡œ©ùÿÿÿÿ8©ëžûÐ,
+Gsquid:S2201ç"(The return value of "trim" must be used.(¸ˆ£À8©ëžûÐ,
 \
-squid:S106•"9Replace this use of System.out or System.err by a logger.(•‹ªÚÿÿÿÿÿ8¤ÀµßÌ,
+squid:S106£"9Replace this use of System.out or System.err by a logger.(´’Ûúÿÿÿÿ8©ëžûÐ,
+^squid:UnusedPrivateMethod«"2Remove this unused private "getReverseNum" method.(žéêP8©ëžûÐ,
+ssquid:S1149M"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(ÑÖÙƒýÿÿÿÿ8©ëžûÐ,
+hsquid:UnusedPrivateMethod½"6Remove this unused private "isValidExpression" method.(êŠ²æùÿÿÿÿ8©ëžûÐ,
 \
-squid:S106§"9Replace this use of System.out or System.err by a logger.(ÌÌÚûüÿÿÿÿ8¤ÀµßÌ,
-Fsquid:S2201l"(The return value of "trim" must be used.(¸ˆ£À8¤ÀµßÌ,
-jsquid:S1871B"LThis branch's code block is the same as the block for the branch on line 65.(Ù…¯­8¤ÀµßÌ,
+squid:S106‚"9Replace this use of System.out or System.err by a logger.(ú •ßÿÿÿÿÿ8©ëžûÐ,
+jsquid:CommentedOutCodeLine "<This block of commented-out lines of code should be removed.(¯Ùï¡8©ëžûÐ,
+W
+squid:S106ú"9Replace this use of System.out or System.err by a logger.(¬Š÷8©ëžûÐ,
+\
+squid:S106§"9Replace this use of System.out or System.err by a logger.(ÞžÒ—üÿÿÿÿ8©ëžûÐ,
+[
+squid:S106*"9Replace this use of System.out or System.err by a logger.(Ýæ¯Åøÿÿÿÿ8øË¡“Ñ,
+[
+squid:S1064"9Replace this use of System.out or System.err by a logger.(¸ÉôÄýÿÿÿÿ8©ëžûÐ,
 V
 squid:S106	"9Replace this use of System.out or System.err by a logger.(íŒøü8íÛž°Ì,
+jsquid:CommentedOutCodeLineö"<This block of commented-out lines of code should be removed.(¹âªà8©ëžûÐ,
+}squid:S1149"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(­ÎÎ8Àç°ûÐ,
+\squid:S1197é"8Move the array designator from the variable to the type.(Äÿ¶¼ýÿÿÿÿ8©ëžûÐ,
+dsquid:S1126^"AReplace this if-then-else statement by a single return statement.(°²„Ãþÿÿÿÿ8©ëžûÐ,
+W
+squid:S106‹"9Replace this use of System.out or System.err by a logger.(×ŸÒë8©ëžûÐ,
+nsquid:CommentedOutCodeLine2"<This block of commented-out lines of code should be removed.(³Ÿºôøÿÿÿÿ8©ëžûÐ,
+tsquid:S1149¾"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(ÑÖÙƒýÿÿÿÿ8©ëžûÐ,
+\
+squid:S106¡"9Replace this use of System.out or System.err by a logger.(ÌÌÚûüÿÿÿÿ8©ëžûÐ,
+[
+squid:S106r"9Replace this use of System.out or System.err by a logger.(ðºþÿÿÿÿÿÿ8©ëžûÐ,

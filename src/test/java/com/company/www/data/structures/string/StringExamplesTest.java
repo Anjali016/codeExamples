@@ -2,23 +2,62 @@ package com.company.www.data.structures.string;
 
 import org.junit.Test;
 
+import java.util.Arrays;
 import java.util.HashSet;
 
 public class StringExamplesTest {
   @Test
+  public void areRotation() throws Exception {
+    String s1 = "CDAB";
+    String s2 = "ABCD";
+    System.out.println(string.areRotation(s1,s2));
+  }
+
+  @Test
+  public void powerSetLex() throws Exception {
+    String str = "bac";
+    char[] array = str.toCharArray();
+    Arrays.sort(array);
+    str = new String(array);
+
+    string.powerSetLex("", str.toString());
+  }
+
+  @Test
+  public void splitString() throws Exception {
+    String str = "geeks01for02geeks03!!!";
+    string.splitString(str);
+  }
+
+  @Test
+  public void spiltSentence() throws Exception {
+    String str = "a computer science portal";
+    string.spiltSentence(str);
+  }
+
+  @Test
+  public void getIndex() throws Exception {
+    String exp = "[ABC[23]][89]";
+    System.out.println(string.getIndex(exp, 4));
+  }
+
+  @Test
+  public void checkParanthesis() throws Exception {
+    String exp = "{]";
+    System.out.println(string.checkParanthesis(exp));
+  }
+
+  @Test
   public void findExtra() throws Exception {
     String s1 = "ABC";
     String s2 = "ACBD";
-    System.out.println(
-    string.findExtra(s1,s2));
-
+    System.out.println(string.findExtra(s1, s2));
   }
 
   @Test
   public void reverseStr() throws Exception {
     String s = "ABC";
-    string.reverseStr(s,"");
-
+    string.reverseStr(s, "");
   }
 
   @Test

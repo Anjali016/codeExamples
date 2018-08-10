@@ -1,3 +1,5 @@
 
-Ÿsquid:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(“–ış8ÒÉ×ÎÏ,
-Osquid:S1068",Remove this unused "fileName" private field.(·‡–Ûüÿÿÿÿ8ç«ÎÎÏ,
+Osquid:S1068",Remove this unused "fileName" private field.(·‡–Ûüÿÿÿÿ8âìãÒÏ,
+Vsquid:S1854"8Remove this useless assignment to local variable "file".(ßØ¯°8÷ÜçÒÏ,
+Ÿsquid:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(“–ış8âìãÒÏ,
+Gsquid:S1481")Remove this unused "file" local variable.(ßØ¯°8÷ÜçÒÏ,

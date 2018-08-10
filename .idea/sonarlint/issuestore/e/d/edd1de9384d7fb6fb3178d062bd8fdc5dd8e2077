@@ -1,3 +1,20 @@
 
-Ysquid:S2094"BRemove this empty class, write its code or make it an "interface".(ëÁ‹ö
-nsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ðÜ¾Ëøÿÿÿÿ8¶ñÎÏ,
+[squid:S1197+"8Move the array designator from the variable to the type.(¡þÏÖøÿÿÿÿ8š´™íÐ,
+V
+squid:S106&"9Replace this use of System.out or System.err by a logger.(â“ºº8š´™íÐ,
+V
+squid:S106"9Replace this use of System.out or System.err by a logger.(¹±Ù¸8š´™íÐ,
+dsquid:S2142 "FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€8ãü²íÐ,
+V
+squid:S106"9Replace this use of System.out or System.err by a logger.(ÆÞÎÂ8š´™íÐ,
+fsquid:S2276"CReplace the call to "Thread.sleep(...)" with a call to "wait(...)".(»ãßºøÿÿÿÿ8š´™íÐ,
+V
+squid:S106#"9Replace this use of System.out or System.err by a logger.(…›Û¾8š´™íÐ,
+Fsquid:S1148!"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ8ãü²íÐ,
+dsquid:S2142"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€8š´™íÐ,
+[
+squid:S106"9Replace this use of System.out or System.err by a logger.(ˆœËãûÿÿÿÿ8š´™íÐ,
+Fsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ8š´™íÐ,
+V
+squid:S106"9Replace this use of System.out or System.err by a logger.(ï–ÛÙ8š´™íÐ,
+fsquid:S2276"CReplace the call to "Thread.sleep(...)" with a call to "wait(...)".(»ãßºøÿÿÿÿ8š´™íÐ,

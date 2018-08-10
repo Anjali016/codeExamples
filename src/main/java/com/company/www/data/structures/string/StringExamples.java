@@ -9,6 +9,92 @@ public class StringExamples {
     System.out.println(s.isPalindrom("rac a car"));
   }
 
+
+  /** check if strings are rotations of each other or not
+   * Create a String temp and store concatenation of str1 to str1, if str2 is a substring of temp retrn true **/
+
+
+  boolean areRotation(String str1, String str2){
+    String temp = str1+str1;
+    return temp.contains(str2);
+  }
+  /** Split numeric, alphabetic and special symbols from a String**/
+
+  void splitString(String str){
+    StringBuffer digit = new StringBuffer();
+    StringBuffer alpha = new StringBuffer();
+    StringBuffer special = new StringBuffer();
+
+    for( char c : str.toCharArray()){
+      if(Character.isDigit(c)) digit.append(c);
+      if(Character.isAlphabetic(c)) alpha.append(c);
+      else special.append(c);
+    }
+    System.out.println(digit);
+    System.out.println(alpha);
+    System.out.println(special);
+  }
+
+
+  void powerSetLex(String soFar, String rem) {
+    if (rem.isEmpty()) return;
+    else {
+      System.out.println(soFar + rem.charAt(0));
+      powerSetLex(soFar + rem.charAt(0), rem.substring(1));
+      powerSetLex(soFar, rem.substring(1));
+    }
+  }
+  /** Give a sentence, print different words present in it. Words are separated by space. */
+  void spiltSentence(String str) {
+
+    // String[] words = str.split("\\s+");
+    String[] words = str.split(" ");
+    for (String word : words) System.out.println(word);
+  }
+  /**
+   * Find index of closing bracket for a given opening bracket in an expression Input : string =
+   * [ABC[23]][89] index = 0 Output : 8 Sol : start the loop from the given index*
+   */
+  int getIndex(String exp, int index) {
+    Stack<Character> stack = new Stack<>();
+    for (int i = index; i < exp.length(); i++) {
+      if (exp.charAt(i) == '[') {
+        stack.push(exp.charAt(i));
+      } else {
+        if (exp.charAt(i) == ']') stack.pop();
+        if (stack.isEmpty()) return i;
+      }
+    }
+    return -1;
+  }
+
+  /**
+   * Given an expression string exp , write a program to examine whether the pairs and the orders of
+   * “{“,”}”,”(“,”)”,”[“,”]” are correct in exp. For example, the program should print true for exp
+   * = “[()]{}{[()()]()}” and false for exp = “[(])”*
+   */
+  boolean checkParanthesis(String exp) {
+    Stack<Character> stack = new Stack<>();
+    for (char c : exp.toCharArray()) {
+      if (c == '[' || c == '(' || c == '{') {
+        stack.push(c);
+      } else if (c == ']' || c == '}' || c == ')') {
+        if (stack.isEmpty()) return false;
+        if (isMatching(stack.pop(), c)) return true;
+      }
+      if (stack.isEmpty()) return true; // stack is empty now after popping out all elements.
+      else return false;
+    }
+    return false;
+  }
+
+  boolean isMatching(char open, char close) {
+    if (open == '(' && close == ')') return true;
+    if (open == '{' && close == '}') return true;
+    if (open == '[' && close == ']') return true;
+    return false;
+  }
+
   /**
    * Given two strings which are of lengths n and n+1. The second string contains all the character
    * of the first string, but there is one extra character. Your task to find the extra character in

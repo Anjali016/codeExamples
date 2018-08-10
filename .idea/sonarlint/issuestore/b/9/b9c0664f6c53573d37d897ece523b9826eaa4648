@@ -1,0 +1,16 @@
+
+V
+squid:S1066"9Replace this use of System.out or System.err by a logger.(»‰·È8ÖÖÂĞ,
+Fsquid:S1148*"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8ÖÖÂĞ,
+Fsquid:S1148;"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8·¸¶Ğ,
+Nsquid:S24468"0"notify" may not wake up the appropriate thread.(ŒâÌ†8ÖÖÂĞ,
+V
+squid:S106$"9Replace this use of System.out or System.err by a logger.(»‰·È8ÖÖÂĞ,
+dsquid:S2142"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€8ÖÖÂĞ,
+dsquid:S2142:"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€8·¸¶Ğ,
+V
+squid:S106"9Replace this use of System.out or System.err by a logger.(»‰·È8ÖÖÂĞ,
+Nsquid:S2446"0"notify" may not wake up the appropriate thread.(ŒâÌ†8ÖÖÂĞ,
+Fsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8ÖÖÂĞ,
+dsquid:S2142)"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€8ÖÖÂĞ,
+Nsquid:S2446&"0"notify" may not wake up the appropriate thread.(ŒâÌ†8ÖÖÂĞ,

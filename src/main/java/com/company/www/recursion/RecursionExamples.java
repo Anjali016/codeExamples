@@ -1,5 +1,7 @@
 package com.company.www.recursion;
 
+import com.company.www.utils.LinkNode;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Stack;
@@ -22,39 +24,10 @@ class RecursionExamples {
     if (w - items[i] < 0) return knapSack(items, value, w, i + 1);
     else {
       int including = knapSack(items, value, w - items[i], i + 1) + value[i];
-      int excuding = knapSack(items, value, w, i + 1);
-      return Math.max(including, excuding);
+      int excluding = knapSack(items, value, w, i + 1);
+      return Math.max(including, excluding);
     }
   }
-
-  /*
-   */
-  /*public class Items{
-      int weight;
-      int value;
-  }
-
-
-
-    */
-  /*private void knapSack(Items[] items,String soFar, int capacity, int i) {
-        if(i == items.length) {
-        System.out.println(soFar);
-        }
-        if(capacity- items[i].weight < 0)
-
-        knapSack(items,soFar+items[i].weight ,capacity-items[i].weight,i+1);
-        knapSack(items,soFar+items[i].weight, capacity,i+1);
-      }
-  */
-  /*
-
-  private int knapSack(int[] items, int[] value ,int capacity, int i) {
-    if(i==items.length) return 0;
-    if(capacity-items[i] < 0) return knapSack(items,value,capacity,i+1);
-    return Math.max(knapSack(items,value,capacity-items[i],i+1)+value[i],knapSack(items,value,capacity,i+1));
-  }*/
-
   /**
    * Given an array of songs length and journey time, maximum number of songs that can be played
    * during the journey. Constraint:- Either song should be completed or should not be played. Ex:-
@@ -188,10 +161,21 @@ class RecursionExamples {
     stack.push(temp);
   }
 
+  /** Reverse a LinkedList* */
+  LinkNode reverse(LinkNode head) {
+    if (head == null || head.next == null) return head;
+    else {
+      LinkNode current = reverse(head.next);
+      head.next.next = head;
+      head.next = null;
+      return current;
+    }
+  }
+
   /**
    * Given an integer representing a given amount of change, write a function to compute the total
-   * minimum number of coins required to make that amount of change. You can assume that there is always a
-   * 1¢ coin. eg. (assuming American coins: 1, 5, 10, and 25 cents) makeChange(1) = 1 (1)
+   * minimum number of coins required to make that amount of change. You can assume that there is
+   * always a 1¢ coin. eg. (assuming American coins: 1, 5, 10, and 25 cents) makeChange(1) = 1 (1)
    * makeChange(6) = 2 (5 + 1) makeChange(49) = 7 (25 + 10 + 10 + 1 + 1 + 1 + 1)*
    */
   int minimumCoin(int value, int[] change) {
@@ -199,7 +183,7 @@ class RecursionExamples {
     int minCoin = Integer.MAX_VALUE;
     for (int coin : change) {
       if (value - coin >= 0) {
-        int currMin = minimumCoin( value- coin, change);
+        int currMin = minimumCoin(value - coin, change);
         if (currMin < minCoin) minCoin = currMin;
       }
     }

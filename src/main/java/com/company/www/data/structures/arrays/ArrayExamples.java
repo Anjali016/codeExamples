@@ -4,6 +4,45 @@ import java.util.*;
 
 public class ArrayExamples {
 
+  /** Recursively sum of an Array**/
+
+  int linearSum(int[] arr, int n){
+    if(n == 1) return arr[0];
+    else return linearSum (arr,n-1) + arr[n-1];
+  }
+
+/** Frequency of a given element in the array**/
+
+    int elementFrequency(int[] arr, int key){
+      Map<Integer, Integer> frequency = new HashMap<>();
+        for(int i : arr){
+          if(frequency.containsKey(i)) frequency.put(i,frequency.get(i)+1);
+          else frequency.put(i,1);
+      }
+      return frequency.get(key);
+    }
+
+
+  /**{1, 2, 5}  K = 4 **/
+
+  int micro(int[] array, int k){
+   int min = Arrays.stream(array).min().orElse(Integer.MIN_VALUE);
+   return k-min;
+  }
+
+  /** Given two arrays and store the sum of elements in C Array**/
+
+  void sumOfArrays(int[] A, int[] B){
+   int length = A.length;
+    int[] C = new int[length];
+
+    for(int i = 0; i<length ; i++){
+      C[i] = A[i] + B[i];
+    }
+    Arrays.stream(C).forEach(x -> System.out.print(x + " "));
+  }
+
+
   /** Alterate negative and positive designs. * */
 
   /** Reverse an array* */

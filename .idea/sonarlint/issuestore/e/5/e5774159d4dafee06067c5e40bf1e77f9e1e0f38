@@ -1,18 +1,18 @@
 
-rsquid:S00116"NRename this field "MAX" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Í‘òÁûÿÿÿÿ8‹é¸¨Ï,
-[
-squid:S106"9Replace this use of System.out or System.err by a logger.(ª¦•ùùÿÿÿÿ8‹é¸¨Ï,
 V
 squid:S106%"9Replace this use of System.out or System.err by a logger.(õ´–8‹é¸¨Ï,
-V
-squid:S1064"9Replace this use of System.out or System.err by a logger.(×Ğˆ¯8‹é¸¨Ï,
+[
+squid:S106"9Replace this use of System.out or System.err by a logger.(ª¦•ùùÿÿÿÿ8‹é¸¨Ï,
 [
 squid:S106Q"9Replace this use of System.out or System.err by a logger.(·üâ’üÿÿÿÿ8²ØŞ¨Ï,
-[
-squid:S106 "9Replace this use of System.out or System.err by a logger.(¹°®¥ıÿÿÿÿ8‹é¸¨Ï,
+rsquid:S00116"NRename this field "MAX" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Í‘òÁûÿÿÿÿ8‹é¸¨Ï,
 [
 squid:S106$"9Replace this use of System.out or System.err by a logger.(ÁÚ§•øÿÿÿÿ8‹é¸¨Ï,
 [
 squid:S106*"9Replace this use of System.out or System.err by a logger.(®²Íÿÿÿÿÿ8‹é¸¨Ï,
+V
+squid:S1064"9Replace this use of System.out or System.err by a logger.(×Ğˆ¯8‹é¸¨Ï,
+[
+squid:S106 "9Replace this use of System.out or System.err by a logger.(¹°®¥ıÿÿÿÿ8‹é¸¨Ï,
 [
 squid:S106"9Replace this use of System.out or System.err by a logger.(ÁÚ§•øÿÿÿÿ8‹é¸¨Ï,

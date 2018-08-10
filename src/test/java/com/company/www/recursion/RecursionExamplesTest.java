@@ -1,12 +1,20 @@
 package com.company.www.recursion;
 
+import com.company.www.utils.LinkNode;
 import org.junit.Test;
 
 import java.util.Stack;
 
 public class RecursionExamplesTest {
+  @Test
+  public void reverse() throws Exception {
+    LinkNode head = new LinkNode(1);
+    head.next = new LinkNode(2);
+    head.next = new LinkNode(3);
+    System.out.println(recur.reverse(head).data);
+  }
 
-  RecursionExamples recur = new RecursionExamples();
+    RecursionExamples recur = new RecursionExamples();
 
   @Test
   public void cutRod() throws Exception {

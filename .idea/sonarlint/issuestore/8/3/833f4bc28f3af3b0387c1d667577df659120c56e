@@ -1,0 +1,18 @@
+
+Xsquid:S2274"":Remove this call to "wait" or move it into a "while" loop.(ŒºÙ8ŒôÏ,
+Nsquid:S2446 "0"notify" may not wake up the appropriate thread.(ŒâÌ†8ŒôÏ,
+Osquid:S1068*",Remove this unused "nThreads" private field.(›ç£‡ûÿÿÿÿ8ŒôÏ,
+Nsquid:S2446"0"notify" may not wake up the appropriate thread.(ŒâÌ†8šà‘ôÏ,
+Fsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8İíôÏ,
+dsquid:S2142"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€8İíôÏ,
+Nsquid:S2446"0"notify" may not wake up the appropriate thread.(ŒâÌ†8ŒôÏ,
+[
+squid:S106"9Replace this use of System.out or System.err by a logger.(ÍĞ·åıÿÿÿÿ8ŒôÏ,
+Fsquid:S1148$"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8ŒôÏ,
+dsquid:S2142#"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€8ŒôÏ,
+nsquid:CommentedOutCodeLine."<This block of commented-out lines of code should be removed.(¾Ü¨Ëÿÿÿÿÿ8Á‘·õÏ,
+Nsquid:S2446&"0"notify" may not wake up the appropriate thread.(ŒâÌ†8¼”’ôÏ,
+Xsquid:S2274":Remove this call to "wait" or move it into a "while" loop.(ŒºÙ8İíôÏ,
+ysquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ù˜Âß8ë€•ôÏ,
+[
+squid:S106"9Replace this use of System.out or System.err by a logger.(ÍĞ·åıÿÿÿÿ8ŒôÏ,

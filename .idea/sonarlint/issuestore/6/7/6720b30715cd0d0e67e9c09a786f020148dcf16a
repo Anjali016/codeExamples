@@ -1,21 +1,18 @@
 
-Csquid:S1659%"%Declare "current" on a separate line.(ßßŒæ8˜Ğ´ÎÎ,
+W
+squid:S106Œ"9Replace this use of System.out or System.err by a logger.(®—³ô8éÒ´øÎ,
+`squid:S2259¬"BA "NullPointerException" could be thrown; "head" is nullable here.(»ãÑB8éÒ´øÎ,
+_squid:UselessImportCheck"4Remove this unused import 'java.util.logging.Level'.(…µÛ¶8ş¥÷Ñ,
+W
+squid:S106¡"9Replace this use of System.out or System.err by a logger.(İÛì 8éÒ´øÎ,
+esquid:S2259h"BA "NullPointerException" could be thrown; "prev" is nullable here.(…¡„øÿÿÿÿ8˜Ğ´ÎÎ,
+Csquid:S1659f"%Declare "current" on a separate line.(ßßŒæ8˜Ğ´ÎÎ,
 [
-squid:S106;"9Replace this use of System.out or System.err by a logger.(·üâ’üÿÿÿÿ8˜Ğ´ÎÎ,
-Fsquid:S11254"(Remove the literal "true" boolean value.(öşí°8˜Ğ´ÎÎ,
-\squid:S1854À"8Remove this useless assignment to local variable "head".(”æ¸‚úÿÿÿÿ8¶ıËÎ,
-esquid:S1226À"AIntroduce a new variable instead of reusing the parameter "head".(”æ¸‚úÿÿÿÿ8¶ıËÎ,
-esquid:S2259
-"BA "NullPointerException" could be thrown; "head" is nullable here.(®„ÿŒúÿÿÿÿ8õŞêÚÌ,
-Lsquid:S2175'")A "HashSet<Integer>" cannot contain a "T"(…¡„øÿÿÿÿ8˜Ğ´ÎÎ,
-_squid:S2259i"BA "NullPointerException" could be thrown; "head" is nullable here.(»ãÑB8éÒ´øÎ,
+squid:S106~"9Replace this use of System.out or System.err by a logger.(·üâ’üÿÿÿÿ8˜Ğ´ÎÎ,
+Lsquid:S2175h")A "HashSet<Integer>" cannot contain a "T"(…¡„øÿÿÿÿ8˜Ğ´ÎÎ,
+U
+squid:S106%"9Replace this use of System.out or System.err by a logger.(âäÛp8û¤ÁöÑ,
+Hsquid:S2175¡")A "HashSet<Integer>" cannot contain a "T"(İÛì 8éÒ´øÎ,
 V
-squid:S1064"9Replace this use of System.out or System.err by a logger.(öşí°8˜Ğ´ÎÎ,
-Gsquid:S1659v"$Declare "result" on a separate line.(ÑĞ®Íùÿÿÿÿ8éÒ´øÎ,
-V
-squid:S106^"9Replace this use of System.out or System.err by a logger.(İÛì 8éÒ´øÎ,
-Gsquid:S2175^")A "HashSet<Integer>" cannot contain a "T"(İÛì 8éÒ´øÎ,
-V
-squid:S106I"9Replace this use of System.out or System.err by a logger.(®—³ô8éÒ´øÎ,
-Xsquid:S1854Á"9Remove this useless assignment to local variable "head1".(Ä¥µÈ8¶ıËÎ,
-esquid:S2259'"BA "NullPointerException" could be thrown; "prev" is nullable here.(…¡„øÿÿÿÿ8˜Ğ´ÎÎ,
+squid:S106w"9Replace this use of System.out or System.err by a logger.(öşí°8˜Ğ´ÎÎ,
+Fsquid:S1125w"(Remove the literal "true" boolean value.(öşí°8˜Ğ´ÎÎ,

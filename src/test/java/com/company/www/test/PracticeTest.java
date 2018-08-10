@@ -9,6 +9,30 @@ import java.util.Map;
 
 public class PracticeTest {
   @Test
+  public void leftView() throws Exception {
+    TreeNode root = new TreeNode(1);
+    root.left = new TreeNode(2);
+    root.right = new TreeNode(3);
+    root.right.right = new TreeNode(4);
+    new Practice().leftView(root,3);
+  }
+
+  @Test
+  public void nLevelTraversal() throws Exception {
+    TreeNode root = new TreeNode(5);
+    root.left = new TreeNode(6);
+    root.left.left = new TreeNode(8);
+    root.right = new TreeNode(7);
+    root.left.right = new TreeNode(9);
+    new Practice().nLevelTraversal(root,3);
+  }
+
+  @Test
+  public void triangle() throws Exception {
+    new Practice().triangle(4);
+  }
+
+  @Test
   public void height() throws Exception {
     TreeNode root = new TreeNode(1);
     root.left = new TreeNode(2);
