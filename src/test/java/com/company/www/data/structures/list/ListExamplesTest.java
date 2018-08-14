@@ -5,6 +5,122 @@ import org.junit.Test;
 
 public class ListExamplesTest {
   @Test
+  public void pairWiseSwap() throws Exception {
+    LinkNode head = new LinkNode(1);
+    head.next = new LinkNode(2);
+    head.next.next = new LinkNode(3);
+    head.next.next.next = new LinkNode(4);
+    head.next.next.next.next = new LinkNode(5);
+    head.next.next.next.next.next = new LinkNode(6);
+    list.pairWiseSwap(head);
+    printList(head);
+
+  }
+  /*private void printList(LinkNode head) {
+    while (head != null) {
+      System.out.println(head.data);
+      head = head.next;
+    }*/
+
+  private void printList(LinkNode head){
+    if(head == null) return ;
+    System.out.println((int)head.data);
+    printList(head.next);
+  }
+
+  @Test
+  public void middleOfList() throws Exception {
+    LinkNode head = new LinkNode(1);
+    head.next = new LinkNode(2);
+    head.next.next = new LinkNode(3);
+    head.next.next.next = new LinkNode(5);
+    head.next.next.next.next = new LinkNode(6);
+/*    head.next.next.next.next.next = new LinkNode(10);*/
+    System.out.println(list.middleOfList(head).data);
+  }
+
+  @Test
+  public void hasLoop() throws Exception {
+      LinkNode head = new LinkNode(1);
+      head.next = new LinkNode(2);
+      head.next.next = new LinkNode(3);
+      head.next.next.next = new LinkNode(5);
+      head.next.next.next.next = new LinkNode(6);
+      head.next.next.next.next.next = head.next.next;
+      System.out.println(list.hasLoop(head));
+
+  }
+
+
+
+  @Test
+  public void intersection() throws Exception {
+    LinkNode head1 = new LinkNode(1);
+    head1.next = new LinkNode(2);
+    head1.next.next = new LinkNode(3);
+    head1.next.next.next = new LinkNode(6);
+    head1.next.next.next.next = new LinkNode(7);
+
+    LinkNode head2 = new LinkNode(4);
+    head2.next = new LinkNode(5);
+    head2.next.next = new LinkNode(6);
+    head2.next.next.next = new LinkNode(7);
+
+    System.out.println(list.intersection(head1,head2).data);
+  }
+
+  @Test
+  public void nthFromLast() throws Exception {
+    LinkNode head1 = new LinkNode(1);
+    head1.next = new LinkNode(2);
+    head1.next.next = new LinkNode(3);
+    head1.next.next.next = new LinkNode(6);
+    head1.next.next.next.next = new LinkNode(7);
+    head1.next.next.next.next.next = new LinkNode(0);
+
+    System.out.println(list.nthFromLast(head1, 2).data);
+  }
+
+  @Test
+  public void getNthNode() throws Exception {
+    LinkNode head1 = new LinkNode(1);
+    head1.next = new LinkNode(2);
+    head1.next.next = new LinkNode(3);
+    head1.next.next.next = new LinkNode(6);
+    head1.next.next.next.next = new LinkNode(7);
+    System.out.println(list.getNthNode(head1, 2).data);
+  }
+
+  @Test
+  public void intertsection() throws Exception {
+    LinkNode head1 = new LinkNode(1);
+    head1.next = new LinkNode(2);
+    head1.next.next = new LinkNode(3);
+    head1.next.next.next = new LinkNode(6);
+    head1.next.next.next.next = new LinkNode(7);
+
+    LinkNode head2 = new LinkNode(4);
+    head2.next = new LinkNode(5);
+    head2.next.next = new LinkNode(12);
+    head2.next.next.next = new LinkNode(6);
+    head2.next.next.next.next = new LinkNode(7);
+
+    System.out.println(list.intertsection(head1, head2));
+  }
+
+  ListExamples list = new ListExamples();
+
+  @Test
+  public void countOccurence() throws Exception {
+    LinkNode head1 = new LinkNode(1);
+    head1.next = new LinkNode(2);
+    head1.next.next = new LinkNode(10);
+    head1.next.next.next = new LinkNode(4);
+    head1.next.next.next.next = new LinkNode(4);
+    System.out.println(list.countOccurence(head1, 4));
+  }
+
+  @Test
   public void sumOfEven() throws Exception {
     LinkNode head1 = new LinkNode(1);
     head1.next = new LinkNode(2);
@@ -21,7 +137,7 @@ public class ListExamplesTest {
 
     LinkNode head2 = new LinkNode(1);
     head2.next = new LinkNode(2);
-    System.out.println(list.areIdentical(head1,head2));
+    System.out.println(list.areIdentical(head1, head2));
   }
 
   @Test
@@ -37,7 +153,6 @@ public class ListExamplesTest {
     LinkNode head = new LinkNode(1);
     head.next = new LinkNode(2);
     head.next.next = new LinkNode(3);
-
   }
 
   @Test
@@ -45,7 +160,7 @@ public class ListExamplesTest {
     LinkNode head = new LinkNode(1);
     head.next = new LinkNode(2);
     head.next.next = new LinkNode(3);
-    System.out.println(list.searchNode(head,3,1).data);
+    System.out.println(list.searchNode(head, 3, 1).data);
   }
 
   @Test
@@ -75,93 +190,5 @@ public class ListExamplesTest {
   }
 
 
-    @Test
-  public void intersection() throws Exception {
-    LinkNode head1 = new LinkNode(10);
-    head1.next = new LinkNode(12);
-    head1.next.next = new LinkNode(31);
-    head1.next.next.next = new LinkNode(42);
-    head1.next.next.next.next = new LinkNode(53);
-
-    LinkNode head2 = new LinkNode(10);
-    head2.next = new LinkNode(312);
-    head2.next.next = new LinkNode(231);
-    head2.next.next.next = new LinkNode(142);
-    head2.next.next.next.next = new LinkNode(53);
-    list.intersection(head1,head2);
   }
 
-  @Test
-  public void pairSum() throws Exception {
-    LinkNode head = new LinkNode(10);
-    head.next = new LinkNode(12);
-    head.next.next = new LinkNode(31);
-    head.next.next.next = new LinkNode(42);
-    head.next.next.next.next = new LinkNode(53);
-    list.pairSum(head,22);
-  }
-
-  @Test
-  public void removeDupsUnsorted() throws Exception {
-    LinkNode head = new LinkNode(1);
-    head.next = new LinkNode(2);
-    head.next.next = new LinkNode(3);
-    head.next.next.next = new LinkNode(4);
-    head.next.next.next.next = new LinkNode(4);
-    head.next.next.next.next.next= new LinkNode(6);
-    head.next.next.next.next.next.next= null;
-    list.removeDupsUnsorted(head);
-    printList(head);
-  }
-
-  @Test
-  public void removeDuplicates() throws Exception {
-    LinkNode head = new LinkNode(1);
-    head.next = new LinkNode(2);
-    head.next.next = new LinkNode(3);
-    head.next.next.next = new LinkNode(4);
-    head.next.next.next.next = new LinkNode(4);
-    head.next.next.next.next.next= new LinkNode(6);
-    head.next.next.next.next.next.next= null;
-    list.removeDuplicates(head);
-    printList(head);
-  }
-
-  private void printList(LinkNode head){
-    while(head != null){
-      System.out.println(head.data);
-      head = head.next;
-    }
-  }
-
-  @Test
-  public void printAlternateRec() throws Exception {
-    LinkNode head = new LinkNode(1);
-    head.next = new LinkNode(2);
-    head.next.next = new LinkNode(3);
-    head.next.next.next = new LinkNode(4);
-    head.next.next.next.next = new LinkNode(5);
-    head.next.next.next.next.next= new LinkNode(6);
-    head.next.next.next.next.next.next= null;
-    list.printAlternateRec(head,true);
-  }
-
-  ListExamples list = new ListExamples();
-  @Test
-  public void printAlternate() throws Exception {
-    LinkNode head = new LinkNode(1);
-    head.next = new LinkNode(2);
-    head.next.next = new LinkNode(3);
-    head.next.next.next = new LinkNode(4);
-    head.next.next.next.next = new LinkNode(5);
-    head.next.next.next.next.next= new LinkNode(6);
-    head.next.next.next.next.next.next= null;
-    list.printAlternate(head);
-
-  }
-
-    @Test
-  public void getNthNode() throws Exception {
-    System.out.println();
-  }
-}

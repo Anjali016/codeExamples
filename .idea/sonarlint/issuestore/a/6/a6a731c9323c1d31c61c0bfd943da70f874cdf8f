@@ -1,32 +1,32 @@
 
-:squid:S3626½"Remove this redundant jump.(ôñş—8‘›üÈÑ,
-Fsquid:S1125B"(Remove the literal "true" boolean value.(öÜ•…8‘›üÈÑ,
-\
-squid:S106è"9Replace this use of System.out or System.err by a logger.(¾Á”Æøÿÿÿÿ8‘›üÈÑ,
-W
-squid:S106ğ"9Replace this use of System.out or System.err by a logger.(ñİ¦ş8ÇôÄÑ,
-[
-squid:S106Y"9Replace this use of System.out or System.err by a logger.(†š›Šÿÿÿÿÿ8‘›üÈÑ,
-W
-squid:S106È"9Replace this use of System.out or System.err by a logger.(•¾°ñ8‘›üÈÑ,
-V
-squid:S106Š"9Replace this use of System.out or System.err by a logger.(ğµÁ$8‘›üÈÑ,
-Fsquid:S1125B"(Remove the literal "true" boolean value.(öÜ•…8‘›üÈÑ,
-osquid:CommentedOutCodeLineš"<This block of commented-out lines of code should be removed.(çø¡øÿÿÿÿ8‘›üÈÑ,
-Qsquid:UselessParenthesesCheck}"!Remove these useless parentheses.(Ëãã•8‘›üÈÑ,
-`squid:S2259Š"BA "NullPointerException" could be thrown; "root" is nullable here.(ğµÁ$8‘›üÈÑ,
-fsquid:S2259Œ"BA "NullPointerException" could be thrown; "root" is nullable here.(ö…Ğòüÿÿÿÿ8‘›üÈÑ,
-Ssquid:S2864æ"4Iterate over the "entrySet" instead of the "keySet".(§µÊ·8‘›üÈÑ,
-V
-squid:S1062"9Replace this use of System.out or System.err by a logger.(®Ëê8‘›üÈÑ,
 \
 squid:S106À"9Replace this use of System.out or System.err by a logger.(‹¯šùÿÿÿÿ8‘›üÈÑ,
 W
-squid:S106ı"9Replace this use of System.out or System.err by a logger.(ßÎøÂ8‘›üÈÑ,
+squid:S106Š"9Replace this use of System.out or System.err by a logger.(ßÎøÂ8èŒŞ•Ò,
+W
+squid:S106Š"9Replace this use of System.out or System.err by a logger.(ñİ¦ş8èŒŞ•Ò,
+fsquid:S2259¦"BA "NullPointerException" could be thrown; "root" is nullable here.(ö…Ğòüÿÿÿÿ8èŒŞ•Ò,
+W
+squid:S106—"9Replace this use of System.out or System.err by a logger.(ßÎøÂ8èŒŞ•Ò,
+`squid:S2259¤"BA "NullPointerException" could be thrown; "root" is nullable here.(ğµÁ$8èŒŞ•Ò,
+osquid:CommentedOutCodeLine´"<This block of commented-out lines of code should be removed.(çø¡øÿÿÿÿ8èŒŞ•Ò,
 \
 squid:S106¶"9Replace this use of System.out or System.err by a logger.(Šê§¤ùÿÿÿÿ8‘›üÈÑ,
-ssquid:S00100Ô"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¼Åöøÿÿÿÿ8ÇôÄÑ,
+:squid:S3626½"Remove this redundant jump.(ôñş—8‘›üÈÑ,
+V
+squid:S1062"9Replace this use of System.out or System.err by a logger.(®Ëê8‘›üÈÑ,
+V
+squid:S106¤"9Replace this use of System.out or System.err by a logger.(ğµÁ$8èŒŞ•Ò,
+Qsquid:UselessParenthesesCheck}"!Remove these useless parentheses.(Ëãã•8‘›üÈÑ,
+ssquid:S00100î"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¼Åöøÿÿÿÿ8èŒŞ•Ò,
+Ssquid:S2864ÿ"4Iterate over the "entrySet" instead of the "keySet".(§µÊ·8èŒŞ•Ò,
+Fsquid:S1125B"(Remove the literal "true" boolean value.(öÜ•…8‘›üÈÑ,
 W
-squid:S106Ê"9Replace this use of System.out or System.err by a logger.(Œñ–¨8‘›üÈÑ,
+squid:S106ä"9Replace this use of System.out or System.err by a logger.(Œñ–¨8èŒŞ•Ò,
 W
-squid:S106ğ"9Replace this use of System.out or System.err by a logger.(ßÎøÂ8‘›üÈÑ,
+squid:S106È"9Replace this use of System.out or System.err by a logger.(•¾°ñ8‘›üÈÑ,
+Fsquid:S1125B"(Remove the literal "true" boolean value.(öÜ•…8‘›üÈÑ,
+\
+squid:S106"9Replace this use of System.out or System.err by a logger.(¾Á”Æøÿÿÿÿ8èŒŞ•Ò,
+[
+squid:S106Y"9Replace this use of System.out or System.err by a logger.(†š›Šÿÿÿÿÿ8‘›üÈÑ,

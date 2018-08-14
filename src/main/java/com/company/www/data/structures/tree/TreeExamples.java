@@ -203,52 +203,30 @@ public class TreeExamples {
     }
   }
 
-  /**  find the maximum sum of all paths **/
-
-  int maxSumPath(TreeNode root){
-    if(root == null) return 0 ;
+  /** find the maximum sum of all paths * */
+  int maxSumPath(TreeNode root) {
+    if (root == null) return 0;
     int leftSum = maxSumPath(root.left);
     int rightSum = maxSumPath(root.right);
-    if(leftSum > rightSum) return (int)root.data + leftSum;
-    else return (int)root.data + rightSum;
+    if (leftSum > rightSum) return (int) root.data + leftSum;
+    else return (int) root.data + rightSum;
   }
 
-  /** check if a tree contains a given value**/
-
-  boolean hasValue(TreeNode root, int key){
-    if (root == null) return false ;
-    if((int)root.data == key ) return true;
-    return  (hasValue(root.left, key) || hasValue(root.right, key));
+  /** check if a tree contains a given value* */
+  boolean hasValue(TreeNode root, int key) {
+    if (root == null) return false;
+    return (int) root.data == key && hasValue(root.left, key) || hasValue(root.right, key);
   }
 
+  /** determines whether or not two trees are equal: * */
+  boolean areEqual(TreeNode root1, TreeNode root2) {
+    if ((root1 == null && root2 != null) || (root2 == null && root1 != null)) return false;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    return (root1 == null && root2 == null)
+        || (int) root1.data == (int) root2.data
+            && areEqual(root1.left, root2.left)
+            && areEqual(root1.right, root2.right);
+  }
 
   /**
    * Vertical Order of a binary tree. While traversing the tree,recursively calculate HDs. For root
@@ -281,7 +259,8 @@ public class TreeExamples {
   }
 
   /** Left View of a tree* */
-  int maxlevel= Integer.MIN_VALUE;
+  int maxlevel = Integer.MIN_VALUE;
+
   private void leftView(TreeNode root, int level) {
     if (root == null) return;
     if (maxlevel < level) System.out.println(root.data);

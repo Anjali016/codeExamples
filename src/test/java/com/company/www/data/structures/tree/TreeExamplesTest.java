@@ -9,6 +9,21 @@ import java.util.List;
 
 public class TreeExamplesTest {
   @Test
+  public void areEqual() throws Exception {
+    TreeNode root1 = new TreeNode(1);
+    root1.left = new TreeNode(2);
+    root1.right = new TreeNode(3);
+    root1.right = new TreeNode(4);
+
+
+
+    TreeNode root2 = new TreeNode(1);
+    root2.left = new TreeNode(2);
+    root2.right = new TreeNode(3);
+    root2.right = new TreeNode(4);
+    System.out.println(tree.areEqual(root1,root2));
+  }
+  @Test
   public void hasValue() throws Exception {
     TreeNode root = new TreeNode(1);
     root.left = new TreeNode(2);

@@ -3,9 +3,17 @@ package com.company.www.data.structures.arrays;
 import org.junit.Test;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 
 
 public class ArrayExamplesTest {
+  @Test
+  public void segregate() throws Exception {
+    int[] arr = {1, 1, 1, 2, 2, 0};
+    a.segregate(arr);
+    Arrays.stream(arr).forEach(n -> System.out.print(n + " "));
+  }
+
   @Test
   public void elementFrequency() throws Exception {
     int[] arr = {1, 1, 1, 2, 2, 0};

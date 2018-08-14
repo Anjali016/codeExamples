@@ -2,8 +2,6 @@ package com.company.www.data.structures.list;
 
 import com.company.www.utils.LinkNode;
 
-import java.util.HashSet;
-
 public class ListExamples {
 
   /** Count the number of nodes in LinkedList */
@@ -50,6 +48,7 @@ public class ListExamples {
     else head.next = insertAtRear(head.next, value);
     return head;
   }
+
   /** insert a value into an ordered list * */
   LinkNode insertNode(LinkNode head, int key) {
     if (head == null || (int) head.data > key) return new LinkNode(key);
@@ -86,112 +85,105 @@ public class ListExamples {
     }
   }
 
-  /** sum of even nodes in a LinkedList**/
-
-  int sumOfEven(LinkNode head){
-    if(head == null) return 0;
-    else if((int)head.data % 2 == 0) return (int)head.data + sumOfEven(head.next);
+  /** sum of even nodes in a LinkedList* */
+  int sumOfEven(LinkNode head) {
+    if (head == null) return 0;
+    else if ((int) head.data % 2 == 0) return (int) head.data + sumOfEven(head.next);
     return sumOfEven(head.next);
   }
-  /**
-   * 17. Problem: Remove duplicates from a sorted linked list. Solution: Traverse the list from the
-   * head (or start) node. While traversing, compare each node with its next node. If data of next
-   * node is same as current node then delete the next node. Before we delete a node, we need to
-   * store next pointer of the node.
-   */
-  LinkNode removeDuplicates(LinkNode head) {
-    if (head == null || head.next == null) return head;
-    else {
-      LinkNode current = head;
-      while (current != null && current.next != null) {
-        if (current.data == current.next.data) {
-          current.next = current.next.next;
-        }
-        current = current.next;
-      }
-      return head;
-    }
+
+  /** counts the number of times a given int occurs in a Linked List * */
+  int countOccurence(LinkNode head, int key) {
+    if (head == null) return 0;
+    else if ((int) head.data == key) return 1 + countOccurence(head.next, key);
+    else return countOccurence(head.next, key);
   }
 
-  /** 18. Problem: Remove duplicates from an unsorted linked list. Solution: Use HashSet. * */
-  LinkNode removeDupsUnsorted(LinkNode head) {
-    HashSet<Integer> set = new HashSet<>();
-    LinkNode prev = null, current = head;
-    while (current != null) {
-      if (set.contains(current.data)) prev.next = current.next;
-      else {
-        set.add((int) current.data);
-        prev = current;
-      }
-      current = prev.next;
-    }
-    return head;
+  /** get Nth node in a linkedlist* */
+  LinkNode getNthNode(LinkNode head, int n) {
+    if (head == null || n == 0) return head;
+    else return getNthNode(head.next, n - 1);
   }
 
-  /** Problem: Print alternate nodes of a linked list using recursion. */
-  void printAlternateRec(LinkNode head, boolean isOdd) {
-    if (head == null) return;
-    if (isOdd == true) System.out.println(head.data);
-    printAlternateRec(head.next, !isOdd);
+  /** get Nth node from last. * */
+  LinkNode nthFromLast(LinkNode head, int n) {
+    LinkNode pointer = getNthNode(head, n);
+    return nthFromLast(head, pointer);
   }
 
-  void printAlternate(LinkNode head) {
-    LinkNode temp = head;
-    while (temp != null) {
-      System.out.println(temp.data);
-      temp = temp.next.next;
-    }
+  private LinkNode nthFromLast(LinkNode head, LinkNode pointer) {
+    if (head == null) return null;
+    if (pointer.next == null) return head;
+    else return nthFromLast(head.next, pointer.next);
   }
 
-  /**
-   * Given a linked list, and a number, check if their exist two numbers whose sum is equal to given
-   * number. If there exist two numbers, print them. If there are multiple answer, print any of
-   * them.*
-   */
-  void pairSum(LinkNode head, int sum) {
-    HashSet<Integer> set = new HashSet<>();
-    while (head != null) {
-      int diff = sum - (int) head.data;
-      if (set.contains(diff)) System.out.println(head.data + " and " + diff);
-      else set.add((int) head.data);
-      head = head.next;
-    }
+  /** get the intersection point of two Linked Lists(when linkelist are of same length)* */
+  LinkNode intertsection(LinkNode head1, LinkNode head2) {
+    if (head1 == null || head2 == null) return null;
+    if ((int) head1.data == (int) head2.data) return head1;
+    else return intertsection(head1.next, head2.next);
   }
 
-  /**
-   * 24. Problem: Intersection of two Sorted Linked Lists. Given two lists sorted in increasing
-   * order, create and return a new list representing the intersection of the two lists. The new
-   * list should be made with its own memory — the original lists should not be changed For example,
-   * let the first linked list be 1->2->3->4->6 and second linked list be 2->4->6->8, then your
-   * function should create and return a third list as 2->4->6. Solution:
-   */
-  void intersection(LinkNode head1, LinkNode head2) {
-    HashSet<Integer> set = new HashSet<>();
-    while (head1 != null) {
-      set.add((int) head1.data);
-      head1 = head1.next;
-    }
+  /** get the intersection point of two Linked Lists(when linkelist are of different length)* */
+  LinkNode intersection(LinkNode head1, LinkNode head2) {
+    int first = countNodes(head1);
+    int second = countNodes(head2);
+    LinkNode displacedHead;
+    if (first > second) {
+      displacedHead = getNthNode(head1, first - second);
+      return intertsection(displacedHead, head2);
 
-    while (head2 != null) {
-      if (set.contains(head2.data)) System.out.println(head2.data);
-      head2 = head2.next;
-    }
-  }
-
-  /**
-   * Problem: Given a sorted linked list and a value to insert, write a function to insert the value
-   * in sorted way.
-   */
-  LinkNode sortedList(LinkNode head, LinkNode node) {
-    if (head == null || (int) head.data >= (int) node.data) {
-      head.next = node;
-      return node;
     } else {
-      LinkNode temp = head;
-      while (temp.next != null || (int) temp.next.data < (int) node.data) temp = temp.next;
-      node.next = temp.next;
-      temp.next = node;
-      return head;
+      displacedHead = getNthNode(head2, second - first);
+      return intertsection(head1, displacedHead);
     }
+  }
+
+  /** Detect loop in a linked list * */
+  boolean hasLoop(LinkNode head) {
+    if (head == null) return false;
+    else return detectLoop(head, head.next);
+  }
+
+  private boolean detectLoop(LinkNode slow, LinkNode fast) {
+    if (slow == null || fast == null) return false;
+    if (slow == fast) return true;
+    else return detectLoop(slow.next, fast.next.next);
+  }
+
+  /** Find the length of a loop * */
+
+  /** Remove Loop from Linked List * */
+
+  /** Find the middle of a given linked list * */
+  LinkNode middleOfList(LinkNode head) {
+    if (head == null) return null;
+    return middleOfList(head, head.next);
+  }
+
+  private LinkNode middleOfList(LinkNode slow, LinkNode fast) {
+    if (slow == null || fast == null) return null;
+    if (fast.next == null) return slow;
+    if (fast.next.next == null) return slow.next;
+    else return middleOfList(slow.next, fast.next.next);
+  }
+
+  /** Function to check if a singly linked list is palindrome * */
+
+  /**
+   * swap elements pairwise. For example, if the linked list is 1->2->3->4->5 then the function
+   * should change it to 2->1->4->3->5 .
+   */
+  void pairWiseSwap(LinkNode head) {
+    if (head == null || head.next == null) return;
+    else {
+      pairWiseSwap(head.next.next);
+      swapTwoNodes(head, head.next);
+    }
+  }
+  private void swapTwoNodes(LinkNode node1, LinkNode node2) {
+    int temp = (int) node1.data;
+    node1.data = node2.data;
+    node2.data = temp;
   }
 }
