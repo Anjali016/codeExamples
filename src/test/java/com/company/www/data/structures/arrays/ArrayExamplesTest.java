@@ -4,10 +4,24 @@ import org.junit.Test;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.*;
 
 
 public class ArrayExamplesTest {
   @Test
+  public void findDuplicates() throws Exception {
+    int[] arr = {1, 2, 2, 2, 2, 3, 4, 7, 8, 8};
+    Set<Integer> result = a.findDuplicates(arr);
+    result.forEach(x ->System.out.print(x + " "));
+  }
+
+  @Test
+  public void getFirstOccur() throws Exception {
+    int[] arr = {1, 2, 2, 2, 2, 3, 4, 7, 8, 8};
+    System.out.println(a.getFirstOccur(arr,8));
+  }
+
+    @Test
   public void segregate() throws Exception {
     int[] arr = {1, 1, 1, 2, 2, 0};
     a.segregate(arr);

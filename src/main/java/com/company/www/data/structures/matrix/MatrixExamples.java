@@ -2,6 +2,33 @@ package com.company.www.data.structures.matrix;
 
 class MatrixExamples {
 
+  /** Find the row with maximum number of 1s in a boolean 2D array, where each row is sorted .* */
+  int max = Integer.MIN_VALUE;
+
+  int maxRow = 0;
+
+  int maxRowWith1s(int[][] matrix, int row, int col) {
+    for (int i = 0; i < col; i++) {
+      int index = getFirstIndex(matrix[i], 0, col);
+      int count = col - index;
+      if (count > max) {
+        max = count;
+        maxRow = i;
+      }
+    }
+    return maxRow;
+  }
+
+  private int getFirstIndex(int[] matrix, int start, int end) {
+    if (start < end) {
+      int mid = start + end / 2;
+      if (matrix[mid] == 0 || matrix[mid - 1] == 0 && matrix[mid] == 1) return mid;
+      else if (matrix[mid] == 1) return getFirstIndex(matrix, start, mid - 1);
+      else return getFirstIndex(matrix, mid + 1, end);
+    }
+    return -1;
+  }
+
   /**
    * Given a matrix of odd order i.e(5*5). Task is to check if the center element of the matrix is
    * equal to the individual sum of all the half diagonals.*
@@ -112,6 +139,8 @@ class MatrixExamples {
   /**
    * Zero Matrix Given a m x n matrix, if an element is 0, set its entire row and column to 0. Do it
    * in place.
+   * use the first column and the first row to track if a row/column should be set to 0.
+
    */
   void zeroMatrix(int[][] matrix) {
 
@@ -168,12 +197,6 @@ class MatrixExamples {
   }
 
   /** Print Transpose of a given matrix * */
-  void printTranspose(int[][] matrix) {
-    int rows = matrix.length;
-    int columns = matrix[0].length;
-    for (int i = 0; i < rows; i++) for (int j = i + 1; j < columns; j++) swap(matrix, i, j);
-  }
-
   void transpose(int[][] mat) {
     for (int i = 0; i < mat.length; i++) {
       for (int j = i + 1; j < mat[0].length; j++) {

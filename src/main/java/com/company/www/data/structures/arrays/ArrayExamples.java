@@ -20,6 +20,21 @@ public class ArrayExamples {
     }
   }
 
+  /** find first occurence of an integer in a sorted array* */
+  int getFirstOccur(int[] array, int key) {
+    return getFirstOccur(array, 0, array.length - 1, key);
+  }
+
+  private int getFirstOccur(int[] array, int start, int end, int key) {
+    if (start <= end) {
+      int mid = start + (end - start) / 2;
+      if (mid == 0 || array[mid - 1] < key && array[mid] == key) return mid;
+      else if (array[mid] >= key) return getFirstOccur(array, start, mid - 1, key);
+      else return getFirstOccur(array, mid + 1, end, key);
+    }
+    return -1;
+  }
+
   /** Segregate even and odd numbers . Start from left and right.* */
 
   /** Recursively sum of an Array* */
@@ -84,6 +99,16 @@ public class ArrayExamples {
    * Find the two repeating elements in a given array Sol1. Use HashMap. Sol2. Put negative sign for
    * every visited number. *
    */
+  Set<Integer> findDuplicates(int[] array) {
+    Set<Integer> duplicates = new HashSet<>();
+    for (int i = 0; i < array.length; i++) {
+      if (array[Math.abs(array[i])] >= 0) {
+        array[Math.abs(array[i])] = -array[Math.abs(array[i])];
+      } else duplicates.add(Math.abs(array[i]));
+    }
+
+    return duplicates;
+  }
 
   /**
    * Find the only repeating element in a sorted array of size n Sol : Use Binary Search. Numbers

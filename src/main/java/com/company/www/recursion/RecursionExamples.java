@@ -31,7 +31,7 @@ class RecursionExamples {
   /**
    * Given an array of songs length and journey time, maximum number of songs that can be played
    * during the journey. Constraint:- Either song should be completed or should not be played. Ex:-
-   * [2, 4, 3, 5, 5, 2, 4] and Journey time = 20 Output: – 5 [2, 4, 3, 5, 5, 2, 4, 3] and Journey
+   * [2, 4, 3, 5, 5, 2, 4] and Journey time = 20 Output: – 5, and for [2, 4, 3, 5, 5, 2, 4, 3] and Journey
    * time = 20 Output:- 6 *
    */
 

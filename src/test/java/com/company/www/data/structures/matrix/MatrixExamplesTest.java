@@ -3,7 +3,13 @@ package com.company.www.data.structures.matrix;
 import org.junit.Test;
 
 public class MatrixExamplesTest {
-  MatrixExamples object = new MatrixExamples();
+  @Test
+  public void maxRowWith1s() throws Exception {
+    int[][] mat = {{0, 0, 1}, {0, 1, 1}, {1, 1, 1}};
+    System.out.println(object.maxRowWith1s(mat,3,3));
+  }
+
+    MatrixExamples object = new MatrixExamples();
 
   @Test
   public void rotated() throws Exception {
@@ -53,7 +59,7 @@ public class MatrixExamplesTest {
   public void printTranspose() throws Exception {
     int[][] mat = {{1, 2, 3}, {4, 5, 6}, {7, 8, 9}};
 
-    new MatrixExamples().printTranspose(mat);
+    new MatrixExamples().transpose(mat);
 
     for (int i = 0; i < mat.length; i++) {
       for (int j = 0; j < mat[0].length; j++) {

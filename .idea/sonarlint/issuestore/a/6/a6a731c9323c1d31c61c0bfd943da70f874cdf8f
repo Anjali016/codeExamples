@@ -1,32 +1,31 @@
 
+osquid:CommentedOutCodeLineõ"<This block of commented-out lines of code should be removed.(çø¡øÿÿÿÿ8àâ‘³Ô,
 \
-squid:S106À"9Replace this use of System.out or System.err by a logger.(‹¯šùÿÿÿÿ8‘›üÈÑ,
-W
-squid:S106Š"9Replace this use of System.out or System.err by a logger.(ßÎøÂ8èŒÞ•Ò,
-W
-squid:S106Š"9Replace this use of System.out or System.err by a logger.(ñÝ¦þ8èŒÞ•Ò,
-fsquid:S2259¦"BA "NullPointerException" could be thrown; "root" is nullable here.(ö…Ðòüÿÿÿÿ8èŒÞ•Ò,
-W
-squid:S106—"9Replace this use of System.out or System.err by a logger.(ßÎøÂ8èŒÞ•Ò,
-`squid:S2259¤"BA "NullPointerException" could be thrown; "root" is nullable here.(ðµÁ$8èŒÞ•Ò,
-osquid:CommentedOutCodeLine´"<This block of commented-out lines of code should be removed.(çø¡øÿÿÿÿ8èŒÞ•Ò,
+squid:S106Ï"9Replace this use of System.out or System.err by a logger.(‹¯šùÿÿÿÿ8ÔÆ¬ÜÓ,
+:squid:S3626¼"Remove this redundant jump.(ôñþ—8ÔÆ¬ÜÓ,
 \
-squid:S106¶"9Replace this use of System.out or System.err by a logger.(Šê§¤ùÿÿÿÿ8‘›üÈÑ,
-:squid:S3626½"Remove this redundant jump.(ôñþ—8‘›üÈÑ,
-V
-squid:S1062"9Replace this use of System.out or System.err by a logger.(®Ëê8‘›üÈÑ,
-V
-squid:S106¤"9Replace this use of System.out or System.err by a logger.(ðµÁ$8èŒÞ•Ò,
-Qsquid:UselessParenthesesCheck}"!Remove these useless parentheses.(Ëãã•8‘›üÈÑ,
-ssquid:S00100î"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¼Åöžøÿÿÿÿ8èŒÞ•Ò,
-Ssquid:S2864ÿ"4Iterate over the "entrySet" instead of the "keySet".(§µÊ·8èŒÞ•Ò,
-Fsquid:S1125B"(Remove the literal "true" boolean value.(öÜ•…8‘›üÈÑ,
-W
-squid:S106ä"9Replace this use of System.out or System.err by a logger.(Œñ–¨8èŒÞ•Ò,
-W
-squid:S106È"9Replace this use of System.out or System.err by a logger.(•¾°ñ8‘›üÈÑ,
-Fsquid:S1125B"(Remove the literal "true" boolean value.(öÜ•…8‘›üÈÑ,
-\
-squid:S106"9Replace this use of System.out or System.err by a logger.(¾Á”Æøÿÿÿÿ8èŒÞ•Ò,
+squid:S106µ"9Replace this use of System.out or System.err by a logger.(Šê§¤ùÿÿÿÿ8ÔÆ¬ÜÓ,
 [
-squid:S106Y"9Replace this use of System.out or System.err by a logger.(†š›Šÿÿÿÿÿ8‘›üÈÑ,
+squid:S106X"9Replace this use of System.out or System.err by a logger.(†š›Šÿÿÿÿÿ8ÔÆ¬ÜÓ,
+W
+squid:S106Ó"9Replace this use of System.out or System.err by a logger.(ßÎøÂ8àâ‘³Ô,
+V
+squid:S106à"9Replace this use of System.out or System.err by a logger.(ðµÁ$8àâ‘³Ô,
+bsquid:HiddenFieldCheck–"8Rename "root" which hides the field declared at line 11.(¨±çø8«ú»³Ô,
+fsquid:S2259â"BA "NullPointerException" could be thrown; "root" is nullable here.(ö…Ðòüÿÿÿÿ8àâ‘³Ô,
+`squid:S2259à"BA "NullPointerException" could be thrown; "root" is nullable here.(ðµÁ$8àâ‘³Ô,
+Fsquid:S1125A"(Remove the literal "true" boolean value.(öÜ•…8ÔÆ¬ÜÓ,
+W
+squid:S106×"9Replace this use of System.out or System.err by a logger.(•¾°ñ8ÔÆ¬ÜÓ,
+:squid:S3626Ì"Remove this redundant jump.(ôñþ—8ÔÆ¬ÜÓ,
+Ssquid:S2864»"4Iterate over the "entrySet" instead of the "keySet".(§µÊ·8àâ‘³Ô,
+Fsquid:S1125A"(Remove the literal "true" boolean value.(öÜ•…8ÔÆ¬ÜÓ,
+\
+squid:S106½"9Replace this use of System.out or System.err by a logger.(¾Á”Æøÿÿÿÿ8àâ‘³Ô,
+V
+squid:S1061"9Replace this use of System.out or System.err by a logger.(®Ëê8ÔÆ¬ÜÓ,
+Qsquid:UselessParenthesesCheck|"!Remove these useless parentheses.(Ëãã•8ÔÆ¬ÜÓ,
+W
+squid:S106Æ"9Replace this use of System.out or System.err by a logger.(ßÎøÂ8àâ‘³Ô,
+Gsquid:S1068
+")Remove this unused "count" private field.(˜ì’ˆ8õþùµÓ,

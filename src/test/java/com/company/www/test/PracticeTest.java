@@ -8,6 +8,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class PracticeTest {
+
   @Test
   public void leftView() throws Exception {
     TreeNode root = new TreeNode(1);

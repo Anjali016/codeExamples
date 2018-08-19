@@ -1,25 +1,22 @@
 package com.company.www.test;
 
-import com.company.www.utils.Tree;
 import com.company.www.utils.TreeNode;
 
 import java.util.*;
 
 class Practice {
 
-
-
-  void nLevelTraversal(TreeNode root, int level){
-  if(level == 0 || root == null) return;
-  else{
-    if (level == 1) System.out.println(root.data);
-    nLevelTraversal(root.left,level-1);
-    nLevelTraversal(root.right,level-1);
+  void nLevelTraversal(TreeNode root, int level) {
+    if (level == 0 || root == null) return;
+    else {
+      if (level == 1) System.out.println(root.data);
+      nLevelTraversal(root.left, level - 1);
+      nLevelTraversal(root.right, level - 1);
+    }
   }
-}
 
-  void leftView(TreeNode root, int level){
-    if(level == 0 || root == null) return;
+  void leftView(TreeNode root, int level) {
+    if (level == 0 || root == null) return;
     else {
       System.out.println(root.data);
       leftView(root.left, level - 1);
@@ -27,15 +24,15 @@ class Practice {
     }
   }
 
-  void triangle(int n){
-    for(int i = 1 ; i<= n ; i++) {
+  void triangle(int n) {
+    for (int i = 1; i <= n; i++) {
       for (int j = 0; j < i; j++) {
         System.out.print(i + " ");
       }
       System.out.println();
     }
   }
-  /** Largest of an Array **/
+  /** Largest of an Array * */
   int largest(int[] array) {
     return Arrays.stream(array).max().orElse(Integer.MIN_VALUE);
   }
@@ -67,17 +64,18 @@ class Practice {
 
   int countNodes(TreeNode root) {
     if (root == null) return 0;
-    int left = countNodes(root.left) ;
+    int left = countNodes(root.left);
     int right = countNodes(root.right);
     return left + 1 + right;
   }
 
-  int height(TreeNode root){
-    if(root == null) return 0;
-     int leftHeight = height(root.left);
-     int rightHeight = height(root.right);
-     return 1 + Math.max(leftHeight,rightHeight);
+  int height(TreeNode root) {
+    if (root == null) return 0;
+    int leftHeight = height(root.left);
+    int rightHeight = height(root.right);
+    return 1 + Math.max(leftHeight, rightHeight);
   }
 
 
-}
+  }
+

@@ -12,13 +12,12 @@ public class TreeExamples {
 
   /** find the maximum element present in it. * */
   int findMax(TreeNode root) {
-    if (root != null) {
+    if (root == null) return 0;
+    else {
       int left = findMax(root.left);
       int right = findMax(root.right);
-      max = Math.max(left, right);
-      if ((int) root.data > max) max = (int) root.data;
+      return Math.max((int) root.data, Math.max(left, right));
     }
-    return max;
   }
 
   /** Problem: Largest value in each level of Binary Tree. * */
@@ -184,6 +183,22 @@ public class TreeExamples {
     }
   }
 
+  /** Change a tree so that the roles of the left and right pointers are swapped at every node. */
+  void mirrorTree(TreeNode root) {
+    if (root == null) return;
+    else {
+      mirrorTree(root.left);
+      mirrorTree(root.right);
+      swapNodes(root);
+    }
+  }
+
+  private void swapNodes(TreeNode root) {
+    TreeNode temp = root.right;
+    root.right = root.left;
+    root.left = temp;
+  }
+
   /** InOrder Traversal * */
   void inOrder(TreeNode root) {
     if (root == null) return;
@@ -208,8 +223,7 @@ public class TreeExamples {
     if (root == null) return 0;
     int leftSum = maxSumPath(root.left);
     int rightSum = maxSumPath(root.right);
-    if (leftSum > rightSum) return (int) root.data + leftSum;
-    else return (int) root.data + rightSum;
+    return Math.max(leftSum, rightSum) + (int) root.data;
   }
 
   /** check if a tree contains a given value* */
@@ -226,6 +240,52 @@ public class TreeExamples {
         || (int) root1.data == (int) root2.data
             && areEqual(root1.left, root2.left)
             && areEqual(root1.right, root2.right);
+  }
+  /** Check for BST * */
+  private boolean checkBST(TreeNode root, int low, int high) {
+    if (root == null) return true;
+    if (low > (int) root.data || high < (int) root.data) return false;
+    return (checkBST(root.left, low, (int) root.data)
+        && checkBST(root.right, (int) root.data, high));
+  }
+
+  boolean checkBST(TreeNode root) {
+    if (root == null) return true;
+    else return checkBST(root, Integer.MIN_VALUE, Integer.MAX_VALUE);
+  }
+
+  /** Find LCA when both keys are present. * */
+  TreeNode findLCA(TreeNode root, int node1, int node2) {
+    if (root == null) return null;
+    if ((int) root.data == node1 || (int) root.data == node2) return root;
+    else {
+      TreeNode left = findLCA(root.left, node1, node2);
+      TreeNode right = findLCA(root.right, node1, node2);
+      if (left != null && right != null) return root;
+      else return (left != null) ? left : right;
+    }
+  }
+
+  /**
+   * Construct Tree from given Inorder and Preorder traversals Inorder sequence: D B E A F C
+   * Preorder sequence: A B D E C F
+   */
+  int rootIndex = 0;
+
+  TreeNode constructTree(int[] inOrder, int[] preOrder, int start, int end) {
+    if (start > end) return null;
+    else {
+      TreeNode root = new TreeNode(preOrder[rootIndex]);
+      int inIndex = getIndex(inOrder, preOrder[rootIndex++]);
+      root.left = constructTree(inOrder, preOrder, start, inIndex - 1);
+      root.right = constructTree(inOrder, preOrder, inIndex + 1, end);
+      return root;
+    }
+  }
+
+  private int getIndex(int[] inOrder, int key) {
+    for (int i = 0; i < inOrder.length; i++) if (inOrder[i] == key) return i;
+    return -1;
   }
 
   /**
@@ -300,6 +360,11 @@ public class TreeExamples {
     return (root != null && (root.left == null && root.right == null));
   }
 
+  int height(TreeNode root) {
+    if (root == null) return 0;
+    else return 1 + Math.max(height(root.left), height(root.right));
+  }
+
   /**
    * Create empty queue and pust root node to it. Do the following when queue is not empty Pop a
    * node from queue and print it Push left child of popped node to queue if not null Push right
@@ -316,94 +381,4 @@ public class TreeExamples {
     }
   }*/
 
-  /** Method to print Least Common Ancestor* */
-  public TreeNode printLCA(TreeNode node1, int first, int second) {
-    if (node1 == null) return null;
-    if ((int) node1.data == first || (int) node1.data == second) return node1;
-    TreeNode left = printLCA(node1.left, first, second);
-    TreeNode right = printLCA(node1.right, first, second);
-    if (left != null && right != null) return left;
-    else return left != null ? left : right;
-  }
-
-  /** Diamter of a tree * */
-  public int diamter(TreeNode root) {
-    if (root == null) return 0;
-    int l = height(root.left);
-    int r = height(root.right);
-    return Math.max(1 + l + r, Math.max(diamter(root.left), diamter(root.right)));
-  }
-
-  /** Finding the mirror Node of the given node in a binary tree. * */
-  public int getMirrorNode(TreeNode node1, TreeNode node2, int key) {
-    if (node1 == null || node2 == null) return Integer.MIN_VALUE;
-    if ((int) node1.data == key) return (int) node2.data;
-    else
-      return Math.max(
-          getMirrorNode(node1.left, node2.right, key), getMirrorNode(node1.right, node2.left, key));
-  }
-
-  /** Level Order traversal* */
-  public void levelOrder(TreeNode root) {
-    int h = height(root);
-    for (int i = 1; i <= h; i++) {
-      printLevel(root, i);
-    }
-  }
-
-  void printLevel(TreeNode root, int level) {
-    if (root == null) return;
-    else if (level == 1) System.out.print(root.data + " ");
-    else if (level > 1) printLevel(root.left, level - 1);
-    printLevel(root.right, level - 1);
-  }
-
-  /** Printing the Deepest node in a given binary tree * */
-  private int deepestlevel;
-
-  int value;
-
-  int Deep(TreeNode root) {
-    find(root, 0);
-    return value;
-  }
-
-  private void find(TreeNode root, int level) {
-    if (root != null) {
-      find(root.left, ++level);
-      if (level > deepestlevel) {
-        value = (int) root.data;
-        deepestlevel = level;
-      }
-      find(root.right, level);
-    }
-  }
-
-  int height(TreeNode root) {
-    if (root == null) return 0;
-    else return 1 + Math.max(height(root.left), height(root.right));
-  }
-
-  public void deepestNodeHeight(TreeNode root) {
-    int h = height(root);
-    printNode(root, h);
-  }
-
-  private void printNode(TreeNode root, int h) {
-    if (root == null) return;
-    else if (h == 1) System.out.println(root.data);
-    printNode(root.left, h - 1);
-    printNode(root.right, h - 1);
-  }
-
-  /** Count number of nodes in a tree * */
-  public int countNodes(TreeNode root) {
-    if (root == null) return 0;
-    else {
-      count++;
-      countNodes(root.left);
-      countNodes(root.right);
-      return count;
-    }
-  }
 }

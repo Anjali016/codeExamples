@@ -9,6 +9,52 @@ import java.util.List;
 
 public class TreeExamplesTest {
   @Test
+  public void constructTree() throws Exception {
+    int[] inOrder = {4, 2, 5, 1, 6, 3, 7};
+    int[] preOrder = {1, 2, 4, 5, 3, 6, 7};
+    TreeNode root = tree.constructTree(inOrder,preOrder,0,preOrder.length-1);
+    printTree(root);
+  }
+
+  @Test
+  public void findLCA() throws Exception {
+    TreeNode root = new TreeNode(1);
+    root.left = new TreeNode(2);
+    root.right = new TreeNode(3);
+    root.left.right = new TreeNode(5);
+    root.left.left = new TreeNode(4);
+    System.out.println(
+    tree.findLCA(root,5,4).data);
+  }
+
+  @Test
+  public void checkBST() throws Exception {
+    TreeNode root = new TreeNode(2);
+    root.left = new TreeNode(1);
+
+    System.out.println(
+    tree.checkBST(root));
+  }
+
+  @Test
+  public void mirrorTree() throws Exception {
+    TreeNode root = new TreeNode(1);
+    root.left = new TreeNode(2);
+    root.right = new TreeNode(3);
+    root.left.right = new TreeNode(5);
+    root.left.left = new TreeNode(4);
+    tree.mirrorTree(root);
+    printTree(root);
+  }
+
+  private void printTree(TreeNode root){
+    if (root == null) return;
+    else System.out.println(root.data);
+    printTree(root.left);
+    printTree(root.right);
+  }
+
+  @Test
   public void areEqual() throws Exception {
     TreeNode root1 = new TreeNode(1);
     root1.left = new TreeNode(2);
@@ -38,7 +84,7 @@ public class TreeExamplesTest {
     TreeNode root = new TreeNode(1);
     root.left = new TreeNode(2);
     root.right = new TreeNode(3);
-    root.left.right = new TreeNode(5);
+    root.left.right = new TreeNode(10);
     root.left.left = new TreeNode(4);
     System.out.println(tree.maxSumPath(root));
   }
@@ -144,9 +190,13 @@ public class TreeExamplesTest {
 
   @Test
   public void preOrder() throws Exception {
-    TreeNode root = new TreeNode("root");
-    root.left = new TreeNode("left");
-    root.right = new TreeNode("right");
+    TreeNode root = new TreeNode(1);
+    root.left = new TreeNode(2);
+    root.right = new TreeNode(3);
+    root.left.left = new TreeNode(4);
+    root.left.right = new TreeNode(5);
+    root.right.right = new TreeNode(7);
+    root.right.left = new TreeNode(6);
     tree.preOrder(root);
   }
 
@@ -241,6 +291,8 @@ public class TreeExamplesTest {
     root.right = new TreeNode(3);
     root.left.left = new TreeNode(4);
     root.left.right = new TreeNode(5);
+    root.right.right = new TreeNode(7);
+    root.right.left = new TreeNode(6);
     TreeExamples tree = new TreeExamples();
     tree.inOrder(root);
   }
@@ -295,28 +347,7 @@ public class TreeExamplesTest {
     // Assert.assertEquals(3, new Tree().getMirrorNode(root, root,2));
   }
 
-  @Test
-  public void diamter() throws Exception {}
 
-  @Test
-  public void deepestNode() throws Exception {
-    TreeNode root = new TreeNode(1);
-    root.left = new TreeNode(2);
-    root.left.right = new TreeNode(5);
-    root.left.right.right = new TreeNode(10);
-    root.right = new TreeNode(3);
-    System.out.println(tree.Deep(root));
-  }
-
-  @Test
-  public void deepestNodeHeight() throws Exception {
-    TreeNode root = new TreeNode(1);
-    root.left = new TreeNode(2);
-    root.left.right = new TreeNode(5);
-    root.left.right.right = new TreeNode(10);
-    root.right = new TreeNode(3);
-    tree.deepestNodeHeight(root);
-  }
 
   @Test
   public void printPaths() throws Exception {
