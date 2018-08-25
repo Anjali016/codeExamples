@@ -1,23 +1,24 @@
 
-V
-squid:S106"9Replace this use of System.out or System.err by a logger.(•¾°ñ8Ûå”Ñ,
-V
-squid:S1061"9Replace this use of System.out or System.err by a logger.(–”’ï8…ƒ©ÆĞ,
->squid:S3626"Remove this redundant jump.(ƒÌıĞüÿÿÿÿ8×–Ñ,
+nsquid:CommentedOutCodeLine4"<This block of commented-out lines of code should be removed.(ëÓáøıÿÿÿÿ8êÔ³‹Õ,
+>squid:S3626"Remove this redundant jump.(ƒÌıĞüÿÿÿÿ8êÔ³‹Õ,
 [
-squid:S106#"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8ù«îĞ,
+squid:S106)"9Replace this use of System.out or System.err by a logger.(‹·˜üÿÿÿÿ8êÔ³‹Õ,
+[
+squid:S106"9Replace this use of System.out or System.err by a logger.(ˆº‡éúÿÿÿÿ8êÔ³‹Õ,
 V
-squid:S1069"9Replace this use of System.out or System.err by a logger.(êÍ Ğ8…ƒ©ÆĞ,
-Osquid:S1612,",Replace this lambda with a method reference.(‹·˜üÿÿÿÿ8…ƒ©ÆĞ,
-nsquid:CommentedOutCodeLine7"<This block of commented-out lines of code should be removed.(ëÓáøıÿÿÿÿ8…ƒ©ÆĞ,
-[
-squid:S106"9Replace this use of System.out or System.err by a logger.(ˆº‡éúÿÿÿÿ8›ã¼Ñ,
-ªsquid:S2681M"†This line will not be executed conditionally; only the first line of this 2-line block will be. The rest will execute unconditionally.(Ş†‘Ûúÿÿÿÿ8³ÇÑĞ,
->squid:S3626"Remove this redundant jump.(ƒÌıĞüÿÿÿÿ8Î§ß•Ñ,
-gsquid:UselessImportCheck"7Remove this unused import 'com.company.www.utils.Tree'.(†èÅƒûÿÿÿÿ8¬Í»•Ñ,
-[
-squid:S106,"9Replace this use of System.out or System.err by a logger.(‹·˜üÿÿÿÿ8…ƒ©ÆĞ,
+squid:S106"9Replace this use of System.out or System.err by a logger.(Ù©È±8êÔ³‹Õ,
 V
-squid:S106!"9Replace this use of System.out or System.err by a logger.(Ù©È±8»Ò™îĞ,
+squid:S106"9Replace this use of System.out or System.err by a logger.(•¾°ñ8êÔ³‹Õ,
 [
-squid:S106?"9Replace this use of System.out or System.err by a logger.(‹¯šùÿÿÿÿ8ììĞÌĞ,
+squid:S106<"9Replace this use of System.out or System.err by a logger.(‹¯šùÿÿÿÿ8êÔ³‹Õ,
+V
+squid:S106."9Replace this use of System.out or System.err by a logger.(–”’ï8êÔ³‹Õ,
+V
+squid:S1066"9Replace this use of System.out or System.err by a logger.(êÍ Ğ8êÔ³‹Õ,
+V
+squid:S106Q"9Replace this use of System.out or System.err by a logger.(Œº”Ç8¹ôÊªÕ,
+>squid:S3626
+"Remove this redundant jump.(ƒÌıĞüÿÿÿÿ8êÔ³‹Õ,
+[
+squid:S106 "9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8êÔ³‹Õ,
+Osquid:S1612)",Replace this lambda with a method reference.(‹·˜üÿÿÿÿ8êÔ³‹Õ,

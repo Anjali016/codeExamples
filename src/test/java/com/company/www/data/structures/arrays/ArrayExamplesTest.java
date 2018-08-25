@@ -9,6 +9,12 @@ import java.util.*;
 
 public class ArrayExamplesTest {
   @Test
+  public void minimumInRotated() throws Exception {
+    int[] arr = {4, 5, 6, 7, 8, 1, 2, 3};
+    System.out.println(a.minimumInRotated(arr,0,arr.length-1));
+  }
+
+  @Test
   public void findDuplicates() throws Exception {
     int[] arr = {1, 2, 2, 2, 2, 3, 4, 7, 8, 8};
     Set<Integer> result = a.findDuplicates(arr);

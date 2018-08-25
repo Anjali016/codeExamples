@@ -4,6 +4,32 @@ import java.util.*;
 
 public class ArrayExamples {
 
+
+
+  /** Write a program to find number of inversions in an array.
+   Example- Array 2, 5, 3, 1,10
+   Inversions (2,1) , (5,1), (3,1), (5,3)
+   Answer will be – 4
+   **/
+
+
+  /**
+   * Rotate an array to the left by a given value. rreverseArray( theArray, 0, size - 1 )
+   * reverseArray( theArray, 0, M - 1 ) reverseArray( theArray, M, size - 1 )
+   */
+
+  /** find the minimum element in a rotated array * */
+  int minimumInRotated(int[] array, int start, int end) {
+    if (start > end) return array[0];
+    else {
+      int mid = start + (end - start) / 2;
+      if (mid < end && array[mid] > array[mid + 1]) return array[mid + 1];
+      if (mid > start && array[mid - 1] > array[mid]) return array[mid];
+      if (array[mid] < array[end]) return minimumInRotated(array, start, mid - 1);
+      else return minimumInRotated(array, mid + 1, end);
+    }
+  }
+
   /** Segregate 0 , 1, 2 in an Array* */
   void segregate(int[] array) {
     int zeroCount = 0, oneCount = 0, twoCount = 0;

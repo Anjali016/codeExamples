@@ -5,6 +5,29 @@ import org.junit.Test;
 
 public class ListExamplesTest {
   @Test
+  public void rotateByK() throws Exception {
+      LinkNode head1 = new LinkNode(1);
+      head1.next = new LinkNode(2);
+      head1.next.next = new LinkNode(3);
+      head1.next.next.next= new  LinkNode(4);
+      head1.next.next.next.next = new LinkNode(5);
+      LinkNode result = list.rotateByK(head1,4);
+    System.out.println(result.data);
+  }
+
+  @Test
+  public void mergeSortedList() throws Exception {
+    LinkNode head1 = new LinkNode(3);
+    head1.next = new LinkNode(7);
+    head1.next.next = new LinkNode(10);
+    LinkNode head2 = new LinkNode(5);
+    head2.next = new LinkNode(6);
+    head2.next.next = new LinkNode(9);
+    LinkNode result = list.mergeSortedList(head1,head2);
+    System.out.println(result.next.data);
+  }
+
+    @Test
   public void pairWiseSwap() throws Exception {
     LinkNode head = new LinkNode(1);
     head.next = new LinkNode(2);
@@ -88,7 +111,7 @@ public class ListExamplesTest {
     head1.next.next = new LinkNode(3);
     head1.next.next.next = new LinkNode(6);
     head1.next.next.next.next = new LinkNode(7);
-    System.out.println(list.getNthNode(head1, 2).data);
+    System.out.println(list.getNthNode(head1, 4).data);
   }
 
   @Test

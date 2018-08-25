@@ -81,7 +81,7 @@ public class ListExamples {
       return head2;
     } else {
       head1.next = mergeSortedList(head1.next, head2);
-      return head2;
+      return head1;
     }
   }
 
@@ -92,7 +92,7 @@ public class ListExamples {
     return sumOfEven(head.next);
   }
 
-  /** counts the number of times a given int occurs in a Linked List * */
+  /** counts the number of times a given integer occurs in a Linked List * */
   int countOccurence(LinkNode head, int key) {
     if (head == null) return 0;
     else if ((int) head.data == key) return 1 + countOccurence(head.next, key);
@@ -101,7 +101,7 @@ public class ListExamples {
 
   /** get Nth node in a linkedlist* */
   LinkNode getNthNode(LinkNode head, int n) {
-    if (head == null || n == 0) return head;
+    if (head == null || n == 1) return head;
     else return getNthNode(head.next, n - 1);
   }
 
@@ -185,5 +185,19 @@ public class ListExamples {
     int temp = (int) node1.data;
     node1.data = node2.data;
     node2.data = temp;
+  }
+
+  /** Rotate a linkedlist by a given value K For example,
+   * if the given linked list is 10->20->30->40->50->60 and k is 4,
+   * the list should be modified to 50->60->10->20->30->40**/
+  LinkNode rotateByK(LinkNode head, int k){
+    if(head == null) return null;
+    else {
+      LinkNode kthNode = getNthNode(head, k);
+      LinkNode temp = kthNode.next;
+      kthNode.next = null;
+      head = temp;
+    }
+    return head;
   }
 }

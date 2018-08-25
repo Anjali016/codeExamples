@@ -76,6 +76,30 @@ class Practice {
     return 1 + Math.max(leftHeight, rightHeight);
   }
 
-
+  void coinChange(int[] coins, int sum, String path) {
+    if (sum >= 0) {
+      if (sum == 0) System.out.println(path);
+      else {
+        for (int i = 0; i < coins.length; i++) coinChange(coins, sum - coins[i], path + coins[i]);
+      }
+    }
   }
 
+  void randomize(int arr[], int n) {
+    Random r = new Random();
+    for (int i = n - 1; i > 0; i--) {
+
+      int j = r.nextInt(i);
+
+      int temp = arr[i];
+      arr[i] = arr[j];
+      arr[j] = temp;
+    }
+    System.out.println(Arrays.toString(arr));
+  }
+
+  /**
+   * Print all numbers less than n, with the fact that absolute difference between any adjacent
+   * digits should be 1.for e.g. 12, 21, 34, 43….121,12321. *
+   */
+}

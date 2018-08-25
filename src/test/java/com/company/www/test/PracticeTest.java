@@ -8,6 +8,17 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class PracticeTest {
+  @Test
+  public void randomize() throws Exception {
+    int[] array = {1, 2, 3, 4, 5};
+    new Practice().randomize(array,array.length-1);
+  }
+
+    @Test
+  public void coinChange() throws Exception {
+    int[] coins = {1, 2};
+    new Practice().coinChange(coins,4,"");
+  }
 
   @Test
   public void leftView() throws Exception {
