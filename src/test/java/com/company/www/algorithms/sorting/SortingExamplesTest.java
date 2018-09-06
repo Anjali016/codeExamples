@@ -6,7 +6,7 @@ import org.junit.Test;
 public class SortingExamplesTest {
   @Test
   public void quickSort() throws Exception {
-    int[] array = {2, 9, 3, 12, 8};
+    int[] array = {8, 3, 5, 2, 4, 9, 1};
     SortingExamples sort = new SortingExamples();
     sort.quickSort(array);
     for (int i = 0; i < array.length; i++) System.out.print(array[i] + " ");

@@ -1,24 +1,27 @@
 
-nsquid:CommentedOutCodeLine4"<This block of commented-out lines of code should be removed.(ëÓáøıÿÿÿÿ8êÔ³‹Õ,
->squid:S3626"Remove this redundant jump.(ƒÌıĞüÿÿÿÿ8êÔ³‹Õ,
-[
-squid:S106)"9Replace this use of System.out or System.err by a logger.(‹·˜üÿÿÿÿ8êÔ³‹Õ,
+Osquid:S1612)",Replace this lambda with a method reference.(‹·˜üÿÿÿÿ8êÔ³‹Õ,
 [
 squid:S106"9Replace this use of System.out or System.err by a logger.(ˆº‡éúÿÿÿÿ8êÔ³‹Õ,
-V
-squid:S106"9Replace this use of System.out or System.err by a logger.(Ù©È±8êÔ³‹Õ,
+[squid:S1197X"8Move the array designator from the variable to the type.(Œ¶é§üÿÿÿÿ8âíÉáÖ,
 V
 squid:S106"9Replace this use of System.out or System.err by a logger.(•¾°ñ8êÔ³‹Õ,
-[
-squid:S106<"9Replace this use of System.out or System.err by a logger.(‹¯šùÿÿÿÿ8êÔ³‹Õ,
 V
-squid:S106."9Replace this use of System.out or System.err by a logger.(–”’ï8êÔ³‹Õ,
+squid:S106Q"9Replace this use of System.out or System.err by a logger.(Œº”Ç8âíÉáÖ,
 V
 squid:S1066"9Replace this use of System.out or System.err by a logger.(êÍ Ğ8êÔ³‹Õ,
+nsquid:CommentedOutCodeLine4"<This block of commented-out lines of code should be removed.(ëÓáøıÿÿÿÿ8êÔ³‹Õ,
 V
-squid:S106Q"9Replace this use of System.out or System.err by a logger.(Œº”Ç8¹ôÊªÕ,
->squid:S3626
-"Remove this redundant jump.(ƒÌıĞüÿÿÿÿ8êÔ³‹Õ,
+squid:S106b"9Replace this use of System.out or System.err by a logger.(×Æáî8âíÉáÖ,
+[
+squid:S106)"9Replace this use of System.out or System.err by a logger.(‹·˜üÿÿÿÿ8êÔ³‹Õ,
+>squid:S3626"Remove this redundant jump.(ƒÌıĞüÿÿÿÿ8êÔ³‹Õ,
+V
+squid:S106"9Replace this use of System.out or System.err by a logger.(Ù©È±8êÔ³‹Õ,
 [
 squid:S106 "9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8êÔ³‹Õ,
-Osquid:S1612)",Replace this lambda with a method reference.(‹·˜üÿÿÿÿ8êÔ³‹Õ,
+V
+squid:S106."9Replace this use of System.out or System.err by a logger.(–”’ï8êÔ³‹Õ,
+[
+squid:S106<"9Replace this use of System.out or System.err by a logger.(‹¯šùÿÿÿÿ8êÔ³‹Õ,
+>squid:S3626
+"Remove this redundant jump.(ƒÌıĞüÿÿÿÿ8êÔ³‹Õ,

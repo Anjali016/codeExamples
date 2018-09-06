@@ -26,7 +26,6 @@ public class DeadLock {
       () -> {
         synchronized (lock2) {
           System.out.println(" Thread 2 is holding lock 2");
-
           try {
             Thread.sleep(1000);
           } catch (InterruptedException e) {

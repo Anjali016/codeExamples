@@ -7,7 +7,7 @@ public class BacktrackingExamples {
    * colors such that no two adjacent vertices of the graph are colored with same color. *
    */
   boolean graphColoring(int[][] graph, int m) {
-    int[] colors = new int[graph[0].length];
+    int[] colors = new int[graph.length];
     boolean result = graphColoring(graph, m, colors, 0);
     if (result) {
       for (int color : colors) System.out.println(color);
@@ -18,19 +18,22 @@ public class BacktrackingExamples {
   private boolean graphColoring(int[][] graph, int m, int[] colors, int v) {
     if (v == graph.length) return true;
     else {
-      for (int c = 0; c <= m; c++) {
+      for (int c = 1; c <= m; c++) {
         if (isSafe(graph, colors, v, c)) {
           colors[v] = c;
           if (graphColoring(graph, m, colors, v + 1)) return true;
+          colors[v] = 0;
         }
+
       }
     }
     return false;
   }
 
+
   private boolean isSafe(int[][] graph, int[] colors, int v, int color) {
     for (int i = 0; i < graph.length; i++)
-      if (graph[v][i] == 1 && graph[v][i] == color) return false;
+      if (graph[v][i] == 1 && colors[i] == color) return false;
     return true;
   }
 

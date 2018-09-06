@@ -36,7 +36,7 @@ public class RecursionExamplesTest {
 
   @Test
   public void permutation() throws Exception {
-    recur.permutation("", "ABC");
+    recur.permutation("", "ginstr");
   }
 
   @Test

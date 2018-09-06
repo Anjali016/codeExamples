@@ -1,11 +1,11 @@
 
+Gsquid:S1481")Remove this unused "swap" local variable.(ú¿Êİ8¦çàÜÔ,
+V
+squid:S106"9Replace this use of System.out or System.err by a logger.(Ã¶Íğ8ÉÌåÜÔ,
 Vsquid:S1854"8Remove this useless assignment to local variable "swap".(ú¿Êİ8¦çàÜÔ,
+asquid:S1226">Introduce a new variable instead of reusing the parameter "a".(§°»àùÿÿÿÿ8›ñÜÔ,
+Xsquid:S1854"5Remove this useless assignment to local variable "a".(§°»àùÿÿÿÿ8›ñÜÔ,
 V
 squid:S106
 "9Replace this use of System.out or System.err by a logger.(° Ü“8¸¸æÜÔ,
-Xsquid:S1854"5Remove this useless assignment to local variable "a".(§°»àùÿÿÿÿ8›ñÜÔ,
 isquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(Ó»»8›ñÜÔ,
-asquid:S1226">Introduce a new variable instead of reusing the parameter "a".(§°»àùÿÿÿÿ8›ñÜÔ,
-V
-squid:S106"9Replace this use of System.out or System.err by a logger.(Ã¶Íğ8ÉÌåÜÔ,
-Gsquid:S1481")Remove this unused "swap" local variable.(ú¿Êİ8¦çàÜÔ,

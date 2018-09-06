@@ -4,6 +4,17 @@ import org.junit.Test;
 
 public class BacktrackingExamplesTest {
   @Test
+  public void graphColoring() throws Exception {
+    int graph[][] = {{0, 1, 1, 1},
+            {1, 0, 1, 0},
+            {1, 1, 0, 1},
+            {1, 0, 1, 0},
+    };
+    new BacktrackingExamples().graphColoring(graph, 3);
+
+  }
+
+  @Test
   public void solveKnightTour() throws Exception {
     int[][] board = new int[8][8];
     bt.solveKnightTour(board);

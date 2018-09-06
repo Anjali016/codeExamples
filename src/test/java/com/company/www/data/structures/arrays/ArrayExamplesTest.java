@@ -8,6 +8,65 @@ import java.util.*;
 
 
 public class ArrayExamplesTest {
+
+  @Test
+  public void checkSum() throws Exception {
+    int[] array = {1, 4, 45, 6, 10, 8};
+    System.out.println(a.checkSum(array, 20));
+  }
+
+  @Test
+  public void checkPairSum() throws Exception {
+    int[] array = {1, 4, 45, 6, 10, 8};
+    a.checkPairSum(array, 16);
+
+  }
+
+  @Test
+  public void saggregateOddEven() throws Exception {
+    int[] array = {1, 3, 2, 4, 7, 6, 9, 10};
+    a.SaggregateOddEven(array);
+    }
+
+
+  @Test
+  public void saggregateZeroOne() throws Exception {
+    int[] array = {1, 0, 0, 1, 0, 1, 0};
+    a.saggregateZeroOne(array);
+  }
+
+  @Test
+  public void moveZeroToEnd() throws Exception {
+    int[] arr = { 0, 1, 9, 8, 4, 0, 0, 2,
+            7, 0, 6, 0, 9 };
+    a.moveZeroToEnd(arr);
+  }
+
+  @Test
+  public void alternateSign() throws Exception {
+    int[] arr = {-1, 2, -3, 4, 5, 6, -7, 8, 9};
+    a.alternateSign(arr);
+    Arrays.stream(arr).forEach(X->System.out.print(X + " "));
+  }
+
+  @Test
+  public void rotateright() throws Exception {
+    int[] array = {1, 2, 3 , 4, 5, 6, 7, 8, 9, 10};
+    a.rotateright(array,3);
+  }
+
+  @Test
+  public void rotateByK() throws Exception {
+    int[] array = {12, 10, 5, 6, 52, 36};
+    a.rotateByK(array,2);
+  }
+
+  @Test
+  public void mergeSort() throws Exception {
+    int[] array = {1, 9, 6, 4, 5};
+    System.out.println(a.mergeSort(array,0,array.length-1));
+  }
+
   @Test
   public void minimumInRotated() throws Exception {
     int[] arr = {4, 5, 6, 7, 8, 1, 2, 3};
@@ -133,9 +192,9 @@ public class ArrayExamplesTest {
   ArrayExamples a = new ArrayExamples();
 
   @Test
-  public void fillAllDuplicate() throws Exception {
+  public void findAllDuplicate() throws Exception {
     int[] array = {2, 3, 1, 2, 1};
-    ArrayList<Integer> result = a.fillAllDuplicate(array);
+    ArrayList<Integer> result = a.findAllDuplicate(array);
     for (int i : result) System.out.println(i);
   }
 }

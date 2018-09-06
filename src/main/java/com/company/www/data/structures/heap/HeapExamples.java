@@ -53,7 +53,7 @@ public class HeapExamples {
       heapSize--;
       heapify(array, 0, heapSize);
     }
-    return array[k - 1];
+    return array[array.length- k - 1];
   }
 
   private void extractMax(int[] array, int heapSize) {

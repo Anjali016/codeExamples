@@ -3,6 +3,9 @@ package com.company.www.multithreading.alphaNumeric;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
+
+/** Thread 1 prints a and thread 2 prints 1 Sequence. **/
+
 public class Sequence {
   private static final Object lock = new Object();
 

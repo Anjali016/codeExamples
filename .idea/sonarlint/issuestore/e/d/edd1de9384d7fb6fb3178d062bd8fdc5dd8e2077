@@ -1,20 +1,20 @@
 
-[squid:S1197+"8Move the array designator from the variable to the type.(¡şÏÖøÿÿÿÿ8š´™íĞ,
-dsquid:S2142 "FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€8ãü²íĞ,
-fsquid:S2276"CReplace the call to "Thread.sleep(...)" with a call to "wait(...)".(»ãßºøÿÿÿÿ8š´™íĞ,
+[
+squid:S106"9Replace this use of System.out or System.err by a logger.(ˆœËãûÿÿÿÿ8š´™íĞ,
+Fsquid:S1148 "#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8ãü²íĞ,
+dsquid:S2142"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€8ãü²íĞ,
+V
+squid:S106""9Replace this use of System.out or System.err by a logger.(…›Û¾8š´™íĞ,
 V
 squid:S106"9Replace this use of System.out or System.err by a logger.(ÆŞÎÂ8š´™íĞ,
 V
-squid:S106#"9Replace this use of System.out or System.err by a logger.(…›Û¾8š´™íĞ,
-V
-squid:S106&"9Replace this use of System.out or System.err by a logger.(â“ºº8š´™íĞ,
-Fsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8š´™íĞ,
-Fsquid:S1148!"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8ãü²íĞ,
-[
-squid:S106"9Replace this use of System.out or System.err by a logger.(ˆœËãûÿÿÿÿ8š´™íĞ,
+squid:S106%"9Replace this use of System.out or System.err by a logger.(â“ºº8š´™íĞ,
+dsquid:S2142"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€8š´™íĞ,
+[squid:S1197*"8Move the array designator from the variable to the type.(¡şÏÖøÿÿÿÿ8š´™íĞ,
+fsquid:S2276"CReplace the call to "Thread.sleep(...)" with a call to "wait(...)".(»ãßºøÿÿÿÿ8š´™íĞ,
+fsquid:S2276"CReplace the call to "Thread.sleep(...)" with a call to "wait(...)".(»ãßºøÿÿÿÿ8š´™íĞ,
 V
 squid:S106"9Replace this use of System.out or System.err by a logger.(ï–ÛÙ8š´™íĞ,
-dsquid:S2142"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€8š´™íĞ,
+Fsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8š´™íĞ,
 V
 squid:S106"9Replace this use of System.out or System.err by a logger.(¹±Ù¸8š´™íĞ,
-fsquid:S2276"CReplace the call to "Thread.sleep(...)" with a call to "wait(...)".(»ãßºøÿÿÿÿ8š´™íĞ,

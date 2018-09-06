@@ -1,13 +1,13 @@
 
-Fsquid:S1148&"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8ÜëíĞ,
 isquid:S2142%"FEither re-interrupt this method or rethrow the "InterruptedException".(²ı…¦ûÿÿÿÿ8ÜëíĞ,
 U
 squid:S1069"9Replace this use of System.out or System.err by a logger.(ÓÒ˜8·ùìíĞ,
-isquid:S2142"FEither re-interrupt this method or rethrow the "InterruptedException".(²ı…¦ûÿÿÿÿ8ÌØèíĞ,
 Fsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8ÌØèíĞ,
+Fsquid:S1148&"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8ÜëíĞ,
+isquid:S21426"FEither re-interrupt this method or rethrow the "InterruptedException".(²ı…¦ûÿÿÿÿ8·ùìíĞ,
+isquid:S2142"FEither re-interrupt this method or rethrow the "InterruptedException".(²ı…¦ûÿÿÿÿ8ÌØèíĞ,
 Fsquid:S11487"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8·ùìíĞ,
 [
 squid:S106"9Replace this use of System.out or System.err by a logger.(Ş§ùÿÿÿÿ8çŸÌíĞ,
 V
 squid:S106("9Replace this use of System.out or System.err by a logger.(³À¼Å8ÜëíĞ,
-isquid:S21426"FEither re-interrupt this method or rethrow the "InterruptedException".(²ı…¦ûÿÿÿÿ8·ùìíĞ,

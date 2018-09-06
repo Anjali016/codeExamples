@@ -191,8 +191,9 @@ class RecursionExamples {
   }
 
   /** Permutation of a string * */
+  int c = 0;
   void permutation(String soFar, String rem) {
-    if (rem.isEmpty()) System.out.println(soFar);
+    if (rem.isEmpty()) System.out.println(soFar + c++);
 
     for (int i = 0; i < rem.length(); i++) {
       permutation(soFar + rem.charAt(i), rem.substring(0, i) + rem.substring(i + 1));

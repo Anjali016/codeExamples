@@ -6,21 +6,25 @@ public class ThreeSequence {
   static final Object lock = new Object();
 
   static int flag = 1;
+  static char ch = 'A';
 
   static Runnable thread1 =
       () -> {
         synchronized (lock) {
-          try {
-            while (flag != 1) {
-              lock.wait();
-            }
-            for (char i = 'A'; i <= 'K'; i = (char) (i + 3)) {
-              System.out.println(Thread.currentThread().getName() + i);
+          while (ch < 'K') {
+            try {
+              while (flag != 1) {
+                lock.wait();
+              }
+              System.out.println(Thread.currentThread().getName() + ch);
+              ch = (char) (ch + 1);
               flag = 2;
-              lock.notify();
+              lock.notifyAll();
+              lock.wait();
+              ;
+            } catch (InterruptedException e) {
+              e.printStackTrace();
             }
-          } catch (InterruptedException e) {
-            e.printStackTrace();
           }
         }
       };
@@ -28,35 +32,40 @@ public class ThreeSequence {
   static Runnable thread2 =
       () -> {
         synchronized (lock) {
-          try {
-            while (flag != 2) {
-              lock.wait();
-            }
-            for (char i = 'B'; i <= 'K'; i = (char) (i + 3)) {
-              System.out.println(Thread.currentThread().getName() + i);
+          while (ch < 'K') {
+            try {
+              while (flag != 2) {
+                lock.wait();
+              }
+              System.out.println(Thread.currentThread().getName() + ch);
+              ch = (char) (ch + 1);
               flag = 3;
-              lock.notify();
+              lock.notifyAll();
+              lock.wait();
+              ;
+            } catch (InterruptedException e) {
+              e.printStackTrace();
             }
-
-          } catch (InterruptedException e) {
-            e.printStackTrace();
           }
         }
       };
   static Runnable thread3 =
       () -> {
         synchronized (lock) {
-          try {
-            while (flag != 3) {
-              lock.wait();
-            }
-            for (char i = 'C'; i <= 'K'; i = (char) (i + 3)) {
-              System.out.println(Thread.currentThread().getName() + i);
+          while (ch < 'K') {
+            try {
+              while (flag != 3) {
+                lock.wait();
+              }
+              System.out.println(Thread.currentThread().getName() + ch);
+              ch = (char) (ch + 1);
               flag = 1;
-              lock.notify();
+              lock.notifyAll();
+              lock.wait();
+              ;
+            } catch (InterruptedException e) {
+              e.printStackTrace();
             }
-          } catch (InterruptedException e) {
-            e.printStackTrace();
           }
         }
       };

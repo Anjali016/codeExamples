@@ -39,8 +39,8 @@ public class EvenOdd {
       };
   public static void main(String[] args) {
 
-    Thread oddThread = new Thread(odd, "odd");
-    Thread evenThread = new Thread(even, "even");
+    Thread oddThread = new Thread( odd,"odd");
+    Thread evenThread = new Thread(even,"even");
 
     oddThread.start();
     evenThread.start();

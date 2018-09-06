@@ -1,0 +1,23 @@
+
+Nsquid:S2446/"0"notify" may not wake up the appropriate thread.(ŒâÌ†8½¦±øØ,
+Fsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8ÁÎ©øØ,
+Rsquid:EmptyStatementUsageCheck@"Remove this empty statement.(¬Âº×şÿÿÿÿ8‡ş³øØ,
+Nsquid:S2446"0"notify" may not wake up the appropriate thread.(ŒâÌ†8ÁÎ©øØ,
+Nsquid:S2446"0"notify" may not wake up the appropriate thread.(ŒâÌ†8½¦±øØ,
+Nsquid:S24466"0"notify" may not wake up the appropriate thread.(ŒâÌ†8•á·øØ,
+dsquid:S2142""FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€8½¦±øØ,
+Nsquid:S2446"0"notify" may not wake up the appropriate thread.(ŒâÌ†8–Ô¶øØ,
+Xsquid:S2274":Remove this call to "wait" or move it into a "while" loop.(ŒºÙ8ÁÎ©øØ,
+Xsquid:S22741":Remove this call to "wait" or move it into a "while" loop.(ŒºÙ8½¦±øØ,
+Nsquid:S2446&"0"notify" may not wake up the appropriate thread.(ŒâÌ†8öÊ·øØ,
+Fsquid:S11483"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8½¦±øØ,
+V
+squid:S106"9Replace this use of System.out or System.err by a logger.(ÿÅ¹ù8½¦±øØ,
+dsquid:S2142"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€8ÁÎ©øØ,
+Xsquid:S2274!":Remove this call to "wait" or move it into a "while" loop.(ŒºÙ8½¦±øØ,
+[
+squid:S106"9Replace this use of System.out or System.err by a logger.(ıúêßùÿÿÿÿ8ÁÎ©øØ,
+V
+squid:S106."9Replace this use of System.out or System.err by a logger.(Ø’„8½¦±øØ,
+Fsquid:S1148#"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8½¦±øØ,
+dsquid:S21422"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€8½¦±øØ,

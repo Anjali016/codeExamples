@@ -20,6 +20,24 @@ class DPExamples {
     return count;
   }
 
+  /** Longest Common Subsequence * */
+  int[][] temp;
+
+  int longestCommonSeq(String first, String second, int m, int n) {
+    temp = new int[first.length() + 1][second.length() + 1];
+    int result = 0;
+    if (temp[m][n] != 0) return temp[m][n];
+    if (m == 0 || n == 0) return 0;
+    else if (first.charAt(m - 1) == second.charAt(n - 1))
+      return 1 + longestCommonSeq(first, second, m - 1, n - 1);
+    else
+      result =
+          Math.max(
+              longestCommonSeq(first, second, m - 1, n), longestCommonSeq(first, second, m, n - 1));
+    temp[m][n] = result;
+    return result;
+  }
+
   /** Fibonacci Number * */
   int fib(int n) {
     if (n == 0 || n == 1) {
@@ -34,5 +52,5 @@ class DPExamples {
     }
   }
 
-  /** find the minimum number of characters to be inserted to convert it to palindrome.**/
+  /** find the minimum number of characters to be inserted to convert it to palindrome.* */
 }
