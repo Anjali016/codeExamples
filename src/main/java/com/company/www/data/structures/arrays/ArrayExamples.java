@@ -5,6 +5,17 @@ import java.util.stream.Stream;
 
 public class ArrayExamples {
 
+  /** Adjacent Sum of array. **/
+
+  int findSum(int[] array, int start) {
+    if (start >= array.length) return 0;
+    else {
+      int sum = 0;
+      sum += Math.max(array[start] + findSum(array, start + 2), findSum(array, start + 1));
+      return sum;
+    }
+  }
+
   /** check pair sum Method 1 : Use Sorting Method 2 : Use HashSet O(n) complexity* */
   boolean checkSum(int[] array, int sum) {
     Arrays.sort(array);
@@ -23,6 +34,19 @@ public class ArrayExamples {
       if (set.contains(sum - i)) System.out.println(i + " " + (sum - i));
       else set.add(i);
     }
+  }
+
+  /** sort three types of element in an array. **/
+
+  int[] sortThreeType(int[] array){
+    int itr = -1 ;
+    for(int i = 0; i<array.length-1 ; i++){
+      if(array[i] <= 1){
+        itr++;
+        swap(array, i, itr);
+      }
+    }
+    return array;
   }
 
   /**
@@ -97,13 +121,13 @@ public class ArrayExamples {
    * Enhanced Merge Sort, for each element we count the all the elements greater than it to its left
    * and add to the output . This whole magic happens inside merge function of merge Sort.
    */
-  int mergeSort(int[] array, int start, int end) {
+  int countInversion(int[] array, int start, int end) {
     if (start == end) return 0;
     int inversion = 0;
-    int mid = array.length / 2;
-    inversion += mergeSort(array, start, mid);
-    inversion += mergeSort(array, mid + 1, end);
-    inversion += merge(array, start, mid, end);
+    int mid = start + (end - start) / 2;
+      inversion += countInversion(array, start, mid);
+      inversion += countInversion(array, mid + 1, end);
+      inversion += merge(array, start, mid, end);
     return inversion;
   }
 
@@ -128,7 +152,7 @@ public class ArrayExamples {
       } else {
         array[i] = rightArray[rPointer];
         rPointer++;
-        inversion++;
+        inversion += mid -lPointer +1;
       }
     }
     return inversion;

@@ -1,12 +1,12 @@
 
 V
 squid:S106"9Replace this use of System.out or System.err by a logger.(·÷±¦8†±øÔÎ,
-dsquid:S1126|"AReplace this if-then-else statement by a single return statement.(€ÃÒûÿÿÿÿ8’İ„Ï,
+[squid:S1197t"8Move the array designator from the variable to the type.(®˜şÆşÿÿÿÿ8’İ„Ï,
 vsquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Â«æ’şÿÿÿÿ8’İ„Ï,
 V
 squid:S106V"9Replace this use of System.out or System.err by a logger.(²¤¹±8†±øÔÎ,
 [
 squid:S106W"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8†±øÔÎ,
-[squid:S1197t"8Move the array designator from the variable to the type.(®˜şÆşÿÿÿÿ8’İ„Ï,
+dsquid:S1126|"AReplace this if-then-else statement by a single return statement.(€ÃÒûÿÿÿÿ8’İ„Ï,
 qsquid:S00116r"RRename this field "MaxMove" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(†‹«8æ¡“ÕÎ,
 tsquid:S00116t"PRename this field "Moves" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(®˜şÆşÿÿÿÿ8’İ„Ï,

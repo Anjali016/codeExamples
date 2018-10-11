@@ -8,33 +8,92 @@ public class StringExamples {
     StringExamples s = new StringExamples();
     System.out.println(s.isPalindrom("rac a car"));
   }
+  /**
+   * Given two strings, find if first string is a subsequence of second str1 = "AXY", str2 =
+   * "ADXCPY" Output: True
+   */
+  boolean isSubsequence(String string, String seq, int m, int n) {
+    if (m == 0) return true;
+    if (n == 0) return false;
+    if (string.charAt(m - 1) == string.charAt(n - 1)) return isSubsequence(string, seq, m - 1, n - 1);
+    return isSubsequence(string, seq, m, n - 1);
+  }
 
+  /** find all substring of a given String * */
+  void printAllSubstring(String string, String soFar) {
+    System.out.println(soFar);
+    for (int i = 0; i < string.length(); i++)
+      printAllSubstring(string.substring(i + 1), soFar + string.charAt(i));
+  }
 
-  /** check if strings are rotations of each other or not
-   * Create a String temp and store concatenation of str1 to str1, if str2 is a substring of temp retrn true **/
+  /** Decode a String "2[a2[b]]" * */
+  String decodeString(String str) {
+    Stack<Character> stack = new Stack<>();
+    String soFar = "";
+    for (char c : str.toCharArray()) {
+      if (c == ']') {
+        while (!stack.isEmpty()) {
+          char popped = stack.pop();
+          String digit = "";
+          if (Character.isDigit(popped)) {
+            for (int i = Character.getNumericValue(popped); i > 0; i--) digit = digit + soFar;
+            soFar = digit;
+          } else if (Character.isAlphabetic(popped)) soFar = Character.toString(popped) + soFar;
+        }
+      } else stack.push(c);
+    }
+    return soFar;
+  }
 
+  /** Count word in a string * */
+  int countWord(String string, String input) {
+    int count = 0;
+    for (String word : string.split("[^a-z]")) {
+      if (word.equals(input)) count++;
+    }
+    return count;
+  }
 
-  boolean areRotation(String str1, String str2){
-    String temp = str1+str1;
+  /**
+   * Given a String oriStr : aaaaabcbcdefdefdefghgh and a compressed string, cstr : a4bc3def3gh2 for
+   * prev string. Given a function with 2 arguments cstr and index. print char at this index from
+   * oriStr.*
+   */
+
+  /** Heirarchy print of String* */
+  List<String> heirarchy(String input, Map<String, String> relation) {
+    List<String> result = new ArrayList<>();
+    result.add(input);
+    while (relation.containsKey(input)) {
+      result.add(relation.get(input));
+      input = relation.get(input);
+    }
+    return result;
+  }
+
+  /**
+   * check if strings are rotations of each other or not Create a String temp and store
+   * concatenation of str1 to str1, if str2 is a substring of temp retrn true *
+   */
+  boolean areRotation(String str1, String str2) {
+    String temp = str1 + str1;
     return temp.contains(str2);
   }
-  /** Split numeric, alphabetic and special symbols from a String**/
-
-  void splitString(String str){
+  /** Split numeric, alphabetic and special symbols from a String* */
+  void splitString(String str) {
     StringBuffer digit = new StringBuffer();
     StringBuffer alpha = new StringBuffer();
     StringBuffer special = new StringBuffer();
 
-    for( char c : str.toCharArray()){
-      if(Character.isDigit(c)) digit.append(c);
-      if(Character.isAlphabetic(c)) alpha.append(c);
+    for (char c : str.toCharArray()) {
+      if (Character.isDigit(c)) digit.append(c);
+      if (Character.isAlphabetic(c)) alpha.append(c);
       else special.append(c);
     }
     System.out.println(digit);
     System.out.println(alpha);
     System.out.println(special);
   }
-
 
   void powerSetLex(String soFar, String rem) {
     if (rem.isEmpty()) return;

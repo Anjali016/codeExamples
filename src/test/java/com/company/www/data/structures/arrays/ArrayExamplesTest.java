@@ -4,10 +4,22 @@ import org.junit.Test;
 
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.*;
-
+import java.util.Set;
 
 public class ArrayExamplesTest {
+  @Test
+  public void sortThreeType() throws Exception {
+    int[] array = {1, 0, 0, 1, 2, 0, 1, 2};
+    int[] result = a.sortThreeType(array);
+    Arrays.stream(result).forEach(x -> System.out.print(x + " "));
+  }
+
+  @Test
+  public void countInversion() throws Exception {
+    int[] array = {4, 2, 1};
+    int[] temp = new int[array.length];
+    System.out.println(a.countInversion(array, 0, array.length - 1));
+  }
 
   @Test
   public void checkSum() throws Exception {
@@ -19,15 +31,13 @@ public class ArrayExamplesTest {
   public void checkPairSum() throws Exception {
     int[] array = {1, 4, 45, 6, 10, 8};
     a.checkPairSum(array, 16);
-
   }
 
   @Test
   public void saggregateOddEven() throws Exception {
     int[] array = {1, 3, 2, 4, 7, 6, 9, 10};
     a.SaggregateOddEven(array);
-    }
-
+  }
 
   @Test
   public void saggregateZeroOne() throws Exception {
@@ -37,8 +47,7 @@ public class ArrayExamplesTest {
 
   @Test
   public void moveZeroToEnd() throws Exception {
-    int[] arr = { 0, 1, 9, 8, 4, 0, 0, 2,
-            7, 0, 6, 0, 9 };
+    int[] arr = {0, 1, 9, 8, 4, 0, 0, 2, 7, 0, 6, 0, 9};
     a.moveZeroToEnd(arr);
   }
 
@@ -46,47 +55,45 @@ public class ArrayExamplesTest {
   public void alternateSign() throws Exception {
     int[] arr = {-1, 2, -3, 4, 5, 6, -7, 8, 9};
     a.alternateSign(arr);
-    Arrays.stream(arr).forEach(X->System.out.print(X + " "));
+    Arrays.stream(arr).forEach(X -> System.out.print(X + " "));
   }
 
   @Test
   public void rotateright() throws Exception {
-    int[] array = {1, 2, 3 , 4, 5, 6, 7, 8, 9, 10};
-    a.rotateright(array,3);
+    int[] array = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+    a.rotateright(array, 3);
   }
 
   @Test
   public void rotateByK() throws Exception {
     int[] array = {12, 10, 5, 6, 52, 36};
-    a.rotateByK(array,2);
+    a.rotateByK(array, 2);
   }
 
-  @Test
-  public void mergeSort() throws Exception {
-    int[] array = {1, 9, 6, 4, 5};
-    System.out.println(a.mergeSort(array,0,array.length-1));
-  }
+  /*@Test
+    public void countInversion() throws Exception {
 
+  */
   @Test
   public void minimumInRotated() throws Exception {
     int[] arr = {4, 5, 6, 7, 8, 1, 2, 3};
-    System.out.println(a.minimumInRotated(arr,0,arr.length-1));
+    System.out.println(a.minimumInRotated(arr, 0, arr.length - 1));
   }
 
   @Test
   public void findDuplicates() throws Exception {
     int[] arr = {1, 2, 2, 2, 2, 3, 4, 7, 8, 8};
     Set<Integer> result = a.findDuplicates(arr);
-    result.forEach(x ->System.out.print(x + " "));
+    result.forEach(x -> System.out.print(x + " "));
   }
 
   @Test
   public void getFirstOccur() throws Exception {
     int[] arr = {1, 2, 2, 2, 2, 3, 4, 7, 8, 8};
-    System.out.println(a.getFirstOccur(arr,8));
+    System.out.println(a.getFirstOccur(arr, 8));
   }
 
-    @Test
+  @Test
   public void segregate() throws Exception {
     int[] arr = {1, 1, 1, 2, 2, 0};
     a.segregate(arr);
@@ -96,39 +103,39 @@ public class ArrayExamplesTest {
   @Test
   public void elementFrequency() throws Exception {
     int[] arr = {1, 1, 1, 2, 2, 0};
-    System.out.println(a.elementFrequency(arr,0));
+    System.out.println(a.elementFrequency(arr, 0));
   }
 
   @Test
   public void sumOfArrays() throws Exception {
-    int[] array1 ={5, 1, 7, 4, 2};
-    int[] array2 ={9, 2, 3, 8, 10};
-    a.sumOfArrays(array1,array2);
+    int[] array1 = {5, 1, 7, 4, 2};
+    int[] array2 = {9, 2, 3, 8, 10};
+    a.sumOfArrays(array1, array2);
   }
 
   @Test
   public void micro() throws Exception {
     int[] array = {2, 5, 5};
-    System.out.println(a.micro(array,2));
+    System.out.println(a.micro(array, 2));
   }
 
   @Test
   public void reverseArray() throws Exception {
-    int[] array ={9, 2, 3, 8, 10};
-    a.reverseArray(array,0,array.length-1);
-    for (int i : array) System.out.print(i+ " ");
+    int[] array = {9, 2, 3, 8, 10};
+    a.reverseArray(array, 0, array.length - 1);
+    for (int i : array) System.out.print(i + " ");
   }
 
   @Test
   public void reversePrint() throws Exception {
-    int[] array ={1,2,3,4,4};
+    int[] array = {1, 2, 3, 4, 4};
     a.reversePrint(array);
   }
 
   @Test
   public void findRepeating() throws Exception {
-    int[] array ={1,2,3,4,4};
-    System.out.println(a.findRepeating(array,0,array.length));
+    int[] array = {1, 2, 3, 4, 4};
+    System.out.println(a.findRepeating(array, 0, array.length));
   }
 
   @Test
@@ -140,7 +147,7 @@ public class ArrayExamplesTest {
   @Test
   public void subset() throws Exception {
     int[] arr = {1, 2, 3};
-    a.subset(arr,"",0);
+    a.subset(arr, "", 0);
   }
 
   @Test

@@ -1,6 +1,6 @@
 
-Gsquid:S1659¦"#Declare "value" on a separate line.(ð™”‹ÿÿÿÿÿ8èÑ±‘Í,
 |squid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(Ðôù›þÿÿÿÿ8ôâ±‘Í,
 rsquid:S00100v"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Òð¾éøÿÿÿÿ8ˆ…ð„Ï,
-nsquid:CommentedOutCodeLineH"<This block of commented-out lines of code should be removed.(ç–ëñüÿÿÿÿ8šŒ¼½Ë,
 Dsquid:S1659	"!Declare "end" on a separate line.(•ÓÈËýÿÿÿÿ8¸ÕÝ’Í,
+nsquid:CommentedOutCodeLineH"<This block of commented-out lines of code should be removed.(ç–ëñüÿÿÿÿ8šŒ¼½Ë,
+Gsquid:S1659¦"#Declare "value" on a separate line.(ð™”‹ÿÿÿÿÿ8èÑ±‘Í,

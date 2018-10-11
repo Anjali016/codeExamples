@@ -1,0 +1,22 @@
+
+V
+squid:S106)"9Replace this use of System.out or System.err by a logger.(Ç¿Â8–½±Ş,
+rsquid:S00100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ûÿÿÿÿÿ8–½±Ş,
+V
+squid:S106J"9Replace this use of System.out or System.err by a logger.(Ş²ñü8–½±Ş,
+rsquid:S00100I"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«ˆø‹ûÿÿÿÿ8–½±Ş,
+Msquid:S1066:"/Merge this if statement with the enclosing one.(ÆÚâ8–½±Ş,
+[
+squid:S106b"9Replace this use of System.out or System.err by a logger.(‚şÿ™ùÿÿÿÿ8–½±Ş,
+Hsquid:S1481Õ")Remove this unused "node" local variable.(“ú‰”8¾ú¿Öß,
+tsquid:S1149Æ"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(õ®õ™şÿÿÿÿ8¥ÄÒ¹ß,
+rsquid:S00100 "NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ïÀã²ûÿÿÿÿ8–½±Ş,
+tsquid:S1149½"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(óÄÃíúÿÿÿÿ8¼×©´ß,
+V
+squid:S1067"9Replace this use of System.out or System.err by a logger.(×‘İÖ8–½±Ş,
+osquid:CommentedOutCodeLine•"<This block of commented-out lines of code should be removed.(÷£Å•üÿÿÿÿ8–½±Ş,
+tsquid:S1149¾"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(û›şöıÿÿÿÿ8¼×©´ß,
+rsquid:S001000"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(é°ãçúÿÿÿÿ8–½±Ş,
+[
+squid:S106"9Replace this use of System.out or System.err by a logger.(üªöÚùÿÿÿÿ8–½±Ş,
+rsquid:S00100C"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«­Üúÿÿÿÿ8–½±Ş,

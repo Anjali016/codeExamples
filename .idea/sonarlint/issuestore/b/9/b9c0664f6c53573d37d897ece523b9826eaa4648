@@ -1,16 +1,16 @@
 
-Rsquid:EmptyStatementUsageCheck"Remove this empty statement.(Åñ­õşÿÿÿÿ8Œıá¾Ú,
-Fsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8ÖÖÂĞ,
+dsquid:S2142"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€8ÖÖÂĞ,
+dsquid:S2142B"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€8·¸¶Ğ,
+Rsquid:EmptyStatementUsageCheck-"Remove this empty statement.(Åñ­õşÿÿÿÿ8Î¼â¾Ú,
 [
-squid:S106@"9Replace this use of System.out or System.err by a logger.(Ó‰çÂûÿÿÿÿ8¥ºÓ¾Ú,
-dsquid:S2142"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€8ÖÖÂĞ,
+squid:S106<"9Replace this use of System.out or System.err by a logger.(Ó‰çÂûÿÿÿÿ8¥ºÓ¾Ú,
+Fsquid:S1148C"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8·¸¶Ğ,
+Rsquid:EmptyStatementUsageCheckA"Remove this empty statement.(Åñ­õşÿÿÿÿ8ÏÚâ¾Ú,
 [
-squid:S106*"9Replace this use of System.out or System.err by a logger.(Ó‰çÂûÿÿÿÿ8¥ºÓ¾Ú,
-Rsquid:EmptyStatementUsageCheckE"Remove this empty statement.(Åñ­õşÿÿÿÿ8ÏÚâ¾Ú,
-Fsquid:S11482"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8ÖÖÂĞ,
-Rsquid:EmptyStatementUsageCheck0"Remove this empty statement.(Åñ­õşÿÿÿÿ8Î¼â¾Ú,
+squid:S106("9Replace this use of System.out or System.err by a logger.(Ó‰çÂûÿÿÿÿ8¥ºÓ¾Ú,
+dsquid:S2142."FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€8ÖÖÂĞ,
+Fsquid:S1148/"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8ÖÖÂĞ,
 [
-squid:S106"9Replace this use of System.out or System.err by a logger.(Ó‰çÂûÿÿÿÿ8ÖÖÂĞ,
-Fsquid:S1148G"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8·¸¶Ğ,
-dsquid:S2142F"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€8·¸¶Ğ,
-dsquid:S21421"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€8ÖÖÂĞ,
+squid:S106"9Replace this use of System.out or System.err by a logger.(Ó‰çÂûÿÿÿÿ8ÖÖÂĞ,
+Fsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8ÖÖÂĞ,
+Rsquid:EmptyStatementUsageCheck"Remove this empty statement.(Åñ­õşÿÿÿÿ8Œıá¾Ú,

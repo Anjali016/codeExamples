@@ -8,6 +8,18 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class TreeExamplesTest {
+
+
+  @Test
+  public void printLeftView() throws Exception {
+    TreeNode root = new TreeNode(1);
+    root.left = new TreeNode(2);
+    root.right = new TreeNode(3);
+    root.left.right = new TreeNode(5);
+    root.left.left = new TreeNode(4);
+    tree.printLeftView(root);
+  }
+
   @Test
   public void constructTree() throws Exception {
     int[] inOrder = {4, 2, 5, 1, 6, 3, 7};
@@ -43,6 +55,8 @@ public class TreeExamplesTest {
     root.right = new TreeNode(3);
     root.left.right = new TreeNode(5);
     root.left.left = new TreeNode(4);
+    printTree(root);
+    System.out.println("After");
     tree.mirrorTree(root);
     printTree(root);
   }

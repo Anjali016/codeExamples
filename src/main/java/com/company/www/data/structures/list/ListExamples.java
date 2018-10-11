@@ -4,6 +4,8 @@ import com.company.www.utils.LinkNode;
 
 public class ListExamples {
 
+  /** Sort a linked list of 0s, 1s and 2s by changing links **/
+
   /** Count the number of nodes in LinkedList */
   int countNodes(LinkNode head) {
     if (head == null) return 0;

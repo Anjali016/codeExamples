@@ -7,4 +7,5 @@ public interface QueueInterface<T> {
   public void remove(T Object);
 
   public void printQueue();
+  public boolean isEmpty();
 }

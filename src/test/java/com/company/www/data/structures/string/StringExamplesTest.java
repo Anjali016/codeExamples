@@ -2,10 +2,46 @@ package com.company.www.data.structures.string;
 
 import org.junit.Test;
 
-import java.util.Arrays;
-import java.util.HashSet;
+import java.util.*;
 
 public class StringExamplesTest {
+  @Test
+  public void isSubsequence() throws Exception {
+    String str = "ABCG";
+    String seq = "FCG";
+    System.out.println(string.isSubsequence(str,seq,4,3));
+  }
+
+  @Test
+  public void printAllSubstring() throws Exception {
+    String str = "ABC";
+    string.printAllSubstring(str,"");
+  }
+
+    @Test
+  public void decodeString() throws Exception {
+    String str = "2[ab]";
+    System.out.println(string.decodeString(str).toString());
+  }
+  @Test
+  public void countWord() throws Exception {
+    String str = "there.are areTtwo.many";
+    String s = "are";
+    System.out.println(string.countWord(str,s));
+  }
+
+  @Test
+  public void heirarchy() throws Exception {
+    Map<String, String> relation = new HashMap<>();
+    relation.put("Ajay", "Ramesh");
+    relation.put("Deepesh", "Animesh");
+    relation.put("Mohan", "Ajay");
+    relation.put("Rahul", "Mohan");
+
+    List<String> result = string.heirarchy("Rahul", relation);
+    result.stream().forEach(x->System.out.print(x+" -> "));
+  }
+
   @Test
   public void areRotation() throws Exception {
     String s1 = "CDAB";

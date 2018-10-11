@@ -1,3 +1,13 @@
 
+{squid:S3973b"XUse curly braces or indentation to denote the code conditionally executed by this "for".(ÿ¤×ûÿÿÿÿ8åÚ÷€â,
 [
-squid:S106"9Replace this use of System.out or System.err by a logger.(ñÆ¨âıÿÿÿÿ8èÔ¬ÖÌ,
+squid:S106"9Replace this use of System.out or System.err by a logger.(ñÆ¨âıÿÿÿÿ8èÔ¬ÖÌ,
+]squid:UselessImportCheck"-Remove this unused import 'java.util.Arrays'.(î–˜Éüÿÿÿÿ8åÚ÷€â,
+hsquid:CommentedOutCodeLine9"<This block of commented-out lines of code should be removed.(ÆÈ×h8¥ß´ùá,
+Ssquid:S1854Y"5Remove this useless assignment to local variable "i".(Á™ˆî8—½À€â,
+\squid:S1226Y">Introduce a new variable instead of reusing the parameter "i".(Á™ˆî8—½À€â,
+esquid:HiddenFieldCheckW"7Rename "dp" which hides the field declared at line 128.(ïåœ¢ùÿÿÿÿ8»É¿€â,
+Dsquid:S1481Y"&Remove this unused "i" local variable.(Á™ˆî8—½À€â,
+Dsquid:S2129™" Remove this "String" constructor(ŞáÇ¬úÿÿÿÿ8—½À€â,
+Ÿsquid:S2681d"|This line will not be executed in a loop; only the first line of this 2-line block will be. The rest will execute only once.(áÿèˆıÿÿÿÿ8åÚ÷€â,
+esquid:HiddenFieldCheck-"7Rename "dp" which hides the field declared at line 128.(ø×¦ıÿÿÿÿ8¥ß´ùá,

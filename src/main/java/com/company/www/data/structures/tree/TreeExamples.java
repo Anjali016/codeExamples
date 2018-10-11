@@ -10,7 +10,17 @@ public class TreeExamples {
   private int count = 0;
   private TreeNode root;
 
-  /** find the maximum element present in it. * */
+  /** Diamter of a tree **/
+  int diameter(TreeNode root) {
+    if (root == null) return 0;
+    else {
+      int left = diameter(root.left);
+      int right = diameter(root.right);
+      return Math.max(height(root) , Math.max(left, right));
+    }
+  }
+
+  /** find the maximum element present in it **/
   int findMax(TreeNode root) {
     if (root == null) return 0;
     else {
@@ -323,15 +333,17 @@ public class TreeExamples {
 
   private void leftView(TreeNode root, int level) {
     if (root == null) return;
-    if (maxlevel < level) System.out.println(root.data);
-    maxlevel = level;
+    if (maxlevel < level) {
+      System.out.println(root.data);
+      maxlevel = level;
+    }
     leftView(root.left, level + 1);
     leftView(root.right, level + 1);
   }
 
-  void printLeftView() {
-    leftView(root, 1);
-  }
+  void printLeftView(TreeNode root) {
+      leftView(root, 1);
+    }
 
   /** Right View of a tree* */
   private void rightView(TreeNode root, int level) {

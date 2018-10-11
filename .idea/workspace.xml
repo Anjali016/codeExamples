@@ -2,55 +2,104 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="926bfb36-6340-416f-bf6a-f8db3b79e3ef" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/company/www/multithreading/print/zero/counting/ZeroCount.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/4/349d39c4364525ff49a5f6f96436748c80795bc8" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/2/4229296d9dc604a6d5fc915994d14a0340f7c6bf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/7/4758b1e72f3401417b0d601fc7a1f96d9274be5a" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/6/560ac05c81b80739798fe6de26b195ebf6b9fa3d" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/3/6364365e398f4040891faafd64fd0ba1f88f10b2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/4/64dd8fa26a2949035f2bb0cf8570ad48c7dcd834" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/5/75794774d6432d35fb79f723cca4736d5b51710d" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/3/93c7058e01f758447001bf249168650ec715235d" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/3/c3738dedd32c640c144b35df8608b3c12ff1a106" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/f/efd9807093f9cdf9411eb8f0c4facd2ce667538c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/4/f4e4d80ba2d6676c6550c07096148e0835ac9935" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/company/www/algorithms/geometry/GeometryExamples.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/company/www/crossover/CardGames.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/company/www/crossover/RecipeRemainder.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/company/www/crossover/Tester.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/company/www/data/structures/graph/GraphExample$MinHeap.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/company/www/data/structures/graph/GraphExample.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/company/www/utils/Coordinates.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/company/www/utils/MatrixGraph.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/design/pattern/creational/factory/Factory.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/design/pattern/creational/singleton/Singleton.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/com/company/www/algorithms/geometry/GeometryExamplesTest.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/com/company/www/data/structures/graph/GraphExampleTest.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/company/www/algorithms/geometry/GeometryExamples.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/company/www/crossover/CardGames.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/company/www/crossover/RecipeRemainder.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/company/www/crossover/Tester.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/company/www/data/structures/graph/GraphExample.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/company/www/utils/Coordinates.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/company/www/utils/MatrixGraph.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/design/pattern/creational/factory/Factory.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/design/pattern/creational/singleton/Singleton.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/company/www/algorithms/geometry/GeometryExamplesTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/company/www/data/structures/graph/GraphExampleTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/0/102abee182d90626a24b1f951ffae43aebb9f4c2" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/0/102abee182d90626a24b1f951ffae43aebb9f4c2" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/e/2efc7afacb6b634ef735bf3019cfe3fd2386156a" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/e/2efc7afacb6b634ef735bf3019cfe3fd2386156a" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/0/30b562450fd05aae0b65216d09f434ff674de5d4" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/0/30b562450fd05aae0b65216d09f434ff674de5d4" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/c/4c81c666d2d1917a117a0e11afeae26ae62f230c" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/c/4c81c666d2d1917a117a0e11afeae26ae62f230c" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/7/671578b5849c359251a4896f35037f4b9de1aafa" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/7/671578b5849c359251a4896f35037f4b9de1aafa" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/7/6720b30715cd0d0e67e9c09a786f020148dcf16a" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/7/6720b30715cd0d0e67e9c09a786f020148dcf16a" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/8/6883d7700eaf181e80edd66ccfb0a5e18881bac4" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/8/6883d7700eaf181e80edd66ccfb0a5e18881bac4" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/b/6bf07620eea9f2eda68fc66c56881728608b12f1" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/b/6bf07620eea9f2eda68fc66c56881728608b12f1" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/0/70be840489f1790f9cbadc047c21b07d6255f4bf" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/0/70be840489f1790f9cbadc047c21b07d6255f4bf" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/1/71b563b07884aaf58ee8087b545a93fa5dee36f0" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/1/71b563b07884aaf58ee8087b545a93fa5dee36f0" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/2/725476b50bb0d02f6001baf3ebcec5df765e0ff0" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/2/725476b50bb0d02f6001baf3ebcec5df765e0ff0" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/3/833f4bc28f3af3b0387c1d667577df659120c56e" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/3/833f4bc28f3af3b0387c1d667577df659120c56e" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/e/9e8854fe0a7d137f75609df8eee39e51224edfe7" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/e/9e8854fe0a7d137f75609df8eee39e51224edfe7" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/f/9f69e3068f000598d783882e19b44c0208831d8b" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/f/9f69e3068f000598d783882e19b44c0208831d8b" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/3/a3fa8aebe474281a8a29c177c3f2b983940f051d" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/3/a3fa8aebe474281a8a29c177c3f2b983940f051d" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/6/a6a731c9323c1d31c61c0bfd943da70f874cdf8f" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/6/a6a731c9323c1d31c61c0bfd943da70f874cdf8f" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/d/ad55ac81b092c5baf7bb596170c90afeb1f82b97" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/d/ad55ac81b092c5baf7bb596170c90afeb1f82b97" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/9/b9c0664f6c53573d37d897ece523b9826eaa4648" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/9/b9c0664f6c53573d37d897ece523b9826eaa4648" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/a/bacf66e6e429b165151ef179541a83c4af8ba273" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/a/bacf66e6e429b165151ef179541a83c4af8ba273" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/c/bc9491e47ac6179f8ea811683f66856bd7999984" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/c/bc9491e47ac6179f8ea811683f66856bd7999984" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/9/c9b74f795083961dcf897d22adb0f59572251a0e" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/9/c9b74f795083961dcf897d22adb0f59572251a0e" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/a/ca279e7e92b2dfcd1d3e87173d80f515cf6ba3e9" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/a/ca279e7e92b2dfcd1d3e87173d80f515cf6ba3e9" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/b/cbb24e71792877774b94af632e736d96a2b7fc5c" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/b/cbb24e71792877774b94af632e736d96a2b7fc5c" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/e/ce97ab0d7618e0156e7f165f1e6aad2a90d09e84" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/e/ce97ab0d7618e0156e7f165f1e6aad2a90d09e84" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/a/da3ebe1c57de58e4bd3576920388236d111f3baa" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/a/da3ebe1c57de58e4bd3576920388236d111f3baa" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/3/e3463446fdca68ebd96133a6589d36912136ca50" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/3/e3463446fdca68ebd96133a6589d36912136ca50" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/6/e6cf4e7eb7d4b435605f17fc36d7931d198b6c48" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/6/e6cf4e7eb7d4b435605f17fc36d7931d198b6c48" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/d/edd1de9384d7fb6fb3178d062bd8fdc5dd8e2077" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/d/edd1de9384d7fb6fb3178d062bd8fdc5dd8e2077" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/8/e83c8c26f526db3a08d8655158dcec6248eecaf2" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/8/e83c8c26f526db3a08d8655158dcec6248eecaf2" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/3/f3ff47a4c74f6158b8ebb9ef88257cee134e666a" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/3/f3ff47a4c74f6158b8ebb9ef88257cee134e666a" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/9/f995aac4a21e26cfad1eae0e1c78c905dcaea4d8" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/9/f995aac4a21e26cfad1eae0e1c78c905dcaea4d8" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/company/www/algorithms/backtracking/BacktrackingExamples.class" afterPath="$PROJECT_DIR$/target/classes/com/company/www/algorithms/backtracking/BacktrackingExamples.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/company/www/algorithms/dynamic/programming/DPExamples.class" afterPath="$PROJECT_DIR$/target/classes/com/company/www/algorithms/dynamic/programming/DPExamples.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/company/www/data/structures/arrays/ArrayExamples.class" afterPath="$PROJECT_DIR$/target/classes/com/company/www/data/structures/arrays/ArrayExamples.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/company/www/data/structures/heap/HeapExamples.class" afterPath="$PROJECT_DIR$/target/classes/com/company/www/data/structures/heap/HeapExamples.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/company/www/multithreading/alphaNumeric/Sequence.class" afterPath="$PROJECT_DIR$/target/classes/com/company/www/multithreading/alphaNumeric/Sequence.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/company/www/multithreading/deadlock/DeadLock.class" afterPath="$PROJECT_DIR$/target/classes/com/company/www/multithreading/deadlock/DeadLock.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/company/www/multithreading/three/thread/sequence/ThreeSequence.class" afterPath="$PROJECT_DIR$/target/classes/com/company/www/multithreading/three/thread/sequence/ThreeSequence.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/company/www/recursion/RecursionExamples$MaxSubset.class" afterPath="$PROJECT_DIR$/target/classes/com/company/www/recursion/RecursionExamples$MaxSubset.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/company/www/recursion/RecursionExamples.class" afterPath="$PROJECT_DIR$/target/classes/com/company/www/recursion/RecursionExamples.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/com/company/www/algorithms/backtracking/BacktrackingExamplesTest.class" afterPath="$PROJECT_DIR$/target/test-classes/com/company/www/algorithms/backtracking/BacktrackingExamplesTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/com/company/www/algorithms/sorting/SortingExamplesTest.class" afterPath="$PROJECT_DIR$/target/test-classes/com/company/www/algorithms/sorting/SortingExamplesTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/company/www/data/structures/list/ListExamples.class" afterPath="$PROJECT_DIR$/target/classes/com/company/www/data/structures/list/ListExamples.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/company/www/data/structures/matrix/MatrixExamples.class" afterPath="$PROJECT_DIR$/target/classes/com/company/www/data/structures/matrix/MatrixExamples.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/company/www/data/structures/string/StringExamples.class" afterPath="$PROJECT_DIR$/target/classes/com/company/www/data/structures/string/StringExamples.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/company/www/data/structures/tree/TreeExamples.class" afterPath="$PROJECT_DIR$/target/classes/com/company/www/data/structures/tree/TreeExamples.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/company/www/ifaces/QueueInterface.class" afterPath="$PROJECT_DIR$/target/classes/com/company/www/ifaces/QueueInterface.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/company/www/multithreading/three/thread/sequence/AlphabetCycle.class" afterPath="$PROJECT_DIR$/target/classes/com/company/www/multithreading/three/thread/sequence/AlphabetCycle.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/company/www/test/Swap.class" afterPath="$PROJECT_DIR$/target/classes/com/company/www/test/Swap.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/company/www/utils/GraphNode.class" afterPath="$PROJECT_DIR$/target/classes/com/company/www/utils/GraphNode.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/company/www/utils/Queue.class" afterPath="$PROJECT_DIR$/target/classes/com/company/www/utils/Queue.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/com/company/www/algorithms/dynamic/programming/DPExamplesTest.class" afterPath="$PROJECT_DIR$/target/test-classes/com/company/www/algorithms/dynamic/programming/DPExamplesTest.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/com/company/www/data/structures/arrays/ArrayExamplesTest.class" afterPath="$PROJECT_DIR$/target/test-classes/com/company/www/data/structures/arrays/ArrayExamplesTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/com/company/www/recursion/RecursionExamplesTest.class" afterPath="$PROJECT_DIR$/target/test-classes/com/company/www/recursion/RecursionExamplesTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/com/company/www/data/structures/matrix/MatrixExamplesTest.class" afterPath="$PROJECT_DIR$/target/test-classes/com/company/www/data/structures/matrix/MatrixExamplesTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/com/company/www/data/structures/string/StringExamplesTest.class" afterPath="$PROJECT_DIR$/target/test-classes/com/company/www/data/structures/string/StringExamplesTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/com/company/www/data/structures/tree/TreeExamplesTest.class" afterPath="$PROJECT_DIR$/target/test-classes/com/company/www/data/structures/tree/TreeExamplesTest.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/company/www/algorithms/backtracking/BacktrackingExamples.java" afterPath="$PROJECT_DIR$/src/main/java/com/company/www/algorithms/backtracking/BacktrackingExamples.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/company/www/algorithms/dynamic/programming/DPExamples.java" afterPath="$PROJECT_DIR$/src/main/java/com/company/www/algorithms/dynamic/programming/DPExamples.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/company/www/algorithms/math/MathExample.java" afterPath="$PROJECT_DIR$/src/main/java/com/company/www/algorithms/math/MathExample.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/company/www/data/structures/arrays/ArrayExamples.java" afterPath="$PROJECT_DIR$/src/main/java/com/company/www/data/structures/arrays/ArrayExamples.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/company/www/data/structures/heap/HeapExamples.java" afterPath="$PROJECT_DIR$/src/main/java/com/company/www/data/structures/heap/HeapExamples.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/company/www/multithreading/alphaNumeric/Sequence.java" afterPath="$PROJECT_DIR$/src/main/java/com/company/www/multithreading/alphaNumeric/Sequence.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/company/www/multithreading/deadlock/DeadLock.java" afterPath="$PROJECT_DIR$/src/main/java/com/company/www/multithreading/deadlock/DeadLock.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/company/www/multithreading/even/odd/EvenOdd.java" afterPath="$PROJECT_DIR$/src/main/java/com/company/www/multithreading/even/odd/EvenOdd.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/company/www/multithreading/three/thread/sequence/ThreeSequence.java" afterPath="$PROJECT_DIR$/src/main/java/com/company/www/multithreading/three/thread/sequence/ThreeSequence.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/company/www/recursion/RecursionExamples.java" afterPath="$PROJECT_DIR$/src/main/java/com/company/www/recursion/RecursionExamples.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/company/www/algorithms/backtracking/BacktrackingExamplesTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/company/www/algorithms/backtracking/BacktrackingExamplesTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/company/www/data/structures/list/ListExamples.java" afterPath="$PROJECT_DIR$/src/main/java/com/company/www/data/structures/list/ListExamples.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/company/www/data/structures/matrix/MatrixExamples.java" afterPath="$PROJECT_DIR$/src/main/java/com/company/www/data/structures/matrix/MatrixExamples.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/company/www/data/structures/string/StringExamples.java" afterPath="$PROJECT_DIR$/src/main/java/com/company/www/data/structures/string/StringExamples.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/company/www/data/structures/tree/TreeExamples.java" afterPath="$PROJECT_DIR$/src/main/java/com/company/www/data/structures/tree/TreeExamples.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/company/www/ifaces/QueueInterface.java" afterPath="$PROJECT_DIR$/src/main/java/com/company/www/ifaces/QueueInterface.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/company/www/multithreading/three/thread/sequence/AlphabetCycle.java" afterPath="$PROJECT_DIR$/src/main/java/com/company/www/multithreading/three/thread/sequence/AlphabetCycle.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/company/www/test/Swap.java" afterPath="$PROJECT_DIR$/src/main/java/com/company/www/test/Swap.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/company/www/utils/GraphNode.java" afterPath="$PROJECT_DIR$/src/main/java/com/company/www/utils/GraphNode.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/company/www/utils/Queue.java" afterPath="$PROJECT_DIR$/src/main/java/com/company/www/utils/Queue.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/company/www/algorithms/dynamic/programming/DPExamplesTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/company/www/algorithms/dynamic/programming/DPExamplesTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/company/www/algorithms/sorting/SortingExamplesTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/company/www/algorithms/sorting/SortingExamplesTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/company/www/data/structures/arrays/ArrayExamplesTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/company/www/data/structures/arrays/ArrayExamplesTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/company/www/recursion/RecursionExamplesTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/company/www/recursion/RecursionExamplesTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/company/www/data/structures/matrix/MatrixExamplesTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/company/www/data/structures/matrix/MatrixExamplesTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/company/www/data/structures/string/StringExamplesTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/company/www/data/structures/string/StringExamplesTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/company/www/data/structures/tree/TreeExamplesTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/company/www/data/structures/tree/TreeExamplesTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -72,51 +121,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="EvenOdd.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/company/www/multithreading/even/odd/EvenOdd.java">
+      <file leaf-file-name="MatrixExamples.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/company/www/data/structures/matrix/MatrixExamples.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="338">
-              <caret line="35" column="12" lean-forward="false" selection-start-line="35" selection-start-column="12" selection-end-line="35" selection-end-column="12" />
+            <state relative-caret-position="3834">
+              <caret line="214" column="0" lean-forward="false" selection-start-line="214" selection-start-column="0" selection-end-line="214" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Sequence.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/company/www/multithreading/alphaNumeric/Sequence.java">
+      <file leaf-file-name="StringExamplesTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/company/www/data/structures/string/StringExamplesTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-519">
-              <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+            <state relative-caret-position="162">
+              <caret line="11" column="55" lean-forward="false" selection-start-line="11" selection-start-column="55" selection-end-line="11" selection-end-column="55" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ZeroCount.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/company/www/multithreading/print/zero/counting/ZeroCount.java">
+      <file leaf-file-name="MatrixExamplesTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/company/www/data/structures/matrix/MatrixExamplesTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="30" column="33" lean-forward="false" selection-start-line="30" selection-start-column="33" selection-end-line="30" selection-end-column="33" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AlphabetCycle.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/company/www/multithreading/three/thread/sequence/AlphabetCycle.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="481">
-              <caret line="70" column="6" lean-forward="false" selection-start-line="70" selection-start-column="6" selection-end-line="70" selection-end-column="6" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CountPrint.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/company/www/multithreading/word/count/CountPrint.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="36">
-              <caret line="2" column="7" lean-forward="false" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+            <state relative-caret-position="1188">
+              <caret line="66" column="0" lean-forward="false" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -124,41 +153,55 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WordsInLine.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/company/www/multithreading/word/count/WordsInLine.java">
+      <file leaf-file-name="Swap.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/company/www/test/Swap.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="42" lean-forward="false" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
+            <state relative-caret-position="18">
+              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DPExamples.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/company/www/algorithms/dynamic/programming/DPExamples.java">
+      <file leaf-file-name="CardGames.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/company/www/crossover/CardGames.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="26" column="53" lean-forward="false" selection-start-line="26" selection-start-column="53" selection-end-line="26" selection-end-column="53" />
+            <state relative-caret-position="306">
+              <caret line="17" column="15" lean-forward="false" selection-start-line="17" selection-start-column="15" selection-end-line="17" selection-end-column="15" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ThreeSequence.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/company/www/multithreading/three/thread/sequence/ThreeSequence.java">
+      <file leaf-file-name="RecipeRemainder.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/company/www/crossover/RecipeRemainder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1314">
-              <caret line="73" column="27" lean-forward="false" selection-start-line="73" selection-start-column="27" selection-end-line="73" selection-end-column="27" />
-              <folding />
+            <state relative-caret-position="15">
+              <caret line="12" column="59" lean-forward="false" selection-start-line="12" selection-start-column="59" selection-end-line="12" selection-end-column="59" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TwoThreadCycle.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/company/www/multithreading/three/thread/sequence/TwoThreadCycle.java">
+      <file leaf-file-name="Tester.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/company/www/crossover/Tester.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="146">
-              <caret line="33" column="9" lean-forward="false" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
+            <state relative-caret-position="239">
+              <caret line="21" column="4" lean-forward="true" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Practice.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/company/www/test/Practice.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -177,14 +220,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>get</find>
-      <find>queue</find>
-      <find>tra</find>
-      <find>shor</find>
-      <find>buildHeap</find>
-      <find>heig</find>
-      <find>is</find>
-      <find>Level</find>
       <find>swap</find>
       <find>hei</find>
       <find>islea</find>
@@ -195,7 +230,6 @@
       <find>level</find>
       <find>substring</find>
       <find>rever</find>
-      <find>LCA</find>
       <find>pre</find>
       <find>-1</find>
       <find>nega</find>
@@ -205,6 +239,17 @@
       <find>subs</find>
       <find>lex</find>
       <find>perm</find>
+      <find>LCA</find>
+      <find>word</find>
+      <find>mirr</find>
+      <find>print</find>
+      <find>maxi</find>
+      <find>rotat</find>
+      <find>rot</find>
+      <find>rota</find>
+      <find>other</find>
+      <find>countN</find>
+      <find>countNe</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -225,57 +270,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/company/www/algorithms/backtracking/KnightsTour.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/company/www/recursion/RecursionPractice.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/company/www/recursion/RecursionPracticeTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/company/www/data/structures/stack/StackExamplesTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/company/www/data/structures/heap/HeapExamplesTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/company/www/collections/CollectionExamplesTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/company/www/data/structures/stack/StackExamples.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/company/www/collections/CollectionExamples.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/company/www/multithreading/CountPrint.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/company/www/multithreading/even/odd/OddEven.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/company/www/multithreading/word/count/WordsInLine.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/company/www/multithreading/three/thread/sequence/sequence.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/company/www/multithreading/three/thread/sequence/Sequence.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/company/www/multithreading/word/count/CountPrint.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/company/www/test/Test.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/company/www/test/TestTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/company/www/algorithms/sorting/SortingExamples.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/company/www/multithreading/three/thread/sequence/AlphabetCycle.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/company/www/multithreading/three/thread/sequence/TwoThreadCycle.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/company/www/data/structures/string/StringExamplesTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/company/www/data/structures/tree/TreeTestTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/company/www/data/structures/tree/TreeTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/company/www/data/structures/tree/BSTExamples.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/company/www/data/structures/tree/BSTExamplesTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/company/www/data/structures/tree/TreeExamplesTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/company/www/data/structures/tree/TreeExamples.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/company/www/data/structures/matrix/MatrixExamples.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/company/www/data/structures/matrix/MatrixExamplesTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/company/www/test/Swap.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/company/www/data/structures/list/ListExamples.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/company/www/data/structures/list/ListExamplesTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/company/www/test/PracticeTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/company/www/test/Practice.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/company/www/bst/BSTExamplesTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/company/www/bst/BSTExamples.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/company/www/multithreading/alphaNumeric/Sequence.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/company/www/multithreading/deadlock/DeadLock.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/company/www/data/structures/heap/HeapExamples.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/company/www/algorithms/sorting/SortingExamplesTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/company/www/data/structures/arrays/ArrayExamples.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/company/www/data/structures/arrays/ArrayExamplesTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/company/www/data/structures/string/StringExamples.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/company/www/recursion/RecursionExamples.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/company/www/recursion/RecursionExamplesTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/company/www/multithreading/even/odd/EvenOdd.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/company/www/algorithms/backtracking/BacktrackingExamplesTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/company/www/algorithms/backtracking/BacktrackingExamples.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/company/www/algorithms/dynamic/programming/DPExamplesTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/company/www/algorithms/dynamic/programming/DPExamples.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/company/www/multithreading/print/zero/counting/ZeroCount.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/company/www/multithreading/three/thread/sequence/ThreeSequence.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/company/www/multithreading/three/thread/sequence/AlphabetCycle.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/company/www/data/structures/tree/TreeExamples.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/company/www/utils/Coordinates.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/company/www/algorithms/math/MathExample.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/company/www/algorithms/geometry/GeometryExamples.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/company/www/algorithms/geometry/GeometryExamplesTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/company/www/data/structures/arrays/ArrayExamplesTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/company/www/data/structures/tree/TreeExamplesTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/company/www/ifaces/QueueInterface.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/company/www/utils/Queue.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/company/www/test/Practice.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/company/www/utils/GraphNode.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/company/www/utils/MatrixGraphNode.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/company/www/utils/MatrixGraph.java" />
+        <option value="$PROJECT_DIR$/src/main/java/design/pattern/creational/Singleton.java" />
+        <option value="$PROJECT_DIR$/src/main/java/design/pattern/singleton/Singleton.java" />
+        <option value="$PROJECT_DIR$/src/main/java/design/pattern/creational/factory/singleton/Singleton.java" />
+        <option value="$PROJECT_DIR$/src/main/java/design/pattern/creational/factory/singleton/Factory/Factory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/design/pattern/creational/factory/Factory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/design/pattern/creational/singleton/Singleton.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/company/www/data/structures/list/ListExamples.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/company/www/data/structures/graph/GraphExampleTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/company/www/data/structures/graph/GraphExample.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/company/www/data/structures/arrays/ArrayExamples.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/company/www/data/structures/string/StringExamplesTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/company/www/data/structures/string/StringExamples.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/company/www/algorithms/dynamic/programming/DPExamples.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/company/www/algorithms/dynamic/programming/DPExamplesTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/company/www/data/structures/matrix/MatrixExamples.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/company/www/data/structures/matrix/MatrixExamplesTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/company/www/test/Swap.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/company/www/crossover/Tester.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/company/www/crossover/RecipeReminder.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/company/www/crossover/RecipeRemainder.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/company/www/crossover/CardGames.java" />
       </list>
     </option>
   </component>
@@ -306,6 +351,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -351,7 +397,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="www" type="462c0819:PsiDirectoryNode" />
-              <item name="algorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="crossover" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="test" type="b2602c69:ProjectViewProjectNode" />
@@ -359,155 +405,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="www" type="462c0819:PsiDirectoryNode" />
-              <item name="algorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="backtracking" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="www" type="462c0819:PsiDirectoryNode" />
-              <item name="algorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="programming" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="www" type="462c0819:PsiDirectoryNode" />
-              <item name="algorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="math" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="www" type="462c0819:PsiDirectoryNode" />
-              <item name="collections" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="www" type="462c0819:PsiDirectoryNode" />
-              <item name="structures" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="www" type="462c0819:PsiDirectoryNode" />
-              <item name="structures" type="462c0819:PsiDirectoryNode" />
-              <item name="arrays" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="www" type="462c0819:PsiDirectoryNode" />
-              <item name="structures" type="462c0819:PsiDirectoryNode" />
-              <item name="heap" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="www" type="462c0819:PsiDirectoryNode" />
-              <item name="structures" type="462c0819:PsiDirectoryNode" />
-              <item name="string" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="www" type="462c0819:PsiDirectoryNode" />
-              <item name="structures" type="462c0819:PsiDirectoryNode" />
-              <item name="tree" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="www" type="462c0819:PsiDirectoryNode" />
-              <item name="multithreading" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="www" type="462c0819:PsiDirectoryNode" />
-              <item name="multithreading" type="462c0819:PsiDirectoryNode" />
-              <item name="alphaNumeric" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="www" type="462c0819:PsiDirectoryNode" />
-              <item name="multithreading" type="462c0819:PsiDirectoryNode" />
-              <item name="odd" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="www" type="462c0819:PsiDirectoryNode" />
-              <item name="multithreading" type="462c0819:PsiDirectoryNode" />
-              <item name="counting" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="www" type="462c0819:PsiDirectoryNode" />
-              <item name="multithreading" type="462c0819:PsiDirectoryNode" />
-              <item name="sequence" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="www" type="462c0819:PsiDirectoryNode" />
-              <item name="multithreading" type="462c0819:PsiDirectoryNode" />
-              <item name="count" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="www" type="462c0819:PsiDirectoryNode" />
-              <item name="recursion" type="462c0819:PsiDirectoryNode" />
+              <item name="pattern" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="test" type="b2602c69:ProjectViewProjectNode" />
@@ -538,16 +436,6 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="www" type="462c0819:PsiDirectoryNode" />
               <item name="algorithms" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="www" type="462c0819:PsiDirectoryNode" />
-              <item name="algorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="backtracking" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="test" type="b2602c69:ProjectViewProjectNode" />
@@ -566,25 +454,6 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="www" type="462c0819:PsiDirectoryNode" />
-              <item name="algorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="sorting" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="www" type="462c0819:PsiDirectoryNode" />
-              <item name="bst" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="www" type="462c0819:PsiDirectoryNode" />
               <item name="structures" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -595,17 +464,7 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="www" type="462c0819:PsiDirectoryNode" />
               <item name="structures" type="462c0819:PsiDirectoryNode" />
-              <item name="arrays" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="www" type="462c0819:PsiDirectoryNode" />
-              <item name="structures" type="462c0819:PsiDirectoryNode" />
-              <item name="list" type="462c0819:PsiDirectoryNode" />
+              <item name="graph" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="test" type="b2602c69:ProjectViewProjectNode" />
@@ -634,26 +493,7 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="www" type="462c0819:PsiDirectoryNode" />
-              <item name="structures" type="462c0819:PsiDirectoryNode" />
-              <item name="tree" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="www" type="462c0819:PsiDirectoryNode" />
               <item name="recursion" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="www" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="test" type="b2602c69:ProjectViewProjectNode" />
@@ -715,9 +555,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="AndroidView" />
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -732,11 +571,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.company.www.data.structures.matrix" />
+      <recent name="com.company.www.data.structures.string" />
       <recent name="com.company.www.algorithms.dynamic.programming" />
-      <recent name="com.company.www.algorithms.backtracking" />
-      <recent name="com.company.www.data.structures.arrays" />
-      <recent name="com.company.www.bst" />
-      <recent name="com.company.www.test" />
+      <recent name="com.company.www.data.structures.graph" />
+      <recent name="com.company.www.algorithms.geometry" />
     </key>
     <key name="ExtractSuperBase.RECENT_KEYS">
       <recent name="com.company.www" />
@@ -763,15 +602,15 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TwoThreadCycle">
-    <configuration name="AlphabetCycle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.CardGames">
+    <configuration name="CardGames" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.company.www.multithreading.three.thread.sequence.*" />
+          <option name="PATTERN" value="com.company.www.crossover.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.company.www.multithreading.three.thread.sequence.AlphabetCycle" />
+      <option name="MAIN_CLASS_NAME" value="com.company.www.crossover.CardGames" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -783,14 +622,39 @@
       <module name="test" />
       <envs />
     </configuration>
-    <configuration name="Sequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="MatrixExamplesTest.countNegatives" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.company.www.multithreading.alphaNumeric.*" />
+          <option name="PATTERN" value="com.company.www.data.structures.matrix.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.company.www.multithreading.alphaNumeric.Sequence" />
+      <module name="test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.company.www.data.structures.matrix" />
+      <option name="MAIN_CLASS_NAME" value="com.company.www.data.structures.matrix.MatrixExamplesTest" />
+      <option name="METHOD_NAME" value="countNegatives" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="RecipeRemainder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.company.www.crossover.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.company.www.crossover.RecipeRemainder" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -802,14 +666,14 @@
       <module name="test" />
       <envs />
     </configuration>
-    <configuration name="ThreeSequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Swap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.company.www.multithreading.three.thread.sequence.*" />
+          <option name="PATTERN" value="com.company.www.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.company.www.multithreading.three.thread.sequence.ThreeSequence" />
+      <option name="MAIN_CLASS_NAME" value="com.company.www.test.Swap" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -821,33 +685,14 @@
       <module name="test" />
       <envs />
     </configuration>
-    <configuration name="TwoThreadCycle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Tester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.company.www.multithreading.three.thread.sequence.*" />
+          <option name="PATTERN" value="com.company.www.crossover.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.company.www.multithreading.three.thread.sequence.TwoThreadCycle" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="test" />
-      <envs />
-    </configuration>
-    <configuration name="ZeroCount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.company.www.multithreading.print.zero.counting.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.company.www.multithreading.print.zero.counting.ZeroCount" />
+      <option name="MAIN_CLASS_NAME" value="com.company.www.crossover.Tester" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -967,19 +812,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="JUnit.com.company.www.utils.dataStructures.listExample in test" />
-      <item index="1" class="java.lang.String" itemvalue="Application.ThreeSequence" />
-      <item index="2" class="java.lang.String" itemvalue="Application.ZeroCount" />
-      <item index="3" class="java.lang.String" itemvalue="Application.Sequence" />
-      <item index="4" class="java.lang.String" itemvalue="Application.AlphabetCycle" />
-      <item index="5" class="java.lang.String" itemvalue="Application.TwoThreadCycle" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.MatrixExamplesTest.countNegatives" />
+      <item index="2" class="java.lang.String" itemvalue="Application.Swap" />
+      <item index="3" class="java.lang.String" itemvalue="Application.Tester" />
+      <item index="4" class="java.lang.String" itemvalue="Application.RecipeRemainder" />
+      <item index="5" class="java.lang.String" itemvalue="Application.CardGames" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.TwoThreadCycle" />
-        <item index="1" class="java.lang.String" itemvalue="Application.AlphabetCycle" />
-        <item index="2" class="java.lang.String" itemvalue="Application.ThreeSequence" />
-        <item index="3" class="java.lang.String" itemvalue="Application.Sequence" />
-        <item index="4" class="java.lang.String" itemvalue="Application.ZeroCount" />
+        <item index="0" class="java.lang.String" itemvalue="Application.CardGames" />
+        <item index="1" class="java.lang.String" itemvalue="Application.RecipeRemainder" />
+        <item index="2" class="java.lang.String" itemvalue="Application.Tester" />
+        <item index="3" class="java.lang.String" itemvalue="Application.Swap" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.MatrixExamplesTest.countNegatives" />
       </list>
     </recent_temporary>
   </component>
@@ -1005,35 +850,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="DPExamplesTest_longestCommonSeq - 2018.09.05 at 21h 54m 13s.xml">
-      <configuration name="DPExamplesTest.longestCommonSeq" configurationId="JUnit" />
+    <history-entry file="MatrixExamplesTest_countNegatives - 2018.09.29 at 11h 41m 09s.xml">
+      <configuration name="MatrixExamplesTest.countNegatives" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DPExamplesTest_longestCommonSeq - 2018.09.05 at 21h 54m 33s.xml">
-      <configuration name="DPExamplesTest.longestCommonSeq" configurationId="JUnit" />
+    <history-entry file="MatrixExamplesTest_countNegatives - 2018.09.29 at 11h 44m 00s.xml">
+      <configuration name="MatrixExamplesTest.countNegatives" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DPExamplesTest_longestCommonSeq - 2018.09.05 at 21h 56m 06s.xml">
-      <configuration name="DPExamplesTest.longestCommonSeq" configurationId="JUnit" />
+    <history-entry file="MatrixExamplesTest_countNegatives - 2018.09.29 at 11h 44m 17s.xml">
+      <configuration name="MatrixExamplesTest.countNegatives" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DPExamplesTest_longestCommonSeq - 2018.09.06 at 07h 47m 16s.xml">
-      <configuration name="DPExamplesTest.longestCommonSeq" configurationId="JUnit" />
+    <history-entry file="MatrixExamplesTest_countNegatives - 2018.09.29 at 13h 28m 04s.xml">
+      <configuration name="MatrixExamplesTest.countNegatives" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DPExamplesTest_longestCommonSeq - 2018.09.06 at 07h 48m 38s.xml">
-      <configuration name="DPExamplesTest.longestCommonSeq" configurationId="JUnit" />
+    <history-entry file="MatrixExamplesTest_countNegatives - 2018.09.29 at 13h 28m 31s.xml">
+      <configuration name="MatrixExamplesTest.countNegatives" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DPExamplesTest_longestCommonSeq - 2018.09.06 at 07h 48m 55s.xml">
-      <configuration name="DPExamplesTest.longestCommonSeq" configurationId="JUnit" />
+    <history-entry file="MatrixExamplesTest_countNegatives - 2018.09.29 at 13h 28m 51s.xml">
+      <configuration name="MatrixExamplesTest.countNegatives" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DPExamplesTest_longestCommonSeq - 2018.09.06 at 07h 50m 15s.xml">
-      <configuration name="DPExamplesTest.longestCommonSeq" configurationId="JUnit" />
+    <history-entry file="MatrixExamplesTest_countNegatives - 2018.09.29 at 13h 29m 01s.xml">
+      <configuration name="MatrixExamplesTest.countNegatives" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DPExamplesTest_longestCommonSeq - 2018.09.06 at 07h 53m 02s.xml">
-      <configuration name="DPExamplesTest.longestCommonSeq" configurationId="JUnit" />
+    <history-entry file="MatrixExamplesTest_countNegatives - 2018.09.29 at 13h 29m 20s.xml">
+      <configuration name="MatrixExamplesTest.countNegatives" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DPExamplesTest_longestCommonSeq - 2018.09.06 at 07h 56m 43s.xml">
-      <configuration name="DPExamplesTest.longestCommonSeq" configurationId="JUnit" />
+    <history-entry file="MatrixExamplesTest_countNegatives - 2018.09.29 at 13h 32m 23s.xml">
+      <configuration name="MatrixExamplesTest.countNegatives" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StringExamplesTest_powerSetLex - 2018.09.04 at 18h 14m 33s.xml">
-      <configuration name="StringExamplesTest.powerSetLex" configurationId="JUnit" />
+    <history-entry file="MatrixExamplesTest_countNegatives - 2018.09.29 at 13h 33m 44s.xml">
+      <configuration name="MatrixExamplesTest.countNegatives" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -1050,39 +895,40 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32776934" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3181818" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3171472" sideWeight="0.49676377" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41260162" sideWeight="0.50970876" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24886191" sideWeight="0.5315534" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928804" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23823975" sideWeight="0.4935275" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3252841" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3019727" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17754173" sideWeight="0.4684466" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32473445" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17147192" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20631067" sideWeight="0.82522124" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2564725" sideWeight="0.8121212" order="0" side_tool="false" content_ui="combo" />
       <window_info id="SonarLint" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29471543" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23975721" sideWeight="0.49029127" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25809062" sideWeight="0.17477876" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3566009" sideWeight="0.48058254" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2249191" sideWeight="0.18787879" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32928678" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928804" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29471543" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41335228" sideWeight="0.50970876" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40515932" sideWeight="0.512945" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928804" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1090,23 +936,50 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4097117" sideWeight="0.49029127" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928678" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32018209" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3566009" sideWeight="0.487055" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32776934" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3171472" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28551137" sideWeight="0.4935275" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32670453" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24886191" sideWeight="0.48867315" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3252841" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32928678" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928804" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3025568" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.289644" sideWeight="0.82522124" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="SonarLint" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29545453" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17147192" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23220065" sideWeight="0.8121212" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="SonarLint" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29471543" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25809062" sideWeight="0.17477876" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2249191" sideWeight="0.18787879" order="6" side_tool="true" content_ui="tabs" />
     </layout-to-restore>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -1115,20 +988,20 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/main/java/com/company/www/data/structures/matrix/MatrixExamples.java</url>
-          <line>211</line>
-          <properties class="com.company.www.data.structures.matrix.MatrixExamples">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="42" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/test/java/com/company/www/data/structures/tree/TreeExamplesTest.java</url>
-          <line>287</line>
+          <line>301</line>
           <properties class="com.company.www.data.structures.tree.TreeExamplesTest" method="inOrder">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="133" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/com/company/www/data/structures/graph/GraphExampleTest.java</url>
+          <line>88</line>
+          <properties class="com.company.www.data.structures.graph.GraphExampleTest">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="159" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/company/www/autoSuggest/Trie.java</url>
@@ -1144,7 +1017,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/com/company/www/data/structures/arrays/ArrayExamplesTest.java</url>
-          <line>167</line>
+          <line>174</line>
           <properties />
           <option name="timeStamp" value="55" />
         </line-breakpoint>
@@ -1168,13 +1041,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/com/company/www/data/structures/string/StringExamplesTest.java</url>
-          <line>17</line>
+          <line>53</line>
           <properties />
           <option name="timeStamp" value="119" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/company/www/data/structures/tree/TreeExamples.java</url>
-          <line>117</line>
+          <line>127</line>
           <properties />
           <option name="timeStamp" value="120" />
         </line-breakpoint>
@@ -1186,13 +1059,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/company/www/data/structures/list/ListExamples.java</url>
-          <line>131</line>
+          <line>133</line>
           <properties />
           <option name="timeStamp" value="130" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/company/www/data/structures/tree/TreeExamples.java</url>
-          <line>252</line>
+          <line>262</line>
           <properties />
           <option name="timeStamp" value="132" />
         </line-breakpoint>
@@ -1202,164 +1075,104 @@
           <properties />
           <option name="timeStamp" value="142" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/company/www/algorithms/geometry/GeometryExamplesTest.java</url>
+          <line>21</line>
+          <properties />
+          <option name="timeStamp" value="152" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/company/www/data/structures/graph/GraphExample.java</url>
+          <line>143</line>
+          <properties />
+          <option name="timeStamp" value="163" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/company/www/crossover/Tester.java</url>
+          <line>13</line>
+          <properties />
+          <option name="timeStamp" value="187" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/company/www/crossover/Tester.java</url>
+          <line>21</line>
+          <properties />
+          <option name="timeStamp" value="188" />
+        </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="150" />
+      <option name="time" value="189" />
     </breakpoint-manager>
-    <watches-manager />
+    <watches-manager>
+      <configuration name="JUnit">
+        <watch expression="graph.getNeighbours(root)" language="JAVA" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/src.zip!/java/lang/Runnable.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/www/multithreading/three/thread/sequence/AlphabetCycle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="792">
-          <caret line="67" column="25" lean-forward="false" selection-start-line="67" selection-start-column="25" selection-end-line="67" selection-end-column="25" />
+        <state relative-caret-position="198">
+          <caret line="11" column="1" lean-forward="false" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/src.zip!/java/lang/Thread.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/www/multithreading/word/count/CountPrint.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="135" column="18" lean-forward="true" selection-start-line="135" selection-start-column="18" selection-end-line="135" selection-end-column="18" />
+        <state relative-caret-position="108">
+          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/src.zip!/java/util/Comparator.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/www/algorithms/sorting/SortingExamples.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="371">
-          <caret line="468" column="52" lean-forward="false" selection-start-line="468" selection-start-column="52" selection-end-line="468" selection-end-column="52" />
+        <state relative-caret-position="18">
+          <caret line="94" column="0" lean-forward="false" selection-start-line="94" selection-start-column="0" selection-end-line="94" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/src.zip!/java/lang/Integer.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/www/collections/CollectionExamples.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="1233" column="47" lean-forward="false" selection-start-line="1233" selection-start-column="47" selection-end-line="1233" selection-end-column="47" />
+        <state relative-caret-position="379">
+          <caret line="99" column="8" lean-forward="false" selection-start-line="99" selection-start-column="8" selection-end-line="99" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/src.zip!/java/lang/Comparable.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/www/utils/TrieNode.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="114" column="74" lean-forward="false" selection-start-line="114" selection-start-column="74" selection-end-line="114" selection-end-column="74" />
+        <state relative-caret-position="36">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/company/www/utils/TreeNode.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
+        <state relative-caret-position="36">
           <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/www/utils/LinkNode.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+        <state relative-caret-position="36">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/www/multithreading/even/odd/OddEven.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runners/model/FrameworkMethod.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/www/data/structures/stack/StackExamples.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="725">
-          <caret line="59" column="42" lean-forward="true" selection-start-line="59" selection-start-column="42" selection-end-line="59" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/company/www/data/structures/tree/TreeTestTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/www/data/structures/tree/TreeTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/company/www/data/structures/tree/BSTExamplesTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/www/data/structures/matrix/MatrixExamples.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2646">
-          <caret line="147" column="20" lean-forward="false" selection-start-line="147" selection-start-column="20" selection-end-line="147" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/www/autoSuggest/MyTrie.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="576">
-          <caret line="36" column="5" lean-forward="false" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/www/autoSuggest/Trie.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="29" column="22" lean-forward="false" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/company/www/data/structures/matrix/MatrixExamplesTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1098">
-          <caret line="61" column="38" lean-forward="false" selection-start-line="61" selection-start-column="38" selection-end-line="61" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/www/test/Swap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/company/www/data/structures/tree/TreeExamplesTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="26" column="22" lean-forward="false" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/company/www/TreeTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/www/utils/LinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
-          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/www/data/structures/list/ListExamples.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/www/loadBalancer/RandomGenerator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1515">
-          <caret line="103" column="30" lean-forward="false" selection-start-line="103" selection-start-column="30" selection-end-line="103" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/company/www/data/structures/list/ListExamplesTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="12" column="31" lean-forward="false" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/company/www/test/PracticeTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="12" column="32" lean-forward="false" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/www/test/Practice.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="97" column="0" lean-forward="false" selection-start-line="97" selection-start-column="0" selection-end-line="97" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+        <state relative-caret-position="72">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -1370,214 +1183,318 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/company/www/bst/BSTExamplesTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="11" column="47" lean-forward="false" selection-start-line="11" selection-start-column="47" selection-end-line="11" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/www/multithreading/deadlock/DeadLock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/www/multithreading/thread/pool/Threadpool.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/www/collections/CollectionExamples.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1386">
-          <caret line="99" column="8" lean-forward="false" selection-start-line="99" selection-start-column="8" selection-end-line="99" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/company/www/data/structures/heap/HeapExamples.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="990">
-          <caret line="55" column="31" lean-forward="false" selection-start-line="55" selection-start-column="31" selection-end-line="55" selection-end-column="31" />
+        <state relative-caret-position="414">
+          <caret line="23" column="11" lean-forward="false" selection-start-line="23" selection-start-column="11" selection-end-line="23" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/www/data/structures/tree/TreeExamples.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/www/autoSuggest/MyTrie.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3474">
-          <caret line="195" column="29" lean-forward="false" selection-start-line="195" selection-start-column="29" selection-end-line="195" selection-end-column="29" />
-          <folding />
+        <state relative-caret-position="576">
+          <caret line="36" column="5" lean-forward="false" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/company/www/algorithms/sorting/SortingExamplesTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/company/www/test/PracticeTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
-          <caret line="8" column="38" lean-forward="false" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
+          <caret line="12" column="32" lean-forward="false" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/www/data/structures/arrays/ArrayExamples.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/www/algorithms/math/MathExample.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="25" column="2" lean-forward="false" selection-start-line="25" selection-start-column="2" selection-end-line="25" selection-end-column="2" />
+        <state relative-caret-position="396">
+          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/www/algorithms/geometry/GeometryExamples.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="44" lean-forward="false" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/company/www/algorithms/geometry/GeometryExamplesTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#7222#7223#0" expanded="true" />
-            <element signature="e#7285#7286#0" expanded="true" />
-            <element signature="e#9264#9265#0" expanded="true" />
-            <element signature="e#9350#9351#0" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/company/www/data/structures/arrays/ArrayExamplesTest.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="20" column="45" lean-forward="false" selection-start-line="20" selection-start-column="45" selection-end-line="20" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/company/www/data/structures/tree/TreeExamplesTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="58" column="29" lean-forward="false" selection-start-line="58" selection-start-column="29" selection-end-line="58" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/www/ifaces/QueueInterface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="26" lean-forward="false" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/www/utils/Queue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="24" column="26" lean-forward="true" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/www/utils/Coordinates.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
+          <caret line="6" column="15" lean-forward="false" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/company/www/data/structures/string/StringExamplesTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/www/utils/MatrixGraph.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="22" column="11" lean-forward="false" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="11" />
-          <folding />
+        <state relative-caret-position="36">
+          <caret line="2" column="24" lean-forward="false" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/www/recursion/RecursionExamples.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/www/utils/MyTrieNode.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="193" column="12" lean-forward="false" selection-start-line="193" selection-start-column="12" selection-end-line="193" selection-end-column="12" />
+        <state relative-caret-position="36">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/www/utils/Graph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/www/utils/GraphNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="16" column="33" lean-forward="false" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/www/utils/Tree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runners/model/FrameworkMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/www/ifaces/GraphInterface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/www/utils/MatrixGraph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="810">
+          <caret line="45" column="27" lean-forward="false" selection-start-line="45" selection-start-column="27" selection-end-line="45" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/design/pattern/creational/factory/Factory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="20" lean-forward="false" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runners/ParentRunner.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2682">
+          <caret line="202" column="0" lean-forward="false" selection-start-line="202" selection-start-column="0" selection-end-line="202" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/www/data/structures/list/ListExamples.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="337">
+          <caret line="205" column="0" lean-forward="true" selection-start-line="205" selection-start-column="0" selection-end-line="205" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/company/www/recursion/RecursionExamplesTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="38" column="33" lean-forward="false" selection-start-line="38" selection-start-column="33" selection-end-line="38" selection-end-column="33" />
+        <state relative-caret-position="72">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/www/algorithms/sorting/SortingExamples.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/company/www/data/structures/graph/GraphExampleTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="94" column="0" lean-forward="false" selection-start-line="94" selection-start-column="0" selection-end-line="94" selection-end-column="0" />
+        <state relative-caret-position="288">
+          <caret line="22" column="22" lean-forward="false" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/www/multithreading/word/count/CountPrint.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/design/pattern/creational/singleton/Singleton.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="7" lean-forward="false" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="216">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/www/multithreading/word/count/WordsInLine.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/www/recursion/RecursionExamples.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="42" lean-forward="false" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
+        <state relative-caret-position="3366">
+          <caret line="193" column="12" lean-forward="false" selection-start-line="193" selection-start-column="12" selection-end-line="193" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/www/data/structures/arrays/ArrayExamples.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="7" column="29" lean-forward="false" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/www/data/structures/graph/GraphExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="73" column="20" lean-forward="false" selection-start-line="73" selection-start-column="15" selection-end-line="73" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/www/data/structures/tree/TreeExamples.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="596">
+          <caret line="196" column="13" lean-forward="true" selection-start-line="196" selection-start-column="13" selection-end-line="196" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/company/www/data/structures/string/StringExamples.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="684">
-          <caret line="38" column="13" lean-forward="false" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
+        <state relative-caret-position="306">
+          <caret line="18" column="14" lean-forward="false" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/company/www/algorithms/backtracking/BacktrackingExamplesTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/www/algorithms/dynamic/programming/DPExamples.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="12" column="4" lean-forward="false" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/www/algorithms/backtracking/BacktrackingExamples.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-910">
-          <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+        <state relative-caret-position="1549">
+          <caret line="105" column="0" lean-forward="true" selection-start-line="105" selection-start-column="0" selection-end-line="105" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/company/www/algorithms/dynamic/programming/DPExamplesTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" column="25" lean-forward="false" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+        <state relative-caret-position="161">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/company/www/data/structures/string/StringExamplesTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="11" column="55" lean-forward="false" selection-start-line="11" selection-start-column="55" selection-end-line="11" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/www/data/structures/matrix/MatrixExamples.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3834">
+          <caret line="214" column="0" lean-forward="false" selection-start-line="214" selection-start-column="0" selection-end-line="214" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/company/www/data/structures/matrix/MatrixExamplesTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1188">
+          <caret line="66" column="0" lean-forward="false" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/www/algorithms/dynamic/programming/DPExamples.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/www/test/Practice.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="26" column="53" lean-forward="false" selection-start-line="26" selection-start-column="53" selection-end-line="26" selection-end-column="53" />
+        <state relative-caret-position="108">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/www/multithreading/print/zero/counting/ZeroCount.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/www/test/Swap.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="30" column="33" lean-forward="false" selection-start-line="30" selection-start-column="33" selection-end-line="30" selection-end-column="33" />
+        <state relative-caret-position="18">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/www/multithreading/even/odd/EvenOdd.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/www/crossover/Tester.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="35" column="12" lean-forward="false" selection-start-line="35" selection-start-column="12" selection-end-line="35" selection-end-column="12" />
-          <folding />
+        <state relative-caret-position="239">
+          <caret line="21" column="4" lean-forward="true" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/www/multithreading/alphaNumeric/Sequence.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/www/crossover/RecipeRemainder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-519">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="15">
+          <caret line="12" column="59" lean-forward="false" selection-start-line="12" selection-start-column="59" selection-end-line="12" selection-end-column="59" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/www/multithreading/three/thread/sequence/ThreeSequence.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/www/crossover/CardGames.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1314">
-          <caret line="73" column="27" lean-forward="false" selection-start-line="73" selection-start-column="27" selection-end-line="73" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/www/multithreading/three/thread/sequence/AlphabetCycle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="481">
-          <caret line="70" column="6" lean-forward="false" selection-start-line="70" selection-start-column="6" selection-end-line="70" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/www/multithreading/three/thread/sequence/TwoThreadCycle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="33" column="9" lean-forward="false" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
+        <state relative-caret-position="306">
+          <caret line="17" column="15" lean-forward="false" selection-start-line="17" selection-start-column="15" selection-end-line="17" selection-end-column="15" />
           <folding />
         </state>
       </provider>

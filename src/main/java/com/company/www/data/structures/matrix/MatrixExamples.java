@@ -1,6 +1,121 @@
 package com.company.www.data.structures.matrix;
 
+import java.util.ArrayList;
+import java.util.List;
+
 class MatrixExamples {
+
+
+  /** Print all elements in sorted order from row and column wise sorted matrix.*/
+  /** Count Negative Numbers in a Column-Wise and Row-Wise Sorted Matrix. Start from top right
+   * use binary search. **/
+  int countNegatives(int[][] mat) {
+      int count = 0;
+      int i = 0, j = mat[0].length-1;
+      while(i < mat.length && j >= 0){
+        if(mat[i][j] < 0) {
+          count += j+1;
+          i++;
+        }
+        else j--;
+      }
+      return count;
+  }
+
+  /**
+   * Given a boolean 2D matrix, find the number of islands. A group of connected 1s forms an island.
+   * *
+   */
+  int countIslands(int[][] matrix) {
+    int islandCount = 0;
+    boolean[][] isVisited = new boolean[matrix.length][matrix[0].length];
+    for (int i = 0; i < matrix.length; i++) {
+      for (int j = 0; j < matrix[0].length; j++) {
+        if (matrix[i][j] == 1 && isVisited[i][j]) {
+          dfs(matrix, i, j, isVisited);
+          islandCount++;
+        }
+      }
+    }
+    return islandCount;
+  }
+
+  private void dfs(int[][] matrix, int i, int j, boolean[][] isVisited) {
+    isVisited[i][j] = true;
+    int[][] moves = {{0, 1}, {0, -1}, {-1, 0}, {1, 0}, {-1, -1}, {1, 1}, {1, -1}, {-1, 1}};
+    for (int[] move : moves)
+      if (isSafe(matrix, i + move[0], j + move[1], isVisited))
+        dfs(matrix, i + move[0], j + move[1], isVisited);
+  }
+
+  private boolean isSafe(int[][] matrix, int i, int j, boolean[][] isVisited) {
+    return i >= 0 && i < matrix.length && j >= 0 && j < matrix[0].length && !isVisited[i][j];
+  }
+
+
+  /** Given maximum number of 1s in an island* */
+  /**
+   * print all the possible paths from top left to bottom right of a mXn matrix with the constraints
+   * that from each cell you can either move only to right or down.
+   */
+
+  List<String> printAllPaths(int[][] mat, int x, int y) {
+    List<String> paths = new ArrayList<>();
+    printPaths(mat, "", x, y, paths);
+    return paths;
+  }
+
+  private void printPaths(int[][] mat, String path, int x, int y, List<String> paths) {
+    if (x == mat.length - 1 && y == mat[0].length - 1) {
+      paths.add(path + mat[x][y]);
+    } else {
+      if ((x < mat.length && y < mat[0].length)) {
+        printPaths(mat, path + mat[x][y], x + 1, y, paths);
+        printPaths(mat, path + mat[x][y], x, y + 1, paths);
+      }
+    }
+  }
+
+  /** Given a matrix, clockwise rotate elements in it. * */
+  void rotateMatrixElement(int[][] matrix) {
+    int startRow = 0, endRow = matrix.length - 1;
+    int startCol = 0, endCol = matrix[0].length - 1;
+    int temp;
+
+    while (startCol <= endCol && startRow <= endCol) {
+
+      temp = matrix[startRow][endCol];
+
+      for (int i = endCol; i > startCol; i--) {
+        matrix[startRow][i] = matrix[startRow][i - 1];
+      }
+      startRow++;
+      matrix[startRow][endCol] = temp;
+      temp = matrix[endRow][endCol];
+
+      for (int j = endRow; j > startRow + 1; j--) {
+
+        matrix[j][endCol] = matrix[j - 1][endCol];
+      }
+      endCol--;
+      matrix[endRow][endCol] = temp;
+      temp = matrix[endRow][startCol];
+
+      for (int m = endCol - 1; m > startCol; m--) {
+        matrix[endRow][m] = matrix[endRow][m - 1];
+      }
+      endRow--;
+      matrix[startCol][endRow] = temp;
+      // temp = matrix[startCol][startRow--];
+
+      for (int n = endRow; n > startCol; n--) {
+        matrix[n][startCol] = matrix[n - 1][startCol];
+      }
+      startCol++;
+    }
+
+    print(matrix);
+  }
 
   /** Find the row with maximum number of 1s in a boolean 2D array, where each row is sorted .* */
   int max = Integer.MIN_VALUE;
@@ -65,7 +180,7 @@ class MatrixExamples {
     int col = matrix[0].length;
     for (int r = 0; r < row; r++) {
       for (int c = 0; c < col; c++) {
-        result[c][row - r - 1] = result[r][c];
+        result[c][row - r - 1] = matrix[r][c];
         System.out.println(result[c][row - r - 1]);
       }
     }
@@ -97,23 +212,7 @@ class MatrixExamples {
     }
   }
 
-  /**
-   * Count Negative Integers in Row/Column-Wise Sorted Matrix. start with the top right corner and
-   * locate first negative number. *
-   */
-  int countNegative(int[][] matrix) {
 
-    int sum = 0;
-    int rows = matrix.length;
-    int cols = matrix[0].length;
-
-    for (int i = 0; i < rows; i++) {
-      for (int j = cols - 1; j > 0; j--) {
-        if (matrix[i][j] < 0) return sum += j + 1;
-      }
-    }
-    return sum;
-  }
 
   /** Print a given matrix in spiral form. * */
   void spiralMatrix(int[][] matrix) {
@@ -138,9 +237,7 @@ class MatrixExamples {
   }
   /**
    * Zero Matrix Given a m x n matrix, if an element is 0, set its entire row and column to 0. Do it
-   * in place.
-   * use the first column and the first row to track if a row/column should be set to 0.
-
+   * in place. use the first column and the first row to track if a row/column should be set to 0.
    */
   void zeroMatrix(int[][] matrix) {
 

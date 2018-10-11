@@ -20,6 +20,7 @@ public class MathExample {
    * by above two steps. So print n if it is greater than 2.*
    */
 
+
   /**
    * List all the armstrong number from 1 to 500. Definition according to c programming point of
    * view: Those numbers which sum of the cube of its digits is equal to that number are known as

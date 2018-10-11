@@ -19,4 +19,11 @@ public class Queue<T> implements QueueInterface<T> {
   public void printQueue() {
     list.printList();
   }
+
+  @Override
+  public boolean isEmpty() {
+    return list.isEmpty();
+  }
+
+
 }

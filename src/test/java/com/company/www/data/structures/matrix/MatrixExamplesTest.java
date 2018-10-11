@@ -2,8 +2,43 @@ package com.company.www.data.structures.matrix;
 
 import org.junit.Test;
 
+import java.util.List;
+
 public class MatrixExamplesTest {
   @Test
+  public void countNegatives() throws Exception {
+    int[][] mat = { {-3, -2, -1, 1},
+                    {-2, 2, 3, 4},
+                    {4, 5, 7, 8} };
+
+    System.out.println(object.countNegatives(mat));
+  }
+
+  @Test
+  public void rotateMatrixElement() throws Exception {
+    int[][] mat = {{1, 2, 3}, {4, 5, 6}, {7, 8, 9}};
+    object.rotateMatrixElement(mat);
+  }
+
+  @Test
+  public void printAllpaths() throws Exception {
+    int[][] mat = {{1, 2, 3},
+            {4, 5, 6}};
+    List<String> paths = object.printAllPaths(mat, 0, 0);
+    for (String path : paths) {
+      System.out.println(path);
+    }
+  }
+
+  @Test
+  public void topToBottomPath() throws Exception {
+    int[][] mat = {{1, 2, 3},
+            {4, 5, 6}};
+    //List<String> result = object.topToBottomPath(mat);
+    //result.forEach(x -> System.out.println(x));
+  }
+
+    @Test
   public void maxRowWith1s() throws Exception {
     int[][] mat = {{0, 0, 1}, {0, 1, 1}, {1, 1, 1}};
     System.out.println(object.maxRowWith1s(mat,3,3));
@@ -28,12 +63,6 @@ public class MatrixExamplesTest {
   public void diagonal() throws Exception {
     int[][] mat = {{1, 2, 3}, {1, 0, 6}, {7, 8, 0}};
     object.diagonal(mat);
-  }
-
-  @Test
-  public void countNegative() throws Exception {
-    int[][] mat = {{-3, -2, -1, -3}, {-2, 1, 0, 6}, {7, 0, 8, 0}};
-    System.out.println(object.countNegative(mat));
   }
 
   @Test
